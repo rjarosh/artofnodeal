@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art of No Deal: A Story</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* ════════════════════════════
+   HEADER
+════════════════════════════ */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 24px;
+}
+header h1 {
+  font-size: clamp(1.8em, 6vw, 4em);
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  line-height: 1.1;
+}
+header p {
+  max-width: 680px;
+  font-size: clamp(1em, 2.5vw, 1.25em);
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* ════════════════════════════
+   DESKTOP TIMELINE
+════════════════════════════ */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+/* center line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  top: 0;
+  bottom: 0;
+  background: #333;
+  z-index: 0;
+}
+
+.month-marker {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  border: 1px solid #444;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #666;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+/* dots sit directly in .timeline, centered on the line */
+.tl-dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffcc00;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.4s ease 0.2s;
+}
+.tl-dot.visible { opacity: 1; }
+
+.event {
+  position: absolute;
+  width: 42%;
+  opacity: 0;
+  transition: opacity 0.55s ease, transform 0.55s ease;
+  z-index: 1;
+}
+.event.left {
+  right: 53%;
+  text-align: right;
+  padding-right: 44px;
+  transform: translateX(-36px);
+}
+.event.right {
+  left: 53%;
+  padding-left: 44px;
+  transform: translateX(36px);
+}
+.event.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.date {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #ffcc00;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.quote {
+  font-size: 1.35em;
+  line-height: 1.4;
+  color: #fff;
+}
+.source {
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #666;
+}
+
+/* ════════════════════════════
+   DESKTOP FOOTER
+════════════════════════════ */
+footer {
+  text-align: center;
+  padding: 40px 20px 60px;
+  font-size: 0.85em;
+  color: #555;
+  border-top: 1px solid #222;
+  line-height: 2;
+}
+footer a {
+  color: #888;
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+  transition: color 0.2s, border-color 0.2s;
+}
+footer a:hover { color: #ffcc00; border-color: #ffcc00; }
+footer .byline { margin-bottom: 6px; color: #666; }
+
+/* ════════════════════════════
+   MOBILE — hidden by default
+════════════════════════════ */
+.mobile-timeline { display: none; }
+
+@media (max-width: 640px) {
+  /* hide desktop */
+  .timeline { display: none; }
+  footer { display: none; }
+
+  /* The mobile container IS the scroll viewport */
+  .mobile-timeline {
+    display: block;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+    background: #111;
+    z-index: 10;
+  }
+
+  /* vertical line running full height of scroll container
+     achieved by a pseudo on a wrapper inside */
+  .mobile-inner {
+    position: relative;
+  }
+  .mobile-inner::before {
+    content: "";
+    position: absolute;
+    left: 28px;
+    top: 100vh; /* skip the header slide */
+    bottom: 0;
+    width: 3px;
+    background: #333;
+    z-index: 0;
+  }
+
+  .mobile-slide {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 48px 32px 48px 64px;
+    scroll-snap-align: start;
+    z-index: 1;
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+  }
+  .mobile-slide.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* dot centered on the line for each slide */
+  .mobile-slide::after {
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ffcc00;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.4s ease 0.25s;
+  }
+  .mobile-slide.visible::after { opacity: 1; }
+
+  .mobile-slide-inner { width: 100%; }
+
+  .mobile-slide .date {
+    font-size: 0.72em;
+    font-weight: bold;
+    color: #ffcc00;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .mobile-slide .quote {
+    font-size: clamp(1.5em, 6.5vw, 2.2em);
+    line-height: 1.35;
+    color: #fff;
+    margin-bottom: 18px;
+  }
+  .mobile-slide .source {
+    font-size: 0.82em;
+    color: #666;
+  }
+
+  /* header slide — suppress line and dot */
+  .mobile-slide--header::before { display: none; }
+  .mobile-slide--header::after  { display: none; }
+  .mobile-slide--header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 48px 40px;
+  }
+
+  /* swipe hint chevron */
+  .swipe-hint {
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 1.8s ease-in-out infinite;
+    opacity: 0.6;
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50%       { transform: translateX(-50%) translateY(7px); }
+  }
+
+  /* footer slide */
+  .mobile-footer-slide {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    scroll-snap-align: start;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    line-height: 2.4;
+    padding: 40px;
+  }
+  .mobile-footer-slide a {
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+  }
+  .mobile-footer-slide .byline { color: #666; }
+
+  /* hide the normal page scroll on mobile since
+     the fixed overlay handles everything */
+  body { overflow: hidden; }
+  header { display: none; }
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 1.8s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="scroll-hint">
+  <svg width="28" height="18" viewBox="0 0 28 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <polyline points="2,2 14,16 26,2" stroke="#555" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</div>
+  <h1>Art of No Deal: A Story</h1>
+  <p>A timeline of Trump's statements on ending the Iran war</p>
+</header>
+
+<!-- Desktop -->
+<div class="timeline" id="tl"></div>
+<footer>
+  <div class="byline">By Robert &nbsp;·&nbsp; 2026</div>
+  <div class="byline">Sources: Donald Trump. Thanks to Rollcall and CNN for saving me some time.</div>
+  <a href="https://example.com/submit" target="_blank">Missing something? Let me know →</a>
+</footer>
+
+<!-- Mobile -->
+<div class="mobile-timeline" id="mobile-tl">
+  <div class="mobile-inner" id="mobile-inner"></div>
+</div>
+
+<script>
+const events = [
+  { date: "2026-03-09", source: "Republican Policy Retreat", quote: "It's going to be finished pretty quickly." },
+  { date: "2026-03-23", source: "Press gaggle outside Air Force One", quote: "We have had very, very strong talks. We'll see where they lead. We have points, major points of agreement, I would say, almost all points of agreement" },
+  { date: "2026-03-24", source: "Swearing In Ceremony of Markwayne Mullin", quote: "Well, I think we're going to end it. I can't tell you for sure. You know, I don't like to say this, we've won this -- this war has been won." },
+  { date: "2026-03-25", source: "Public remarks", quote: "They want to make a deal so badly." },
+  { date: "2026-03-26", source: "Cabinet meeting", quote: "They are begging to make a deal." },
+  { date: "2026-03-29", source: "Air Force One gaggle", quote: "I do see a deal in Iran, yeah. It could be soon." },
+  { date: "2026-04-01", source: "White House Address", quote: "We are going to finish the job and we're going to finish it very fast. We're getting very close." },
+  { date: "2026-04-06", source: "Public remarks", quote: "Very close to a deal before a setback." },
+  { date: "2026-04-07", source: "Truth Social", quote: "A two week period will allow the Agreement to be finalized and consummated." },
+  { date: "2026-04-15", source: "Fox Business", quote: "I think it's close to over. I view it as very close to over." },
+  { date: "2026-04-16", source: "Event in Las Vegas", quote: "The war in Iran is going along swimmingly. We can do whatever we want and it should be ending pretty soon." },
+  { date: "2026-04-16", source: "White House gaggle", quote: "It's looking very good that we're going to make a deal with Iran." },
+  { date: "2026-04-17", source: "Axios phone interview", quote: "I think we will get a deal in the next day or two." },
+  { date: "2026-04-20", source: "Truth Social", quote: "It will all happen, relatively quickly!" },
+  { date: "2026-04-30", source: "Public remarks", quote: "They are dying to make a deal." },
+  { date: "2026-05-01", source: "Press gaggle outside Air Force One", quote: "When the war ends, which shouldn't be too long..." },
+  { date: "2026-05-06", source: "Remarks in Oval Office with UFC Fighters", quote: "We've had very good talks over the last 24 hours, and it's very possible that we'll make a deal." },
+  { date: "2026-05-18", source: "Public remarks", quote: "We thought pretty much getting close to making a deal and it didn't work out. But this is a little bit different." },
+  { date: "2026-05-19", source: "Congressional picnic", quote: "We're gonna end that war very quickly." },
+  { date: "2026-05-19", source: "Healthcare Affordability Event", quote: "[The gulf States] think that they are getting very close to making a deal." },
+  { date: "2026-05-19", source: "Press gaggle", quote: "But I got a call yesterday, sir, can you wait? We think we're close to a deal." },
+  { date: "2026-05-23", source: "Public remarks", quote: "The deal is largely negotiated, subject to finalization. We'll announce it shortly." },
+  { date: "2026-05-23", source: "Truth Social", quote: "Final aspects and details of the Deal are currently being discussed, and will be announced shortly." },
+  { date: "2026-06-05", source: "Kristen Welker Interview", quote: "And we're very close to having a deal. And if we don't have a deal, we'll do it one way or the other. Either way, we win." },
+  { date: "2026-05-28", source: "Interview with Lara Trump", quote: "We're close to a very good deal." },
+  { date: "2026-06-07", source: "Axios", quote: "We are very close to a final deal with Iran. It is going to be a good deal." },
+  { date: "2026-06-08", source: "Truth Social", quote: "Final negotiations on “Peace” are proceeding." },
+  { date: "2026-06-09", source: "Tele-rally for Sen. Graham", quote: "Total victory in the next two weeks. They're willing to give us everything." },
+  { date: "2026-06-10", source: "Press gaggle outside Air Force One(after NBA Finals)", quote: "We're in the final throes of what will be a very, very good deal. Could sign in two or three days." },
+];
+
+/* ── DESKTOP ── */
+(function() {
+  const parseDate = d => new Date(d).getTime();
+  const minDate = parseDate(events[0].date);
+  const PX_PER_DAY = 16, MIN_GAP = 120;
+
+  let pos = events.map(e => Math.round((parseDate(e.date) - minDate) / 86400000 * PX_PER_DAY));
+  for (let i = 1; i < pos.length; i++) {
+    if (pos[i] - pos[i-1] < MIN_GAP) pos[i] = pos[i-1] + MIN_GAP;
+  }
+
+  const tl = document.getElementById('tl');
+  const OFFSET = 60;
+  let lastMonth = null;
+  const cards = [];
+
+  events.forEach((ev, i) => {
+    const top = pos[i] + OFFSET;
+    const side = i % 2 === 0 ? 'left' : 'right';
+    const month = ev.date.slice(0, 7);
+
+    if (month !== lastMonth) {
+      const pill = document.createElement('div');
+      pill.className = 'month-marker';
+      pill.style.top = (top - 28) + 'px';
+      pill.textContent = new Date(ev.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+      tl.appendChild(pill);
+      lastMonth = month;
+    }
+
+    // dot appended directly to .timeline so it's positioned relative to the line
+    const dot = document.createElement('div');
+    dot.className = 'tl-dot';
+    dot.style.top = (top + 2) + 'px';
+    tl.appendChild(dot);
+
+    const card = document.createElement('div');
+    card.className = 'event ' + side;
+    card.style.top = top + 'px';
+    card.dataset.dotIndex = i;
+
+    const dateStr = new Date(ev.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    card.innerHTML = `
+      <div class="date">${dateStr}</div>
+      <div class="quote">"${ev.quote}"</div>
+      ${ev.source ? `<div class="source">${ev.source}</div>` : ''}
+    `;
+    tl.appendChild(card);
+    cards.push({ card, dot });
+  });
+
+  tl.style.height = (pos[pos.length - 1] + OFFSET + 160) + 'px';
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const idx = entry.target.dataset.dotIndex;
+        entry.target.classList.add('visible');
+        cards[idx].dot.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  cards.forEach(({ card }) => obs.observe(card));
+})();
+
+/* ── MOBILE ── */
+(function() {
+  const inner = document.getElementById('mobile-inner');
+
+  // header slide — no line, no dot
+  const headerSlide = document.createElement('div');
+  headerSlide.className = 'mobile-slide mobile-slide--header';
+  headerSlide.innerHTML = `
+    <div class="mobile-slide-inner" style="text-align:center">
+      <div style="font-size:clamp(1.6em,7vw,2.4em);font-weight:bold;line-height:1.2;margin-bottom:0.5em">The Art of No Deal: A Story</div>
+      <div style="font-size:0.95em;color:#aaa;line-height:1.6">A timeline of Trump's statements on ending the Iran war</div>
+    </div>
+    <div class="swipe-hint">
+      <svg width="28" height="18" viewBox="0 0 28 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polyline points="2,2 14,16 26,2" stroke="#555" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  `;
+  inner.appendChild(headerSlide);
+
+  events.forEach(ev => {
+    const slide = document.createElement('div');
+    slide.className = 'mobile-slide';
+    const dateStr = new Date(ev.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    slide.innerHTML = `
+      <div class="mobile-slide-inner">
+        <div class="date">${dateStr}</div>
+        <div class="quote">"${ev.quote}"</div>
+        ${ev.source ? `<div class="source">${ev.source}</div>` : ''}
+      </div>
+    `;
+    inner.appendChild(slide);
+  });
+
+  const footerSlide = document.createElement('div');
+  footerSlide.className = 'mobile-footer-slide';
+  footerSlide.innerHTML = `
+    <div class="byline">By Robert &nbsp;·&nbsp; June 2026</div>
+    <div class="byline">Sources: Donald Trump. Thanks to Rollcall and CNN for saving me some time.</div>
+    <a href="https://example.com/submit" target="_blank">Missing something? Let me know →</a>
+  `;
+  inner.appendChild(footerSlide);
+
+  // observe slides for fade-in
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, {
+    root: document.getElementById('mobile-tl'),
+    threshold: 0.4
+  });
+
+  inner.querySelectorAll('.mobile-slide').forEach(s => obs.observe(s));
+})();
+</script>
+
+</body>
+</html>
