@@ -3,6 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Are of No Deal">
+<meta property="og:description" content="A timeline of Trump's statements on ending the Iran war">
+<meta property="og:url" content="https://artofnodeal.com">
+<meta property="og:image" content="https://artofnodeal.com/images/og.png">
+<meta property="og:site_name" content="Art of No Deal">
+
+<link rel="icon" type="image/png" href="https://artofnodeal.com/images/favicon.png">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-019V9J4032"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-019V9J4032');
+</script>
+
 <title>Art of No Deal: A Story</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,6 +365,7 @@ const events = [
   { date: "2026-03-25", source: "Public remarks", quote: "They want to make a deal so badly." },
   { date: "2026-03-26", source: "Cabinet meeting", quote: "They are begging to make a deal." },
   { date: "2026-03-29", source: "Air Force One gaggle", quote: "I do see a deal in Iran, yeah. It could be soon." },
+  { date: "2026-03-31", source: "Remarks in Oval Office (for EO on elections)", quote: "I think two or three weeks. Yeah." },
   { date: "2026-04-01", source: "White House Address", quote: "We are going to finish the job and we're going to finish it very fast. We're getting very close." },
   { date: "2026-04-06", source: "Public remarks", quote: "Very close to a deal before a setback." },
   { date: "2026-04-07", source: "Truth Social", quote: "A two week period will allow the Agreement to be finalized and consummated." },
@@ -355,18 +377,20 @@ const events = [
   { date: "2026-04-30", source: "Public remarks", quote: "They are dying to make a deal." },
   { date: "2026-05-01", source: "Press gaggle outside Air Force One", quote: "When the war ends, which shouldn't be too long..." },
   { date: "2026-05-06", source: "Remarks in Oval Office with UFC Fighters", quote: "We've had very good talks over the last 24 hours, and it's very possible that we'll make a deal." },
+  { date: "2026-05-07", source: "Press gaggle at Reflecting Pool", quote: "It could happen any day. I believe they want the deal more than I do." },
   { date: "2026-05-18", source: "Public remarks", quote: "We thought pretty much getting close to making a deal and it didn't work out. But this is a little bit different." },
   { date: "2026-05-19", source: "Congressional picnic", quote: "We're gonna end that war very quickly." },
   { date: "2026-05-19", source: "Healthcare Affordability Event", quote: "[The gulf States] think that they are getting very close to making a deal." },
   { date: "2026-05-19", source: "Press gaggle", quote: "But I got a call yesterday, sir, can you wait? We think we're close to a deal." },
   { date: "2026-05-23", source: "Public remarks", quote: "The deal is largely negotiated, subject to finalization. We'll announce it shortly." },
   { date: "2026-05-23", source: "Truth Social", quote: "Final aspects and details of the Deal are currently being discussed, and will be announced shortly." },
-  { date: "2026-06-05", source: "Kristen Welker Interview", quote: "And we're very close to having a deal. And if we don't have a deal, we'll do it one way or the other. Either way, we win." },
   { date: "2026-05-28", source: "Interview with Lara Trump", quote: "We're close to a very good deal." },
+  { date: "2026-06-05", source: "Kristen Welker Interview", quote: "And we're very close to having a deal. And if we don't have a deal, we'll do it one way or the other. Either way, we win." },
   { date: "2026-06-07", source: "Axios", quote: "We are very close to a final deal with Iran. It is going to be a good deal." },
   { date: "2026-06-08", source: "Truth Social", quote: "Final negotiations on “Peace” are proceeding." },
   { date: "2026-06-09", source: "Tele-rally for Sen. Graham", quote: "Total victory in the next two weeks. They're willing to give us everything." },
-  { date: "2026-06-10", source: "Press gaggle outside Air Force One(after NBA Finals)", quote: "We're in the final throes of what will be a very, very good deal. Could sign in two or three days." },
+  { date: "2026-06-10", source: "Oval Office remarks", quote: "We’re really close to a deal." },
+  { date: "2026-06-10", source: "Press gaggle outside Air Force One(after NBA Finals)", quote: "We're in the final throes of what will be a very, very good deal. Could be in two or three days." },
 ];
 
 /* ── DESKTOP ── */
@@ -474,7 +498,7 @@ const events = [
   footerSlide.className = 'mobile-footer-slide';
   footerSlide.innerHTML = `
     <div class="byline">By Robert &nbsp;·&nbsp; June 2026</div>
-    <div class="byline">Sources: Donald Trump. Thanks to Rollcall and CNN for saving me some time.</div>
+    <div class="byline">Sources: Compiled from news reports, White House transcripts, and Truth Social. </div>
     <a href="https://example.com/submit" target="_blank">Missing something? Let me know →</a>
   `;
   inner.appendChild(footerSlide);
