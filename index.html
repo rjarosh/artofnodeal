@@ -398,7 +398,7 @@ const events = [
 (function() {
   const parseDate = d => new Date(d).getTime();
   const minDate = parseDate(events[0].date);
-  const PX_PER_DAY = 16, MIN_GAP = 120;
+  const PX_PER_DAY = 8, MIN_GAP = 120;
 
   let pos = events.map(e => Math.round((parseDate(e.date) - minDate) / 86400000 * PX_PER_DAY));
   for (let i = 1; i < pos.length; i++) {
@@ -445,7 +445,7 @@ const events = [
     cards.push({ card, dot });
   });
 
-  tl.style.height = (pos[pos.length - 1] + OFFSET + 160) + 'px';
+  tl.style.height = (pos[pos.length - 1] + OFFSET + 250) + 'px';
 
   const obs = new IntersectionObserver(entries => {
     entries.forEach(entry => {
