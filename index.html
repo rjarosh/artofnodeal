@@ -450,6 +450,7 @@ const events = [
     card.className = 'event ' + side;
     card.style.top = top + 'px';
     card.dataset.dotIndex = i;
+    card.id = 'event-' + i;
 
     const dateStr = new Date(ev.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     card.innerHTML = `
@@ -497,9 +498,10 @@ const events = [
   `;
   inner.appendChild(headerSlide);
 
-  events.forEach(ev => {
+  events.forEach((ev, i) => {
     const slide = document.createElement('div');
     slide.className = 'mobile-slide';
+    slide.dataset.dotIndex = i;
     const dateStr = new Date(ev.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     slide.innerHTML = `
       <div class="mobile-slide-inner">
@@ -534,6 +536,15 @@ const events = [
 
   inner.querySelectorAll('.mobile-slide').forEach(s => obs.observe(s));
 })();
+
+if (location.hash) {
+  const idx = location.hash.replace('#event-', '');
+  const el = document.getElementById('event-' + idx);
+  if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
+  const mobileEl = document.querySelector('.mobile-slide[data-dot-index="' + idx + '"]');
+  const container = document.querySelector('.mobile-timeline');
+  if (mobileEl && container) setTimeout(() => container.scrollTo({ top: mobileEl.offsetTop, behavior: 'smooth' }), 300);
+}
 </script>
 
 </body>
