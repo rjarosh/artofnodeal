@@ -334,9 +334,81 @@ footer .byline { margin-bottom: 6px; color: #666; }
   opacity: 0.6;
 }
 
+#menu-button {
+    position:fixed;
+    top:20px;
+    right:25px;
+    z-index:1000;
+
+    font-size:28px;
+    color:#ffcc02;
+    cursor:pointer;
+
+    user-select:none;
+}
+
+
+#menu-panel {
+
+    position:fixed;
+
+    top:0;
+    right:-260px;
+
+    width:240px;
+    height:100vh;
+
+    background:#141414;
+
+    border-left:1px solid #333;
+
+    padding-top:80px;
+
+    transition:right .25s ease;
+
+    z-index:999;
+
+}
+
+
+#menu-panel.open {
+    right:0;
+}
+
+
+#menu-panel a {
+
+    display:block;
+
+    padding:18px 30px;
+
+    color:#f5f5f5;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+}
+
+
+#menu-panel a:hover {
+
+    color:#ffcc02;
+
+}
+
 </style>
 </head>
 <body>
+  <div id="menu-button">
+    ☰
+  </div>
+
+  <div id="menu-panel">
+    <a href="index.html">Timeline</a>
+    <a href="heatmap.html">Heatmap</a>
+    <a href="about.html">About</a>
+  </div>
 
 <header>
   <div class="scroll-hint">
@@ -496,6 +568,16 @@ if (location.hash) {
   const container = document.querySelector('.mobile-timeline');
   if (mobileEl && container) setTimeout(() => container.scrollTo({ top: mobileEl.offsetTop, behavior: 'smooth' }), 300);
 }
+// menu slide
+const menuButton = document.getElementById("menu-button");
+const menuPanel = document.getElementById("menu-panel");
+
+
+menuButton.onclick = () => {
+
+    menuPanel.classList.toggle("open");
+
+};
 </script>
 
 </body>

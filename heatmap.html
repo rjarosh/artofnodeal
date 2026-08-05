@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>The Art of No Deal: A Story</title>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #0b0b0b;
+    color: #f5f5f5;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.subtitle {
+    text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+#chart-container {
+    width: min(70vw, 1000px);
+    margin: 40px auto;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
+
+.month-label,
+.week-label {
+    fill: #999;
+    font-size: 12px;
+}
+
+.day {
+    cursor: pointer;
+}
+
+.day:hover {
+    stroke: #ffcc02;
+    stroke-width: 2;
+}
+
+#details {
+    width: min(70vw, 1000px);
+    margin: 30px auto;
+    border: 1px solid #333;
+    background: #141414;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #f5f5f5;
+}
+
+.event {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.event strong {
+    color: #ffcc02;
+    font-style: italic;
+}
+
+.quote {
+    margin-top: 8px;
+/*    font-style: italic;*/
+    color: #ddd;
+}
+
+
+@media (max-width:600px){
+
+    body {
+        padding: 50px 15px 15px;
+
+    }
+
+    #chart-container,
+    #details {
+        width:100%;
+    }
+
+}
+
+#menu-button {
+    position:fixed;
+    top:20px;
+    right:25px;
+    z-index:1000;
+
+    font-size:28px;
+    color:#ffcc02;
+    cursor:pointer;
+
+    user-select:none;
+}
+
+
+#menu-panel {
+
+    position:fixed;
+
+    top:0;
+    right:-260px;
+
+    width:240px;
+    height:100vh;
+
+    background:#141414;
+
+    border-left:1px solid #333;
+
+    padding-top:80px;
+
+    transition:right .25s ease;
+
+    z-index:999;
+
+}
+
+
+#menu-panel.open {
+    right:0;
+}
+
+
+#menu-panel a {
+
+    display:block;
+
+    padding:18px 30px;
+
+    color:#f5f5f5;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+}
+
+
+#menu-panel a:hover {
+
+    color:#ffcc02;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <div id="menu-button">
+    ☰
+</div>
+
+<div id="menu-panel">
+    <a href="index.html">Timeline</a>
+    <a href="heatmap.html">Heatmap</a>
+    <a href="about.html">About</a>
+</div>
+
+<h1>The Art of No Deal: A Story</h1>
+<p class="subtitle">
+    A heatmap timeline of Trump's statements on ending the Iran war
+</p>
+
+
+
+
+<div id="chart-container">
+    <svg id="calendar"></svg>
+</div>
+
+<div id="details">
+    Select a day.
+</div>
+
+
+<script src="events.js"></script>
+
+<script>
+
+const CELL = 18;
+const GAP = 4;
+
+const LEFT = 45;
+const TOP = 30;
+
+const byDate = {};
+const counts = {};
+
+events.forEach(e => {
+
+    counts[e.date] = (counts[e.date] || 0) + 1;
+
+    if (!byDate[e.date]) {
+        byDate[e.date] = [];
+    }
+
+    byDate[e.date].push(e);
+
+});
+
+
+// Find range
+
+const firstEvent = new Date(events[0].date);
+
+let start = new Date(firstEvent);
+start.setDate(start.getDate() - start.getDay());
+
+const end = new Date();
+
+end.setHours(0,0,0,0);
+
+
+// Store weeks
+
+const weeks = [];
+
+let cursor = new Date(start);
+
+while (cursor <= end) {
+
+    const week = [];
+
+    for (let d = 0; d < 7; d++) {
+
+        week.push(new Date(cursor));
+
+        cursor.setDate(cursor.getDate()+1);
+    }
+
+    weeks.push(week);
+}
+
+
+// SVG sizing
+
+const width =
+    LEFT +
+    weeks.length * (CELL + GAP) +
+    20;
+
+const height =
+    TOP +
+    7 * (CELL + GAP) +
+    50;
+
+
+const svg = document.getElementById("calendar");
+
+svg.setAttribute(
+    "viewBox",
+    `0 0 ${width} ${height}`
+);
+
+
+// Month labels
+
+let lastMonth = -1;
+
+weeks.forEach((week, weekIndex)=>{
+
+    const sunday = week[0];
+
+    const month = sunday.getMonth();
+
+    if(month !== lastMonth){
+
+        lastMonth = month;
+
+        const text =
+            document.createElementNS(
+                "http://www.w3.org/2000/svg",
+                "text"
+            );
+
+        text.textContent =
+            sunday.toLocaleString(
+                "default",
+                {month:"short"}
+            );
+
+        text.setAttribute(
+            "x",
+            LEFT + weekIndex*(CELL+GAP)
+        );
+
+        text.setAttribute(
+            "y",
+            15
+        );
+
+        text.setAttribute(
+            "class",
+            "month-label"
+        );
+
+        svg.appendChild(text);
+
+    }
+
+});
+
+
+// Weekday labels
+
+[
+    "Mon",
+    "",
+    "Wed",
+    "",
+    "Fri",
+    "",
+    "Sun"
+].forEach((label,row)=>{
+
+    if(!label) return;
+
+    const text =
+        document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "text"
+        );
+
+    text.textContent = label;
+
+    text.setAttribute(
+        "x",
+        0
+    );
+
+    text.setAttribute(
+        "y",
+        TOP + row*(CELL+GAP)+12
+    );
+
+    text.setAttribute(
+        "class",
+        "week-label"
+    );
+
+    svg.appendChild(text);
+
+});
+
+
+// Draw squares
+
+weeks.forEach((week,weekIndex)=>{
+
+    week.forEach((date,row)=>{
+
+        // Don't draw squares after today
+        if (date > end) {
+            return;
+        }
+
+        const iso =
+            date.toISOString().slice(0,10);
+
+        const count =
+            counts[iso] || 0;
+
+
+        const colors = [
+            "#222222",
+            "#665200",
+            "#997800",
+            "#cc9f00",
+            "#ffcc02"
+        ];
+
+
+        const rect =
+            document.createElementNS(
+                "http://www.w3.org/2000/svg",
+                "rect"
+            );
+
+
+        rect.setAttribute(
+            "x",
+            LEFT + weekIndex*(CELL+GAP)
+        );
+
+
+        rect.setAttribute(
+            "y",
+            TOP + row*(CELL+GAP)
+        );
+
+
+        rect.setAttribute(
+            "width",
+            CELL
+        );
+
+
+        rect.setAttribute(
+            "height",
+            CELL
+        );
+
+
+        rect.setAttribute(
+            "rx",
+            3
+        );
+
+
+        rect.setAttribute(
+            "fill",
+            colors[Math.min(count,4)]
+        );
+
+
+        rect.setAttribute(
+            "class",
+            "day"
+        );
+
+
+        rect.addEventListener(
+            "click",
+            ()=>showDetails(iso)
+        );
+
+
+        svg.appendChild(rect);
+
+    });
+
+});
+
+
+// Details panel
+
+function showDetails(date){
+
+    const box =
+        document.getElementById("details");
+
+
+    box.innerHTML =
+        `<h2>${date}</h2>`;
+
+
+    if(!byDate[date]){
+
+        box.innerHTML +=
+            "<p>No public statements</p>";
+
+        return;
+    }
+
+
+    byDate[date].forEach(event=>{
+
+        box.innerHTML += `
+
+        <div class="event">
+            <strong>${event.source}</strong>
+            <div class="quote">
+                "${event.quote}"
+            </div>
+        </div>
+
+        `;
+
+    });
+
+}
+
+const menuButton = document.getElementById("menu-button");
+const menuPanel = document.getElementById("menu-panel");
+
+
+menuButton.onclick = () => {
+
+    menuPanel.classList.toggle("open");
+
+};
+
+</script>
+
+</body>
+</html>
