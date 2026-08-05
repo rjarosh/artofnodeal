@@ -169,6 +169,23 @@ svg {
 
 }
 
+#tooltip {
+    position: fixed;
+    display: none;
+
+    background: #141414;
+    color: #f5f5f5;
+
+    border: 1px solid #333;
+    border-radius: 6px;
+
+    padding: 8px 12px;
+
+    font-size: 14px;
+
+    pointer-events: none;
+    z-index: 2000;
+}
 
 </style>
 
@@ -196,6 +213,8 @@ svg {
 <div id="chart-container">
     <svg id="calendar"></svg>
 </div>
+
+<div id="tooltip"></div>
 
 <div id="details">
     Select a day.
@@ -452,6 +471,50 @@ weeks.forEach((week,weekIndex)=>{
             "click",
             ()=>showDetails(iso)
         );
+
+        rect.addEventListener("mouseenter", (e) => {
+
+    const tooltip = document.getElementById("tooltip");
+
+    // Build a local date from the ISO string
+    const [y, m, d] = iso.split("-");
+    const tooltipDate = new Date(y, m - 1, d);
+
+    tooltip.innerHTML = `
+        <strong>${tooltipDate.toLocaleDateString("en-US", {
+            weekday: "long"
+        })}</strong><br>
+        ${tooltipDate.toLocaleDateString("en-US", {
+            month: "long",
+            day: "numeric",
+            year: "numeric"
+        })}
+    `;
+
+    // Position immediately
+    tooltip.style.left = (e.clientX + 12) + "px";
+    tooltip.style.top = (e.clientY + 12) + "px";
+
+    tooltip.style.display = "block";
+
+});
+
+
+rect.addEventListener("mousemove", (e) => {
+
+    const tooltip = document.getElementById("tooltip");
+
+    tooltip.style.left = (e.clientX + 12) + "px";
+    tooltip.style.top = (e.clientY + 12) + "px";
+
+});
+
+
+rect.addEventListener("mouseleave", () => {
+
+    document.getElementById("tooltip").style.display = "none";
+
+});
 
 
         svg.appendChild(rect);
