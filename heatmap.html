@@ -390,7 +390,7 @@ weeks.forEach((week, weekIndex)=>{
 
 });
 
-
+const halfwayWeek = Math.floor(weeks.length / 2);
 // Draw squares
 
 weeks.forEach((week,weekIndex)=>{
@@ -491,11 +491,20 @@ weeks.forEach((week,weekIndex)=>{
         })}
     `;
 
-    // Position immediately
-    tooltip.style.left = (e.clientX + 12) + "px";
-    tooltip.style.top = (e.clientY + 12) + "px";
-
     tooltip.style.display = "block";
+
+    const offset = 12;
+    const width = tooltip.offsetWidth;
+
+    // Left half of chart -> tooltip on right
+    // Right half of chart -> tooltip on left
+    if (weekIndex >= halfwayWeek) {
+        tooltip.style.left = (e.clientX - width - offset) + "px";
+    } else {
+        tooltip.style.left = (e.clientX + offset) + "px";
+    }
+
+    tooltip.style.top = (e.clientY + offset) + "px";
 
 });
 
@@ -504,7 +513,6 @@ rect.addEventListener("mousemove", (e) => {
 
     const tooltip = document.getElementById("tooltip");
 
-    tooltip.style.left = (e.clientX + 12) + "px";
     tooltip.style.top = (e.clientY + 12) + "px";
 
 });
