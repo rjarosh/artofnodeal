@@ -100,5 +100,6 @@ const events = [
   { date: "2026-08-04", source: "Fox News Trace Gallagher interview", quote: "And they want to make a deal. We'll see what happens. If they don't make a deal, it's going to be too bad."},
   { date: "2026-08-04", source: "Press gaggle outside Air Force One", quote: "And I think it'd be very smart to make a deal. We'll see what happens. Uh, they had a very good day. The negotiations were good. The stock market was up tremendously over the last three, four days."},
   { date: "2026-08-04", source: "Press gaggle outside Air Force One", quote: "[The Strait of Hormuz opening tomorrow:] It could happen. Tomorrow or the next day, yeah."},
+  { date: "2026-08-05", source: "Las Vegas rally", quote: "We're knocking the hell out of them. I'd rather make a deal because I don't want to kill people...But we are talking, let's see what happens. But they respect us, they respect us."},
     
 ];
