@@ -103,5 +103,6 @@ const events = [
   { date: "2026-08-05", source: "Las Vegas rally", quote: "We're knocking the hell out of them. I'd rather make a deal because I don't want to kill people...But we are talking, let's see what happens. But they respect us, they respect us."},
   { date: "2026-08-06", source: "Oval Office comments", quote: "But I think we’re doing very well. I just, you know, I’m involved in the negotiation. I think it’s doing fine. It could be soon."},
   { date: "2026-08-07", source: "Truth Social shared article", quote: "Donald Trump Won The Iran War"},
+  { date: "2026-08-09", source: "Axios interview", quote: "We are low keying it...We are only semi-negotiating with them...It will work out. It always works out."},
  
 ];
