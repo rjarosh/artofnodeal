@@ -105,6 +105,9 @@ const events = [
   { date: "2026-08-07", source: "Truth Social shared article", quote: "Donald Trump Won The Iran War"},
   { date: "2026-08-09", source: "Axios interview", quote: "We are low keying it...We are only semi-negotiating with them...It will work out. It always works out."},
   { date: "2026-08-10", source: "Truth Social", quote: "Compensation should be paid to the families of the hundreds of thousands of innocent protestors that Iran has killed...I have instructed my representatives to put this firmly into any, and all, future negotiations"},
+  { date: "2026-08-10", source: "Oval Office Q&A", quote: "[Q: You said this last round of talks was Iran's last chance before decapitation, so what now? What comes next?] A: You'll find out. You'll find out."},
+  { date: "2026-08-11", source: "Press gaggle outside Air Force One", quote: "I'm the last person to trust Iran. They've lied to me constantly...And at some point, maybe they'll do something and then they get blown away."},
+  { date: "2026-08-11", source: "Wayne Allyn Root phone interview", quote: "Like I said, I'm sort of negotiating...You see, they're very devious negotiators because they'll agree to something, then they'll go out and tell the press that they never agreed to it."},
+  { date: "2026-08-12", source: "Truth Social", quote: "Iran is all talk and no action, the Bully of the Middle East No Longer. Praise be to Allah!"},
 
- 
 ];
