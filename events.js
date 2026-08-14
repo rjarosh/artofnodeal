@@ -109,5 +109,6 @@ const events = [
   { date: "2026-08-11", source: "Press gaggle outside Air Force One", quote: "I'm the last person to trust Iran. They've lied to me constantly...And at some point, maybe they'll do something and then they get blown away."},
   { date: "2026-08-11", source: "Wayne Allyn Root phone interview", quote: "Like I said, I'm sort of negotiating...You see, they're very devious negotiators because they'll agree to something, then they'll go out and tell the press that they never agreed to it."},
   { date: "2026-08-12", source: "Truth Social", quote: "Iran is all talk and no action, the Bully of the Middle East No Longer. Praise be to Allah!"},
+  { date: "2026-08-14", source: "Long Island campaign rally", quote: "And after we finish defeating Iran, which is being very badly defeated, pretty soon I’ll be declaring the Hormuz Strait a territory of the United States."},
 
 ];
