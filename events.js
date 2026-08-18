@@ -111,6 +111,6 @@ const events = [
   { date: "2026-08-12", source: "Truth Social", quote: "Iran is all talk and no action, the Bully of the Middle East No Longer. Praise be to Allah!" },
   { date: "2026-08-14", source: "Long Island campaign rally", quote: "And after we finish defeating Iran, which is being very badly defeated, pretty soon I’ll be declaring the Hormuz Strait a territory of the United States." },
   { date: "2026-08-17", source: "Fox News' Trey Yingst interview", quote: "I have no time schedule, I'm not in a hurry...If Oman gets in the way, we’ll bomb the shit out of them." },
-  { date: "2026-08-17", source: "Truth Social", quote: "There are no talks or conversations going on, or scheduled, with the Islamic Republic of Iran." },
+  { date: "2026-08-18", source: "Truth Social", quote: "There are no talks or conversations going on, or scheduled, with the Islamic Republic of Iran." },
   
 ];
