@@ -114,5 +114,6 @@ const events = [
   { date: "2026-08-18", source: "Truth Social", quote: "There are no talks or conversations going on, or scheduled, with the Islamic Republic of Iran." },
   { date: "2026-08-18", source: "White House remarks", quote: "You know, the deal didn't turn out to be what they said, you know, when they tell us one thing and they do another." },
   { date: "2026-08-20", source: "Truth Social", quote: "No one has given the Islamic Republic of Iran a greater opportunity to make a Deal than me. TRAGICALLY, for them, they have failed to take it...This will be an ECONOMIC D-DAY." },
+  { date: "2026-08-20", source: "Michael Cohen interview", quote: "We're doing very well with Iran...Part of the problem is so many of the leaders are gone. It's not easy to make a deal. Nobody knows who's leading." },
   
 ];
