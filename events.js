@@ -116,5 +116,6 @@ const events = [
   { date: "2026-08-20", source: "Truth Social", quote: "No one has given the Islamic Republic of Iran a greater opportunity to make a Deal than me. TRAGICALLY, for them, they have failed to take it...This will be an ECONOMIC D-DAY." },
   { date: "2026-08-20", source: "Michael Cohen interview", quote: "We're doing very well with Iran...Part of the problem is so many of the leaders are gone. It's not easy to make a deal. Nobody knows who's leading." },
   { date: "2026-08-21", source: "Air Force One gaggle", quote: "Uh, so we're just gonna sort of see what happens. And we have total control, as you know, of the border...So they would love to make a deal, but they're not ready to make the right deal, in my opinion." },
+  { date: "2026-08-24", source: "Truth Social", quote: "IRAN IS COMPLETELY COLLAPSING!!!" },
   
 ];
