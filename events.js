@@ -118,8 +118,8 @@ const events = [
   { date: "2026-08-21", source: "Air Force One gaggle", quote: "Uh, so we're just gonna sort of see what happens. And we have total control, as you know, of the border...So they would love to make a deal, but they're not ready to make the right deal, in my opinion." },
   { date: "2026-08-24", source: "Truth Social", quote: "We’re winning against EVERYONE, including Iran, whose Country is in Economic and Military Death Spiral." },
   { date: "2026-08-24", source: "Truth Social", quote: "IRAN IS COMPLETELY COLLAPSING!!!" },
-  { date: "2026-08-25", source: "Truth Social", quote: "The failing Islamic Republic of Iran is not paying large segments of their military, while at the same time killing protesters...at levels not seen before. It is a humanitarian crisis of epic proportions, and must be stopped, NOW." },
-  { date: "2026-08-25", source: "Truth Social", quote: " Iran has been notified that any ship or boat placing new mines will be immediately and systematically destroyed." },
+  { date: "2026-08-25", source: "Truth Social", quote: "The failing Islamic Republic of Iran is not paying large segments of their military, while at the same time killing protesters...It is a humanitarian crisis of epic proportions, and must be stopped, NOW." },
+  { date: "2026-08-25", source: "Truth Social", quote: "Iran has been notified that any ship or boat placing new mines will be immediately and systematically destroyed." },
   { date: "2026-08-26", source: "Truth Social AI image", quote: "MISSION ACCOMPLISHED"},
 
 ];
