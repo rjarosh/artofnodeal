@@ -119,5 +119,6 @@ const events = [
   { date: "2026-08-24", source: "Truth Social", quote: "We’re winning against EVERYONE, including Iran, whose Country is in Economic and Military Death Spiral." },
   { date: "2026-08-24", source: "Truth Social", quote: "IRAN IS COMPLETELY COLLAPSING!!!" },
   { date: "2026-08-25", source: "Truth Social", quote: "The failing Islamic Republic of Iran is not paying large segments of their military, while at the same time killing protesters...at levels not seen before. It is a humanitarian crisis of epic proportions, and must be stopped, NOW." },
+  { date: "2026-08-25", source: "Truth Social", quote: " Iran has been notified that any ship or boat placing new mines will be immediately and systematically destroyed." },
   
 ];
