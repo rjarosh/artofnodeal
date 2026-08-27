@@ -116,10 +116,13 @@ const events = [
   { date: "2026-08-20", source: "Truth Social", quote: "No one has given the Islamic Republic of Iran a greater opportunity to make a Deal than me. TRAGICALLY, for them, they have failed to take it...This will be an ECONOMIC D-DAY." },
   { date: "2026-08-20", source: "Michael Cohen interview", quote: "We're doing very well with Iran...Part of the problem is so many of the leaders are gone. It's not easy to make a deal. Nobody knows who's leading." },
   { date: "2026-08-21", source: "Air Force One gaggle", quote: "Uh, so we're just gonna sort of see what happens. And we have total control, as you know, of the border...So they would love to make a deal, but they're not ready to make the right deal, in my opinion." },
+  { date: "2026-08-21", source: "Myrtle Beach rally", quote: "We have plenty of time, right? What the hell do I have to do? Go back, bomb Iran a little bit more. What the hell?" },
   { date: "2026-08-24", source: "Truth Social", quote: "We’re winning against EVERYONE, including Iran, whose Country is in Economic and Military Death Spiral." },
   { date: "2026-08-24", source: "Truth Social", quote: "IRAN IS COMPLETELY COLLAPSING!!!" },
   { date: "2026-08-25", source: "Truth Social", quote: "The failing Islamic Republic of Iran is not paying large segments of their military, while at the same time killing protesters...It is a humanitarian crisis of epic proportions, and must be stopped, NOW." },
   { date: "2026-08-25", source: "Truth Social", quote: "Iran has been notified that any ship or boat placing new mines will be immediately and systematically destroyed." },
+  { date: "2026-08-26", source: "Glenn Beck interview", quote: "Prior to what we're doing with Iran, which I think will be ending fairly soon, you could really say, you know, because the strait is open, we take a lot of ships through the strait now."},
+  { date: "2026-08-26", source: "Glenn Beck interview", quote: "But, you know, you make a deal with them, it's like, uh, not the -- it's not the most honorable group, I will tell you that."},
   { date: "2026-08-26", source: "Truth Social AI image", quote: "MISSION ACCOMPLISHED"},
 
 ];
