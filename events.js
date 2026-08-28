@@ -124,5 +124,8 @@ const events = [
   { date: "2026-08-26", source: "Glenn Beck interview", quote: "Prior to what we're doing with Iran, which I think will be ending fairly soon, you could really say, you know, because the strait is open, we take a lot of ships through the strait now."},
   { date: "2026-08-26", source: "Glenn Beck interview", quote: "But, you know, you make a deal with them, it's like, uh, not the -- it's not the most honorable group, I will tell you that."},
   { date: "2026-08-26", source: "Truth Social AI image", quote: "MISSION ACCOMPLISHED"},
+  { date: "2026-08-27", source: "Oval Office remarks", quote: "We don't want to speak to them. We're not looking to meet or anything."},
+  { date: "2026-08-27", source: "Truth Social", quote: "FoxNews did a particularly inaccurate report on the Failing Islamic Republic of Iran. I don’t want to meet, they do. In fact, they are begging to make a deal."},
+
 
 ];
