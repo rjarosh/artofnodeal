@@ -114,7 +114,7 @@ const events = [
   { date: "2026-08-17", source: "Fox News' Trey Yingst interview", quote: "I have no time schedule, I'm not in a hurry...If Oman gets in the way, we’ll bomb the shit out of them." },
   { date: "2026-08-18", source: "Truth Social", quote: "There are no talks or conversations going on, or scheduled, with the Islamic Republic of Iran." },
   { date: "2026-08-18", source: "White House remarks", quote: "You know, the deal didn't turn out to be what they said, you know, when they tell us one thing and they do another." },
-  { date: "2026-08-20", source: "Truth Social", quote: "No one has given the Islamic Republic of Iran a greater opportunity to make a Deal than me. TRAGICALLY, for them, they have failed to take it...This will be an ECONOMIC D-DAY." },
+  { date: "2026-08-19", source: "Truth Social", quote: "No one has given the Islamic Republic of Iran a greater opportunity to make a Deal than me. TRAGICALLY, for them, they have failed to take it...This will be an ECONOMIC D-DAY." },
   { date: "2026-08-20", source: "Michael Cohen interview", quote: "We're doing very well with Iran...Part of the problem is so many of the leaders are gone. It's not easy to make a deal. Nobody knows who's leading." },
   { date: "2026-08-21", source: "Air Force One gaggle", quote: "Uh, so we're just gonna sort of see what happens. And we have total control, as you know, of the border...So they would love to make a deal, but they're not ready to make the right deal, in my opinion." },
   { date: "2026-08-21", source: "Myrtle Beach rally", quote: "We have plenty of time, right? What the hell do I have to do? Go back, bomb Iran a little bit more. What the hell?" },
@@ -127,5 +127,6 @@ const events = [
   { date: "2026-08-26", source: "Truth Social AI image", quote: "MISSION ACCOMPLISHED"},
   { date: "2026-08-27", source: "Oval Office remarks", quote: "We don't want to speak to them. We're not looking to meet or anything."},
   { date: "2026-08-27", source: "Truth Social", quote: "FoxNews did a particularly inaccurate report on the Failing Islamic Republic of Iran. I don’t want to meet, they do. In fact, they are begging to make a deal."},
+  { date: "2026-08-31", source: "Truth Social", quote: "Iran is officially a Failed Nation. IT IS DEAD!" },
 
 ];
