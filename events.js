@@ -1,6 +1,6 @@
 const events = [
   { date: "2026-03-09", source: "Republican Policy Retreat", quote: "It's going to be finished pretty quickly." },
-  { date: "2026-03-23", source: "Truth Social", quote: "I AM PLEASED TO REPORT THAT [WE'VE] HAD, OVER THE LAST TWO DAYS, VERY GOOD AND PRODUCTIVE CONVERSATIONS REGARDING A COMPLETE AND TOTAL RESOLUTION OF OUR HOSTILITIES IN THE MIDDLE EAST" },
+  { date: "2026-03-23", source: "Truth Social", quote: "[WE'VE HAD]VERY GOOD AND PRODUCTIVE CONVERSATIONS REGARDING A COMPLETE AND TOTAL RESOLUTION OF OUR HOSTILITIES IN THE MIDDLE EAST" },
   { date: "2026-03-23", source: "Press gaggle outside Air Force One", quote: "We have had very, very strong talks. We'll see where they lead. We have points, major points of agreement, I would say, almost all points of agreement" },
   { date: "2026-03-24", source: "Swearing In Ceremony of Markwayne Mullin", quote: "Well, I think we're going to end it. I can't tell you for sure. You know, I don't like to say this, we've won this -- this war has been won." },
   { date: "2026-03-25", source: "NRCC fundraising dinner", quote: "They want to make a deal so badly." },
