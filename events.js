@@ -1,6 +1,6 @@
 const events = [
   { date: "2026-03-09", source: "Republican Policy Retreat", quote: "It's going to be finished pretty quickly." },
-  { date: "2026-03-23", source: "Truth Social", quote: "[WE'VE HAD]VERY GOOD AND PRODUCTIVE CONVERSATIONS REGARDING A COMPLETE AND TOTAL RESOLUTION OF OUR HOSTILITIES IN THE MIDDLE EAST" },
+  { date: "2026-03-23", source: "Truth Social", quote: "[WE'VE HAD] VERY GOOD AND PRODUCTIVE CONVERSATIONS REGARDING A COMPLETE AND TOTAL RESOLUTION OF OUR HOSTILITIES IN THE MIDDLE EAST" },
   { date: "2026-03-23", source: "Press gaggle outside Air Force One", quote: "We have had very, very strong talks. We'll see where they lead. We have points, major points of agreement, I would say, almost all points of agreement" },
   { date: "2026-03-24", source: "Swearing In Ceremony of Markwayne Mullin", quote: "Well, I think we're going to end it. I can't tell you for sure. You know, I don't like to say this, we've won this -- this war has been won." },
   { date: "2026-03-25", source: "NRCC fundraising dinner", quote: "They want to make a deal so badly." },
@@ -127,6 +127,12 @@ const events = [
   { date: "2026-08-26", source: "Truth Social AI image", quote: "MISSION ACCOMPLISHED"},
   { date: "2026-08-27", source: "Oval Office remarks", quote: "We don't want to speak to them. We're not looking to meet or anything."},
   { date: "2026-08-27", source: "Truth Social", quote: "FoxNews did a particularly inaccurate report on the Failing Islamic Republic of Iran. I don’t want to meet, they do. In fact, they are begging to make a deal."},
+  { date: "2026-08-30", source: "Trey Gowdy interview", quote: "I'm putting out a fire in Iran, which I had to do. I had to put out a fire." },
   { date: "2026-08-31", source: "Truth Social", quote: "Iran is officially a Failed Nation. IT IS DEAD!" },
+  { date: "2026-08-31", source: "Oval Office remarks", quote: "Their leaders are largely dead, their navy is gone, their air force is gone...That doesn't mean we won't smack 'em; we'll see what happens." },
+  { date: "2026-08-31", source: "Oval Office remarks", quote: "We went into Iran, and we're beating the hell out of them and doing a good job." },
+  { date: "2026-09-01", source: "Truth Social", quote: "They will be hit again at a much harder and higher level, but it will not be the biggest attack of them all...when it is over, there will be very little left of the Islamic Republic of Iran!" },
+  { date: "2026-09-01", source: "Trey Yingst interview", quote: "This is a very big hit today. If it goes a third time, they’re going to be totally wiped out as a country." },
+
 
 ];
