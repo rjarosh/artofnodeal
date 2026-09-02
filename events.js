@@ -133,6 +133,7 @@ const events = [
   { date: "2026-08-31", source: "Oval Office remarks", quote: "We went into Iran, and we're beating the hell out of them and doing a good job." },
   { date: "2026-09-01", source: "Truth Social", quote: "They will be hit again at a much harder and higher level, but it will not be the biggest attack of them all...when it is over, there will be very little left of the Islamic Republic of Iran!" },
   { date: "2026-09-01", source: "Trey Yingst interview", quote: "This is a very big hit today. If it goes a third time, they’re going to be totally wiped out as a country." },
+  { date: "2026-09-01", source: "Truth Social", quote: "I couldn’t care less if they sign a worthless, to them, agreement...They are just playing out the inevitable. When are the Iranian people going to rise up and fight?" },
 
 
 ];
