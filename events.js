@@ -134,6 +134,8 @@ const events = [
   { date: "2026-09-01", source: "Truth Social", quote: "They will be hit again at a much harder and higher level, but it will not be the biggest attack of them all...when it is over, there will be very little left of the Islamic Republic of Iran!" },
   { date: "2026-09-01", source: "Trey Yingst interview", quote: "This is a very big hit today. If it goes a third time, they’re going to be totally wiped out as a country." },
   { date: "2026-09-01", source: "Truth Social", quote: "I couldn’t care less if they sign a worthless, to them, agreement...They are just playing out the inevitable. When are the Iranian people going to rise up and fight?" },
+  { date: "2026-09-02", source: "Rose Garden dinner remarks", quote: "Pete, you did a good job last night in Iran, by the way. You knocked the hell out of them. Very good. We're winning - we're winning that one very big, by the way, in case you haven't noticed." },
+  { date: "2026-09-02", source: "Oval Office remarks", quote: "The regime is getting weaker and weaker by the day, and at some point, they're not going to be able to shoot so easily because I think the people aren't going to take it." },
 
 
 ];
