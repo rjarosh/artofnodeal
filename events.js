@@ -137,6 +137,8 @@ const events = [
   { date: "2026-09-02", source: "Rose Garden dinner remarks", quote: "Pete, you did a good job last night in Iran, by the way. You knocked the hell out of them. Very good. We're winning - we're winning that one very big, by the way, in case you haven't noticed." },
   { date: "2026-09-02", source: "Oval Office remarks", quote: "The regime is getting weaker and weaker by the day, and at some point, they're not going to be able to shoot so easily because I think the people aren't going to take it." },
   { date: "2026-09-03", source: "Truth Social", quote: "[The US media] are actually treasonous. They do it because they would rather see the United States LOSE a War that we’re easily WINNING, than see me WIN!" },
+  { date: "2026-09-04", source: "Oval Office remarks", quote: "I would say it’s a military conflict, if you want. Some people could call it a war. I don’t think it matters what you call it. What matters is the fact that we have had tremendous success." },
+  { date: "2026-09-04", source: "Oval Office remarks", quote: "We are not fighting right now. There is no fighting. We are taking on a lot of oil. We control the Hormuz Strait. We control it very strongly." },
 
 
 ];
