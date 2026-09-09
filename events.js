@@ -141,6 +141,7 @@ const events = [
   { date: "2026-09-04", source: "Oval Office remarks", quote: "I would say it’s a military conflict, if you want. Some people could call it a war. I don’t think it matters what you call it. What matters is the fact that we have had tremendous success." },
   { date: "2026-09-04", source: "Oval Office remarks", quote: "We are not fighting right now. There is no fighting. We are taking on a lot of oil. We control the Hormuz Strait. We control it very strongly." },
   { date: "2026-09-07", source: "Truth Social", quote: "Oil prices will drop precipitously, like everything else is dropping (but more!), when we WIN the war with Iran. Three Dollars a gallon, but ultimately, below Two Dollars a gallon. It will all happen quickly." },
+  { date: "2026-09-08", source: "White House remarks", quote: "They've been punished greatly. As you know, we've really taken it to them. I want to compliment our military; the job they do is unbelievable...Nobody thought it could go so well." },
 
 
 ];
