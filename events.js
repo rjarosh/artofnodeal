@@ -144,6 +144,8 @@ const events = [
   { date: "2026-09-07", source: "Truth Social", quote: "Oil prices will drop precipitously, like everything else is dropping (but more!), when we WIN the war with Iran. Three Dollars a gallon, but ultimately, below Two Dollars a gallon. It will all happen quickly." },
   { date: "2026-09-08", source: "White House remarks", quote: "They've been punished greatly. As you know, we've really taken it to them. I want to compliment our military; the job they do is unbelievable...Nobody thought it could go so well." },
   { date: "2026-09-09", source: "Press gaggle outside Air Force One", quote: "You're going to see a lot more. We've taken out about nine of their tankers. Many of them are gonzo...I think the war is going to end immediately after the election." },
+  { date: "2026-09-09", source: "RNC Midterm Convention", quote: "Oil will be going down as soon as we win the war with Iran, which is taking place right now. We'll win it. We're winning it." },
+  { date: "2026-09-09", source: "RNC Midterm Convention", quote: "So they're going to be quitting or dropping out or who knows what the hell, whatever it is, right after election day, because they want to deal, desperately want to deal with Democrats like Obama." },
 
 
 ];
