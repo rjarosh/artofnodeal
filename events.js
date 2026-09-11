@@ -146,6 +146,7 @@ const events = [
   { date: "2026-09-09", source: "Press gaggle outside Air Force One", quote: "You're going to see a lot more. We've taken out about nine of their tankers. Many of them are gonzo...I think the war is going to end immediately after the election." },
   { date: "2026-09-09", source: "RNC Midterm Convention", quote: "Oil will be going down as soon as we win the war with Iran, which is taking place right now. We'll win it. We're winning it." },
   { date: "2026-09-09", source: "RNC Midterm Convention", quote: "So they're going to be quitting or dropping out or who knows what the hell, whatever it is, right after election day, because they want to deal, desperately want to deal with Democrats like Obama." },
+  { date: "2026-09-10", source: "Laura Ingraham interview", quote: "I’m not gonna say when, but I think it ends right after the election...They’re limping along. They’re in deep trouble." },
 
 
 ];
