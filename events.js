@@ -147,7 +147,9 @@ const events = [
   { date: "2026-09-09", source: "RNC Midterm Convention", quote: "Oil will be going down as soon as we win the war with Iran, which is taking place right now. We'll win it. We're winning it." },
   { date: "2026-09-09", source: "RNC Midterm Convention", quote: "So they're going to be quitting or dropping out or who knows what the hell, whatever it is, right after election day, because they want to deal, desperately want to deal with Democrats like Obama." },
   { date: "2026-09-10", source: "Laura Ingraham interview", quote: "I’m not gonna say when, but I think it ends right after the election. They’re limping along. They’re in deep trouble." },
-  { date: "2026-09-12", source: "Presser with Irish PM", quote: "I think [the war will end] very soon, I think it’ll be right after the midterms, actually...and oil will come tumbling down when that happens" },
-
+  { date: "2026-09-12", source: "Presser with Irish PM", quote: "I think [the war will end] very soon, I think it’ll be right after the midterms, actually...and oil will come tumbling down when that happens." },
+  { date: "2026-09-13", source: "Press gaggle at the Irish Open", quote: "It could end before the midterm, but it'll end after the midterm. And Iran I will tell you this, Iran wants to make a deal so badly. They are calling constantly. They wanna make a deal. They gotta make the right deal." },
+  { date: "2026-09-14", source: "Truth Social", quote: "The failing Nation of Iran wants to make a deal, quickly and badly. I will determine whether or not the U.S.A. will choose to engage - The concept of which we are open to." },
+  { date: "2026-09-14", source: "Truth Social", quote: "And we prevented Iran from having a Nuclear Weapon! With the temporary exception of Oil, prices are coming down sharply, and Oil will drop like a rock as soon as the Military Conflict with Iran is over, and that will not be long." },
 
 ];
