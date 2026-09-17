@@ -151,5 +151,7 @@ const events = [
   { date: "2026-09-13", source: "Press gaggle at the Irish Open", quote: "It could end before the midterm, but it'll end after the midterm. And Iran I will tell you this, Iran wants to make a deal so badly. They are calling constantly. They wanna make a deal. They gotta make the right deal." },
   { date: "2026-09-14", source: "Truth Social", quote: "The failing Nation of Iran wants to make a deal, quickly and badly. I will determine whether or not the U.S.A. will choose to engage - The concept of which we are open to." },
   { date: "2026-09-14", source: "Truth Social", quote: "And we prevented Iran from having a Nuclear Weapon! With the temporary exception of Oil, prices are coming down sharply, and Oil will drop like a rock as soon as the Military Conflict with Iran is over, and that will not be long." },
+  { date: "2026-09-16", source: "Rally in Gastonia, NC", quote: "And you watch what's gonna happen to Iran, it's gonna be a really good conclusion. And it's gonna happen...I say it's gonna be a little bit after the election, but maybe not. Maybe it's before the election." },
+  { date: "2026-09-16", source: "Air Force One gaggle", quote: "Well, hopefully we're toward the end of the war. They wanna make a deal and we'll see how that works out...Iran is very much wanting to make a deal. We'll see how that works." },
 
 ];
