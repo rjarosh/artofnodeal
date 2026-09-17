@@ -153,5 +153,6 @@ const events = [
   { date: "2026-09-14", source: "Truth Social", quote: "And we prevented Iran from having a Nuclear Weapon! With the temporary exception of Oil, prices are coming down sharply, and Oil will drop like a rock as soon as [it's] over, and that will not be long." },
   { date: "2026-09-16", source: "Rally in Gastonia, NC", quote: "And you watch what's gonna happen to Iran, it's gonna be a really good conclusion. And it's gonna happen...I say it's gonna be a little bit after the election, but maybe not. Maybe it's before the election." },
   { date: "2026-09-16", source: "Air Force One gaggle", quote: "Well, hopefully we're toward the end of the war. They wanna make a deal and we'll see how that works out...Iran is very much wanting to make a deal. We'll see how that works." },
+  { date: "2026-09-17", source: "Barak Ravid (Axios) interview", quote: "I have a big decision coming up. Do I want to go in and annihilate them or do I not? It's a big decision. Anything could happen with me." },
 
 ];
