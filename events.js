@@ -10,6 +10,7 @@ const events = [
   { date: "2026-03-31", source: "Remarks in Oval Office (for EO on elections)", quote: "I think two or three weeks. Yeah." },
   { date: "2026-04-01", source: "White House Address", quote: "We are going to finish the job and we're going to finish it very fast. We're getting very close." },
   { date: "2026-04-06", source: "White House Press Conference", quote: "We were very close to a deal." },
+  { date: "2026-04-07", source: "Truth Social", quote: "A whole civilization will die tonight, never to be brought back again. I don’t want that to happen, but it probably will." },
   { date: "2026-04-07", source: "Truth Social", quote: "Very far along with a definitive Agreement concerning Longterm PEACE with Iran...A two week period will allow the Agreement to be finalized and consummated." },
   { date: "2026-04-15", source: "Fox Business", quote: "I think it's close to over. I view it as very close to over." },
   { date: "2026-04-16", source: "Event in Las Vegas", quote: "The war in Iran is going along swimmingly. We can do whatever we want and it should be ending pretty soon." },
