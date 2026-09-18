@@ -155,5 +155,6 @@ const events = [
   { date: "2026-09-16", source: "Rally in Gastonia, NC", quote: "And you watch what's gonna happen to Iran, it's gonna be a really good conclusion. And it's gonna happen...I say it's gonna be a little bit after the election, but maybe not. Maybe it's before the election." },
   { date: "2026-09-16", source: "Air Force One gaggle", quote: "Well, hopefully we're toward the end of the war. They wanna make a deal and we'll see how that works out...Iran is very much wanting to make a deal. We'll see how that works." },
   { date: "2026-09-17", source: "Barak Ravid (Axios) interview", quote: "I have a big decision coming up. Do I want to go in and annihilate them or do I not? It's a big decision. Anything could happen with me." },
+  { date: "2026-09-18", source: "Robert Sherman (NewsNation) interview", quote: "If the deal's not a correct deal, then I wouldn't even think about it. But right now, they want to make a deal because they're losing in every way." },
 
 ];
