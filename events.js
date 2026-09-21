@@ -73,7 +73,7 @@ const events = [
   { date: "2026-07-13", source: "Fox and Friends interview", quote: "We're putting the blockade back and it's a blockade...The blockade was probably more effective even than hitting them." },
   { date: "2026-07-13", source: "Oval Office remarks", quote: "We had a deal yesterday or the day before yesterday, it was all done and then they broke up that deal immediately because they found out there was something in the deal they didn't like." },
   { date: "2026-07-14", source: "Oval Office remarks with al-Zaidi", quote: "I wanted to give them a chance at making a deal. We had a deal two days ago, it was done. And then all of a sudden, they couldn't do it - they didn't like something about the deal, they couldn't do it. " },
-  { date: "2026-07-14", source: "Trey Yingst interview", quote: "I think they have no choice [to make a deal]...Well, now we, I don't wanna negotiate now. I said, 'Let's not negotiate.' Three days ago, we had a deal." },
+  { date: "2026-07-14", source: "Trey Yingst (Fox News) interview", quote: "I think they have no choice [to make a deal]...Well, now we, I don't wanna negotiate now. I said, 'Let's not negotiate.' Three days ago, we had a deal." },
   { date: "2026-07-14", source: "Truth Social", quote: "the Strait of Hormuz is open to ALL Ship traffic except for Iran" },
   { date: "2026-07-15", source: "Army War College remarks", quote: "The country is booming, and we'll have Iran defeated soon, they'll be defeated very soon." },
   { date: "2026-07-15", source: "Fox Business interview", quote: "They're nasty people, but they want to make a deal. I can tell you they want to make a deal. " },
@@ -112,7 +112,7 @@ const events = [
   { date: "2026-08-11", source: "Wayne Allyn Root phone interview", quote: "Like I said, I'm sort of negotiating...You see, they're very devious negotiators because they'll agree to something, then they'll go out and tell the press that they never agreed to it." },
   { date: "2026-08-12", source: "Truth Social", quote: "Iran is all talk and no action, the Bully of the Middle East No Longer. Praise be to Allah!" },
   { date: "2026-08-14", source: "Long Island campaign rally", quote: "And after we finish defeating Iran, which is being very badly defeated, pretty soon I’ll be declaring the Hormuz Strait a territory of the United States." },
-  { date: "2026-08-17", source: "Fox News' Trey Yingst interview", quote: "I have no time schedule, I'm not in a hurry...If Oman gets in the way, we’ll bomb the shit out of them." },
+  { date: "2026-08-17", source: "Trey Yingst (Fox News) interview", quote: "I have no time schedule, I'm not in a hurry...If Oman gets in the way, we’ll bomb the shit out of them." },
   { date: "2026-08-18", source: "Truth Social", quote: "There are no talks or conversations going on, or scheduled, with the Islamic Republic of Iran." },
   { date: "2026-08-18", source: "White House remarks", quote: "You know, the deal didn't turn out to be what they said, you know, when they tell us one thing and they do another." },
   { date: "2026-08-19", source: "Truth Social", quote: "No one has given the Islamic Republic of Iran a greater opportunity to make a Deal than me. TRAGICALLY, for them, they have failed to take it...This will be an ECONOMIC D-DAY." },
@@ -133,7 +133,7 @@ const events = [
   { date: "2026-08-31", source: "Oval Office remarks", quote: "Their leaders are largely dead, their navy is gone, their air force is gone...That doesn't mean we won't smack 'em; we'll see what happens." },
   { date: "2026-08-31", source: "Oval Office remarks", quote: "We went into Iran, and we're beating the hell out of them and doing a good job." },
   { date: "2026-09-01", source: "Truth Social", quote: "They will be hit again at a much harder and higher level, but it will not be the biggest attack of them all...when it is over, there will be very little left of the Islamic Republic of Iran!" },
-  { date: "2026-09-01", source: "Trey Yingst interview", quote: "This is a very big hit today. If it goes a third time, they’re going to be totally wiped out as a country." },
+  { date: "2026-09-01", source: "Trey Yingst (Fox News)interview", quote: "This is a very big hit today. If it goes a third time, they’re going to be totally wiped out as a country." },
   { date: "2026-09-01", source: "Truth Social", quote: "I couldn’t care less if they sign a worthless, to them, agreement...They are just playing out the inevitable. When are the Iranian people going to rise up and fight?" },
   { date: "2026-09-02", source: "Rose Garden dinner remarks", quote: "Pete, you did a good job last night in Iran, by the way. You knocked the hell out of them. Very good. We're winning - we're winning that one very big, by the way, in case you haven't noticed." },
   { date: "2026-09-02", source: "Oval Office remarks", quote: "The regime is getting weaker and weaker by the day, and at some point, they're not going to be able to shoot so easily because I think the people aren't going to take it." },
@@ -156,5 +156,6 @@ const events = [
   { date: "2026-09-16", source: "Air Force One gaggle", quote: "Well, hopefully we're toward the end of the war. They wanna make a deal and we'll see how that works out...Iran is very much wanting to make a deal. We'll see how that works." },
   { date: "2026-09-17", source: "Barak Ravid (Axios) interview", quote: "I have a big decision coming up. Do I want to go in and annihilate them or do I not? It's a big decision. Anything could happen with me." },
   { date: "2026-09-18", source: "Robert Sherman (NewsNation) interview", quote: "If the deal's not a correct deal, then I wouldn't even think about it. But right now, they want to make a deal because they're losing in every way." },
+  { date: "2026-09-20", source: "Trey Yingst (Fox News) interview", quote: "Very big things are going to be happening in the not-so-distant future...my question is, if and when do I blow the entire nation up?" },
 
 ];
