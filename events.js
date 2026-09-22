@@ -157,5 +157,7 @@ const events = [
   { date: "2026-09-17", source: "Barak Ravid (Axios) interview", quote: "I have a big decision coming up. Do I want to go in and annihilate them or do I not? It's a big decision. Anything could happen with me." },
   { date: "2026-09-18", source: "Robert Sherman (NewsNation) interview", quote: "If the deal's not a correct deal, then I wouldn't even think about it. But right now, they want to make a deal because they're losing in every way." },
   { date: "2026-09-20", source: "Trey Yingst (Fox News) interview", quote: "Very big things are going to be happening in the not-so-distant future...my question is, if and when do I blow the entire nation up?" },
+  { date: "2026-09-22", source: "UN General Assembly", quote: "Will a deal be made with Iran that lets them rebuild and create a far greater country than it ever was before...or do I annihilate the Islamic Republic, and do it quickly?" },
+  { date: "2026-09-22", source: "UN General Assembly", quote: "I believe we’ll make a deal right after the election, because it doesn’t make sense for them not to. They’re waiting to see how I do in the midterm election." },
 
 ];
