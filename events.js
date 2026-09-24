@@ -160,6 +160,6 @@ const events = [
   { date: "2026-09-22", source: "UN General Assembly", quote: "Will a deal be made with Iran that lets them rebuild and create a far greater country than it ever was before...or do I annihilate the Islamic Republic, and do it quickly?" },
   { date: "2026-09-22", source: "UN General Assembly", quote: "I believe we’ll make a deal right after the election, because it doesn’t make sense for them not to. They’re waiting to see how I do in the midterm election." },
   { date: "2026-09-22", source: "UN General Assembly Shield of the Americas event", quote: "I can tell you that Steve and Jared met with the mediators on the Iran deal. The mediators were here, not the highest level, but it's something. We had a lot of good thoughts and a lot of things are working out very well." },
-  { date: "2026-09-22", source: "UN General Assembly Bilateral with UK PM", quote: " I think that a settlement is going to be reached they want to talk to us. They have been talking to us. Even today, they've been talking to us. And the relationship is developing." },
+  { date: "2026-09-22", source: "UN General Assembly Bilateral with UK PM", quote: "I think that a settlement is going to be reached they want to talk to us. They have been talking to us. Even today, they've been talking to us. And the relationship is developing." },
 
 ];
