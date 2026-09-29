@@ -162,5 +162,6 @@ const events = [
   { date: "2026-09-22", source: "UN General Assembly Shield of the Americas event", quote: "I can tell you that Steve and Jared met with the mediators on the Iran deal. The mediators were here, not the highest level, but it's something. We had a lot of good thoughts and a lot of things are working out very well." },
   { date: "2026-09-22", source: "UN General Assembly Bilateral with UK PM", quote: "I think that a settlement is going to be reached they want to talk to us. They have been talking to us. Even today, they've been talking to us. And the relationship is developing." },
   { date: "2026-09-26", source: "White House press gaggle", quote: "Well I’m rejecting their deal...They want to make a deal where they open the strait immediately because they’re losing so badly...We’re winning tremendously." },
+  { date: "2026-09-27", source: "Barak Ravid (Axios) interview", quote: "I expect more talks with Iran [this week]. They want to make a deal, but it is not the deal that I want to make. It is what we would have maybe agreed to a year ago. They overplayed their hand." },
 
 ];
