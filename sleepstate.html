@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The D̶e̶e̶p̶ Sleep State</title>
+<link rel="icon" type="image/x-icon" href="https://artofnodeal.com/images/sleep_favicon.ico">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-019V9J4032"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-019V9J4032');
+</script>
+
+<!-- Basic OG Tags -->
+<meta property="og:title" content="The D̶e̶e̶p̶ Sleep State" />
+<meta property="og:description" content="Tracking Trump's Snoozes" />
+<meta property="og:image" content="https://artofnodeal.com/images/sleep_og.jpeg" />
+<meta property="og:url" content="https://artofnodeal.com/sleepstate" />
+
+<!-- Twitter/X Card Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://artofnodeal.com/images/sleep_og.jpeg" />
+
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<style>
+  :root{
+    --bg:#f3f1ee; --surface:#fff; --ink:#1d1c1a; --muted:#77736c; --line:#e2dfda; --accent:#c8321f; --hover:#ebe7e0;
+    --side:76px; --gap:16px;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){--bg:#151413; --surface:#211f1d; --ink:#f1eeea; --muted:#9b968e; --line:#332f2c; --accent:#ff6a55; --hover:#35312d}
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font:15px/1.4 "Inter",system-ui,-apple-system,"Segoe UI",sans-serif}
+
+  /* Sidebar */
+  .side{position:fixed;inset:0 auto 0 0;width:var(--side);display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 0;background:var(--surface);border-right:1px solid var(--line);z-index:10}
+  .logo{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:var(--accent);margin-bottom:10px}
+  .nav{
+    position:relative;width:52px;height:52px;border:0;background:none;border-radius:16px;color:var(--ink);cursor:pointer;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font:inherit;font-size:11px;
+    transition:background .12s;
+  }
+  .nav[aria-current="page"]{background:transparent;color:var(--ink)}
+  .nav:hover,.nav[aria-current="page"]:hover{background:var(--hover)}
+  .nav.logo svg{width:40px;height:40px}
+  .nav:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .nav svg{width:22px;height:22px}
+
+  /* Tooltips (shown on hover / keyboard focus; skipped on touch screens) */
+  .nav[data-tip]::after{
+    content:attr(data-tip);position:absolute;left:calc(100% + 10px);top:50%;transform:translateY(-50%);
+    background:var(--ink);color:var(--surface);padding:5px 9px;border-radius:8px;font-size:12px;line-height:1.2;
+    white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .12s;z-index:20;
+  }
+  @media (hover:hover){
+    .nav:hover::after,.nav:focus-visible::after{opacity:1;transition-delay:.3s}
+  }
+
+  [hidden]{display:none !important}
+
+  /* Submit-a-link modal */
+  dialog{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:16px;padding:24px;width:min(92vw,420px);box-shadow:0 20px 60px rgba(0,0,0,.25)}
+  dialog::backdrop{background:rgba(0,0,0,.45)}
+  dialog h2{margin:0 0 6px;font-size:20px}
+  dialog p{margin:0 0 14px;color:var(--muted);font-size:14px}
+  dialog input{width:100%;padding:11px 12px;font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:12px}
+  dialog input:focus{outline:2px solid var(--accent);outline-offset:1px}
+  #add-status{min-height:20px;margin:8px 0 12px;font-size:13px;color:var(--muted)}
+  #add-status.err{color:var(--accent)}
+  .actions{display:flex;justify-content:flex-end;gap:8px}
+  .actions button{font:inherit;font-size:14px;padding:9px 16px;border-radius:999px;border:0;cursor:pointer;background:var(--hover);color:var(--ink)}
+  .actions button[type=submit]{background:var(--accent);color:#fff;font-weight:600}
+  .actions button:disabled{opacity:.6;cursor:default}
+
+  /* About page */
+  .about{max-width:640px;margin:24px auto;padding:32px 36px;background:var(--surface);border:1px solid var(--line);border-radius:16px}
+  .about h1{margin:0 0 16px;font-size:26px;line-height:1.2}
+  .about p{margin:0 0 14px;font-size:16px;line-height:1.6}
+  .about p:last-child{margin-bottom:0}
+  .about a{color:var(--accent)}
+
+  .about-img{display:block;width:100%;height:auto;border-radius:12px;margin:0 0 16px}
+
+  /* Title: ordinary page content, so it scrolls away with the feed */
+  .wordmark{margin:0;padding:10px 0 20px;text-align:center;font-size:15px;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+
+  .brand{font-size:.58em;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .wordmark del,.brand del{text-decoration:line-through;text-decoration-color:var(--accent);text-decoration-thickness:.16em;color:var(--muted)}
+
+  /* Feed */
+  main{margin-left:var(--side);padding:var(--gap)}
+  #feed{display:flex;justify-content:center;gap:var(--gap);align-items:flex-start;max-width:1800px;margin:0 auto}
+  .col{flex:1 1 0;min-width:0;max-width:300px;display:flex;flex-direction:column;gap:var(--gap)}
+  .pin{background:var(--surface);border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+  .embed{display:block;min-height:120px;padding:0}   /* block, not flex: centering would push a scaled-down embed off the left edge */
+  .embed > *{margin:0 !important}
+  .native{width:100%;flex:none;min-width:0}
+  .foot{display:flex;justify-content:space-between;gap:8px;padding:8px 14px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
+  .foot a{color:inherit;text-decoration:none}
+  .foot a:hover{color:var(--accent);text-decoration:underline}
+
+  /* X / Instagram / Threads wrappers: let the widget decide its own height */
+  .embed.x,.embed.instagram,.embed.threads{padding:0}
+  .embed.threads{display:block}
+  .embed.instagram{display:block}
+  .embed.instagram iframe,.embed.instagram blockquote{width:100% !important;min-width:0 !important;max-width:100% !important}
+  .embed.threads iframe{width:100% !important;min-width:0 !important;max-width:100% !important;display:block}
+  .embed.threads blockquote{width:100%}
+  .embed.threads blockquote > a{display:block;padding:18px;text-align:center;color:var(--muted);font-size:13px;text-decoration:none}
+  .embed .twitter-tweet{margin:0 !important}
+
+  .embed.bluesky{display:block;width:100%;overflow:hidden}
+  .embed.bluesky iframe{width:100% !important;max-width:100% !important;border:0;display:block}
+
+  /* YouTube facade */
+  .yt{position:relative;width:100%;background:#000;cursor:pointer;border:0;padding:0;display:block}
+  .yt img{width:100%;height:100%;object-fit:cover;display:block}
+  .yt .play{position:absolute;inset:0;margin:auto;width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,.65);display:grid;place-items:center;transition:transform .15s}
+  .yt:hover .play{transform:scale(1.08);background:var(--accent)}
+  .yt:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+  .yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+  .fallback{padding:18px;text-align:center;color:var(--muted)}
+  .fallback a{color:var(--accent)}
+  #sentinel{height:60px;display:grid;place-items:center;color:var(--muted);font-size:13px}
+
+  @media (max-width:640px){
+    :root{--side:0px;--gap:8px}
+    .foot{padding:6px 10px;flex-wrap:wrap;font-size:11px}
+    .side{inset:auto 0 0 0;width:auto;height:60px;flex-direction:row;justify-content:center;gap:24px;padding:4px;border-right:0;border-top:1px solid var(--line)}
+    .logo{display:none}
+    .nav[data-tip]::after{left:50%;top:auto;bottom:calc(100% + 8px);transform:translateX(-50%)}
+    .col{max-width:none}
+    .wordmark{font-size:13px;letter-spacing:.14em}
+    .brand{letter-spacing:.14em}
+    .about{margin:12px auto;padding:22px 20px}
+    main{padding:var(--gap) var(--gap) 80px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+
+<nav class="side" aria-label="Main">
+  <button class="nav logo" id="logo" aria-label="The Sleep State: home" data-tip="The D̶e̶e̶p̶ Sleep State">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="46" fill="#000"/>
+
+  <!-- all-seeing eye -->
+  <path
+    d="M18 50 Q50 19 82 50 Q50 81 18 50Z"
+    fill="none"
+    stroke="#fff"
+    stroke-width="3"
+  />
+
+  <!-- Z -->
+  <path
+    d="M39 39h23L39 61h23"
+    fill="none"
+    stroke="#fff"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- conspiracy rays -->
+  <path
+    d="M50 10v7M50 83v7M10 50h7M83 50h7"
+    stroke="#fff"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+
+  <!-- classified-looking marks -->
+  <path
+    d="M24 25l5 3M76 25l-5 3M24 75l5-3M76 75l-5-3"
+    stroke="#fff"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+</svg>
+
+  </button>
+  <button class="nav" id="home" aria-current="page" aria-label="Home" data-tip="Home">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>Home
+  </button>
+  <button class="nav" id="shuffle" aria-label="Shuffle" data-tip="Shuffle the naps">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/></svg>Shuffle
+  </button>
+  <button class="nav" id="add-btn" aria-label="Add" data-tip="Add a snooze">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>Add
+  </button>
+  <button class="nav" id="about-btn" aria-label="About" data-tip="About">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg>About
+  </button>
+</nav>
+
+<main>
+  <h1 class="wordmark" id="wordmark">The <del>Deep</del> Sleep State</h1>
+  <div id="feed"></div>
+  <div id="sentinel">Loading more…</div>
+
+  <!-- ABOUT PAGE: edit the text below. Plain HTML, no JavaScript needed. -->
+  <section class="about" id="about" hidden>
+    <center><h1>About <span class="brand">The <del>Deep</del> Sleep State</span></h1></center>
+    <p>We were told it was Sleepy Joe Biden. He would sleep in cabinet meetings. He would doze off at NBA games. He'd catch up on Zzzs during his own criminal trial. He would get bored and drift off during Memorial Day cermonies for fallen troops. <strong>That's what the Deep State would have you believe.</strong></p>
+    <img class="about-img" title="Andrew Harnik/Getty Images" src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2244878701.jpg?c=original&q=w_860,c_fill/f_avif">
+    <p>Maybe President Trump sleeps during all those events and more. Maybe he's just taking really long blinks. I guess we'll never know.</p>
+    <p>Submit a link if you catch a snooze that we haven't yet noticed.</p>
+  </section>
+</main>
+
+<dialog id="add-dialog" aria-labelledby="add-title">
+  <form id="add-form" novalidate>
+    <h2 id="add-title">Catch the President taking a snooze?</h2>
+    <p>Share a link to a video/image from X, Instagram, Threads, Bluesky or YouTube.</p>
+    <input id="add-url" type="url" placeholder="https://" autocomplete="off" aria-label="Link">
+    <div id="add-status" role="status"></div>
+    <div class="actions">
+      <button type="button" id="add-cancel">Cancel</button>
+      <button type="submit" id="add-send">Submit</button>
+    </div>
+  </form>
+</dialog>
+
+<script>
+/* ------------------------------------------------------------------
+   PINS: paste post URLs here in chrono order
+------------------------------------------------------------------- */
+const PINS = [
+  "https://bsky.app/profile/theonion.com/post/3mnuydn7luq2o",
+  "https://x.com/GovPressOffice/status/2104784552837460402",
+  "https://x.com/atrupar/status/2101036384752435270",
+  "https://bsky.app/profile/mjfree.bsky.social/post/3mvbuenaqzq2s",
+  "https://x.com/tedlieu/status/2095242695191003226",
+  "https://x.com/Acyn/status/2094508039114252521",
+  "https://www.instagram.com/reel/Db5Ip53gzqW/",
+  "https://x.com/RpsAgainstTrump/status/2085836887596437671",
+  "https://www.instagram.com/reel/DbYCX4QOhB-/",
+  "https://x.com/thedailybeast/status/2080874909098480051",
+  "https://x.com/NYMag/status/2074186969123549642",
+  "https://x.com/ClutchPoints/status/2064180209033900357?",
+  "https://www.instagram.com/reel/DZLnYVPDiAs/",
+  "https://x.com/HQNewsNow/status/2058964340191994350",
+  "https://x.com/ProjectLincoln/status/2053902628577329273",
+  "https://x.com/atrupar/status/2051400709510180989",
+  "https://x.com/atrupar/status/2047400412366397611",
+  "https://www.instagram.com/reel/DWPkHxfAcsG",
+];
+
+/* ---- Submit-a-link form: set these two to send submissions to your Google Form ----
+   FORM_ACTION: your form's link with /viewform changed to /formResponse
+   FORM_FIELD:  the "entry.123456789" id of the question that holds the link */
+const FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLSdqMAKfdgvzzKsJo_fbfiD6qLTlRFmfgZQ0s4UtINLr_usfJw/formResponse";
+const FORM_FIELD  = "entry.71714747";
+
+const ORDER = "newest";   // "newest" or "oldest": only used when every pin has a date
+const BATCH = 6;          // pins added per scroll
+const MIN_COL = 260;      // narrowest column on wider screens
+const NATIVE = {x:250, instagram:326, threads:300, bluesky:360};
+const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+
+const scripts = {};
+function loadScript(src){
+  return scripts[src] ||= new Promise((ok, fail) => {
+    const s = document.createElement("script");
+    s.src = src; s.async = true; s.onload = ok; s.onerror = fail;
+    document.head.appendChild(s);
+  });
+}
+
+function parse(url){
+  const u = new URL(url), h = u.hostname.replace(/^www\./, "");
+  if (/(^|\.)(x|twitter)\.com$/.test(h)){
+    const m = u.pathname.match(/status\/(\d+)/); if (m) return {p:"x", id:m[1], url};
+  }
+  if (h === "bsky.app"){
+    const m = u.pathname.match(/profile\/([^/]+)\/post\/([\w]+)/); if (m) return {p:"bluesky", handle:m[1], rkey:m[2], url};
+  }
+  if (/instagram\.com$/.test(h)) return {p:"instagram", url: u.origin + u.pathname.replace(/\/?$/, "/")};
+  if (/threads\.(net|com)$/.test(h)) return {p:"threads", url: u.origin + u.pathname};
+  if (h === "youtu.be") return {p:"youtube", id:u.pathname.slice(1), url};
+  if (/youtube\.com$/.test(h)){
+    const short = u.pathname.match(/shorts\/([\w-]+)/);
+    if (short) return {p:"youtube", id:short[1], short:true, url};
+    if (u.searchParams.get("v")) return {p:"youtube", id:u.searchParams.get("v"), url};
+  }
+  return {p:"unknown", url};
+}
+
+/* ---------- renderers: each draws into `box` ---------- */
+const render = {
+  async x(pin, box){
+    await loadScript("https://platform.twitter.com/widgets.js");
+    await new Promise(r => twttr.ready(r));
+    const width = Math.max(250, Math.min(550, box.clientWidth));
+    const el = await twttr.widgets.createTweet(pin.id, box, {width, dnt:true, conversation:"none", theme: dark ? "dark" : "light"});
+    if (!el) throw new Error("tweet unavailable");
+  },
+  async instagram(pin, box){
+    box.innerHTML = `<blockquote class="instagram-media" data-instgrm-permalink="${pin.url}?utm_source=ig_embed" data-instgrm-version="14" style="width:100%;min-width:0;margin:0"></blockquote>`;
+    await loadScript("https://www.instagram.com/embed.js");
+    window.instgrm?.Embeds.process();
+  },
+  async threads(pin, box){
+    box.innerHTML = `<blockquote class="text-post-media" data-text-post-permalink="${pin.url}" data-text-post-version="0" style="width:100%;min-width:0;margin:0"><a href="${pin.url}">View on Threads</a></blockquote>`;
+    const s = document.createElement("script");
+    s.src = "https://www.threads.com/embed.js"; s.async = true;
+    s.onload = () => s.remove();
+    document.body.appendChild(s);
+    // Once the real embed appears, remove the placeholder so later script loads can't process it again.
+    const mo = new MutationObserver(() => {
+      const f = box.querySelector("iframe"), bq = box.querySelector("blockquote");
+      if (!f || !bq) return;
+      if (bq.contains(f)) bq.querySelectorAll(":scope > a").forEach(a => a.style.display = "none");
+      else bq.remove();
+      mo.disconnect();
+    });
+    mo.observe(box, {childList:true, subtree:true});
+  },
+  async bluesky(pin, box){
+    let did = pin.handle;
+    if (!did.startsWith("did:")){
+      const r = await fetch("https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=" + encodeURIComponent(pin.handle));
+      if (!r.ok) throw new Error("handle not found");
+      did = (await r.json()).did;
+    }
+    const id = "bsky" + Math.random().toString(36).slice(2);
+    const f = document.createElement("iframe");
+    f.src = `https://embed.bsky.app/embed/${did}/app.bsky.feed.post/${pin.rkey}?id=${id}`;
+    f.style.cssText = "width:100%;border:0;display:block;height:300px";
+    f.setAttribute("scrolling", "no"); f.allow = "fullscreen";
+    box.appendChild(f);
+    const on = e => {
+      if (!f.isConnected) return removeEventListener("message", on);   // pin was unloaded
+      if (e.origin === "https://embed.bsky.app" && e.data && e.data.id === id) f.style.height = e.data.height + "px";
+    };
+    addEventListener("message", on);
+  },
+  youtube(pin, box){
+    const ratio = pin.short ? "9 / 16" : "16 / 9";
+    box.innerHTML = `
+      <button class="yt" style="aspect-ratio:${ratio}" aria-label="Play video">
+        <img loading="lazy" alt="" src="https://i.ytimg.com/vi/${pin.id}/${pin.short ? "oar2" : "hq"}default.jpg" onerror="this.src='https://i.ytimg.com/vi/${pin.id}/hqdefault.jpg'">
+        <span class="play"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span>
+      </button>`;
+    const btn = box.firstElementChild;
+    btn.onclick = () => {
+      btn.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${pin.id}?autoplay=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="YouTube video"></iframe>`;
+      btn.onclick = null; btn.style.cursor = "default";
+    };
+  }
+};
+
+const labels = {x:"X", instagram:"Instagram", threads:"Threads", bluesky:"Bluesky", youtube:"YouTube"};
+const fallbackHTML = (url, label) => `<div class="fallback">Couldn't load this post.<br><a href="${url}" target="_blank" rel="noopener">Open it on ${label}</a></div>`;
+
+/* ---------- memory control ----------
+   X / Instagram / Threads / Bluesky embeds are full iframes, and each one is heavy.
+   They load only when near the screen and are removed again once they scroll far away.
+   The tile keeps its measured height, so nothing jumps. */
+function mount(card){
+  if (card._inner) return;
+  const box = card.box, nat = NATIVE[card.pin.p], w = box.clientWidth;
+  const k = nat && w < nat ? w / nat : 1;          // k < 1: narrow tile, so draw the embed at its native width and scale it down
+  const inner = document.createElement("div");
+  inner.className = "native";
+  if (k < 1){
+    inner.style.cssText = `width:${nat}px;transform:scale(${k});transform-origin:top left`;
+    card._ro = new ResizeObserver(() => { box.style.height = Math.ceil(inner.offsetHeight * k) + "px"; });
+    card._ro.observe(inner);
+  } else box.style.height = "";
+  box.appendChild(inner); card._inner = inner;
+  Promise.resolve(render[card.pin.p](card.pin, inner))
+    .catch(() => { inner.innerHTML = fallbackHTML(card.url, card.label); })
+    .finally(() => { if (card._inner === inner) box.style.minHeight = ""; });
+}
+function unmount(card){
+  if (!card._inner) return;
+  card._ro?.disconnect(); card._ro = null;
+  const h = card.box.offsetHeight;
+  card.box.style.height = card.box.style.minHeight = h + "px";
+  card.box.replaceChildren(); card._inner = null;
+}
+const lazy = new IntersectionObserver(
+  es => es.forEach(e => e.isIntersecting ? mount(e.target) : unmount(e.target)),
+  {rootMargin:"1000px 0px"}
+);
+
+/* ---------- masonry: each new pin goes to the shortest column ---------- */
+const feed = document.getElementById("feed");
+let cols = [];
+const phone = matchMedia("(max-width:640px)");
+function colCount(){
+  if (phone.matches) return 2;                       // two across on phones, like Pinterest
+  const w = feed.parentElement.clientWidth - 32;
+  return Math.max(1, Math.floor((w + 16) / (MIN_COL + 16)));
+}
+function buildCols(n){
+  const pins = [...feed.querySelectorAll(".pin")];
+  feed.replaceChildren();
+  cols = Array.from({length:n}, () => feed.appendChild(Object.assign(document.createElement("div"), {className:"col"})));
+  pins.forEach(p => shortest().appendChild(p));
+}
+const shortest = () => cols.reduce((a, b) => b.offsetHeight < a.offsetHeight ? b : a);
+
+function addPin(item){
+  const url = item.url, pin = parse(url);
+  const label = labels[pin.p] || "Link";
+  const card = document.createElement("article"); card.className = "pin";
+  const box = document.createElement("div"); box.className = "embed " + pin.p;
+  const foot = document.createElement("div"); foot.className = "foot";
+  const when = item.date ? " · " + new Date(item.date + "T12:00:00").toLocaleDateString(undefined, {month:"short", day:"numeric", year:"numeric"}) : "";
+  foot.innerHTML = `<span>${label}${when}</span><a href="${url}" target="_blank" rel="noopener">Open original</a>`;
+  card.append(box, foot);
+  shortest().appendChild(card);
+  Object.assign(card, {pin, box, url, label});
+  if (pin.p === "youtube") render.youtube(pin, box);          // just a thumbnail until clicked, so it's always cheap
+  else if (render[pin.p]){ box.style.minHeight = "260px"; lazy.observe(card); }
+  else box.innerHTML = fallbackHTML(url, label);
+}
+
+/* ---------- ordered, finite infinite scroll ---------- */
+const items = PINS.map(p => typeof p === "string" ? {url:p} : p);
+if (items.every(p => p.date)){
+  items.sort((a, b) => (new Date(a.date) - new Date(b.date)) * (ORDER === "newest" ? -1 : 1));
+}
+const seen = new Set();
+const ORDERED = items.filter(p => !seen.has(p.url) && seen.add(p.url));   // drop duplicate URLs
+let FEED = ORDERED;
+
+let next = 0;
+const sentinel = document.getElementById("sentinel");
+const observer = new IntersectionObserver(es => es[0].isIntersecting && loadMore(), {rootMargin:"800px"});
+function loadMore(){
+  for (let i = 0; i < BATCH && next < FEED.length; i++){
+    try { addPin(FEED[next]); } catch(e) { console.warn("Skipped bad URL", FEED[next], e); }
+    next++;
+  }
+  if (next >= FEED.length){
+    observer.disconnect();
+    sentinel.textContent = "Hit the SNOOZE button and come back later";
+  } else setTimeout(() => {
+    if (sentinel.getBoundingClientRect().top < innerHeight + 600) loadMore();
+  }, 300);
+}
+observer.observe(sentinel);
+
+/* ---------- Home / Shuffle: clear the feed and rebuild it in a new order ---------- */
+function restart(list){
+  document.querySelectorAll(".pin").forEach(c => { lazy.unobserve(c); c._ro?.disconnect(); });
+  feed.replaceChildren();
+  buildCols(colCount());
+  FEED = list; next = 0;
+  sentinel.textContent = "Loading more…";
+  observer.disconnect(); observer.observe(sentinel);
+  scrollTo({top:0});
+  loadMore();
+}
+/* ---------- Home / About views (all one page; About lives at #about) ---------- */
+function setView(v){
+  const about = v === "about";
+  document.getElementById("about").hidden = !about;
+  document.getElementById("wordmark").hidden = about;
+  feed.hidden = sentinel.hidden = about;          // hidden pins scroll "out of view", so their embeds unload
+  for (const [id, on] of [["home", !about], ["about-btn", about]]){
+    const b = document.getElementById(id);
+    on ? b.setAttribute("aria-current", "page") : b.removeAttribute("aria-current");
+  }
+  scrollTo({top:0});
+}
+function goHome(list){
+  if (location.hash) history.pushState(null, "", location.pathname + location.search);
+  setView("home"); restart(list);
+}
+document.getElementById("home").onclick = document.getElementById("logo").onclick = () => goHome(ORDERED);
+document.getElementById("about-btn").onclick = () => { location.hash = "about"; };
+addEventListener("hashchange", () => {
+  if (location.hash === "#about") setView("about");
+  else { setView("home"); restart(ORDERED); }      // e.g. browser Back
+});
+document.getElementById("shuffle").onclick = () => {
+  const a = ORDERED.slice();
+  for (let i = a.length - 1; i > 0; i--){                    // Fisher-Yates
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  goHome(a);
+};
+
+/* ---------- Add: "Submit a link" modal ---------- */
+const dlg = document.getElementById("add-dialog"), urlIn = document.getElementById("add-url");
+const statusEl = document.getElementById("add-status"), sendBtn = document.getElementById("add-send");
+const say = (msg, err) => { statusEl.textContent = msg; statusEl.className = err ? "err" : ""; };
+document.getElementById("add-btn").onclick = () => { say(""); dlg.showModal(); };
+document.getElementById("add-cancel").onclick = () => dlg.close();
+dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });   // click on the backdrop closes it
+// Lenient check: any http(s) link on a supported site (you review submissions by hand). Adds https:// if it's missing.
+const HOSTS = /(^|\.)(x\.com|twitter\.com|instagram\.com|threads\.net|threads\.com|bsky\.app|youtube\.com|youtu\.be)$/;
+function cleanLink(raw){
+  let t = raw.trim(); if (!t) return null;
+  if (!/^https?:\/\//i.test(t)) t = "https://" + t;
+  try { const u = new URL(t); return HOSTS.test(u.hostname) ? u.href : null; } catch { return null; }
+}
+document.getElementById("add-form").onsubmit = async e => {
+  e.preventDefault();
+  const link = cleanLink(urlIn.value);
+  if (!link) return say("That doesn't look like a link to X, Instagram, Threads, Bluesky or YouTube.", true);
+  if (!FORM_ACTION || !FORM_FIELD) return say("Submissions aren't hooked up yet.", true);
+  sendBtn.disabled = true;
+  try {
+    // no-cors: the browser can send the form but can't read Google's reply, so success is assumed
+    await fetch(FORM_ACTION.replace(/\/viewform.*$/, "/formResponse"), {method:"POST", mode:"no-cors", body:new URLSearchParams({[FORM_FIELD]: link})});
+    say("Thanks for sharing! Your link was sent and might be added here soon."); urlIn.value = "";
+    setTimeout(() => dlg.close(), 3000);
+  } catch { say("Couldn't send that. Try again in a bit.", true); }
+  sendBtn.disabled = false;
+};
+
+let rt;
+addEventListener("resize", () => {
+  clearTimeout(rt);
+  rt = setTimeout(() => { if (colCount() !== cols.length) buildCols(colCount()); }, 250);
+});
+
+buildCols(colCount());
+if (location.hash === "#about") setView("about"); else loadMore();
+</script>
+</body>
+</html>
