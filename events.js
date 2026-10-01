@@ -163,5 +163,9 @@ const events = [
   { date: "2026-09-22", source: "UN General Assembly Bilateral with UK PM", quote: "I think that a settlement is going to be reached they want to talk to us. They have been talking to us. Even today, they've been talking to us. And the relationship is developing." },
   { date: "2026-09-26", source: "White House press gaggle", quote: "Well I’m rejecting their deal...They want to make a deal where they open the strait immediately because they’re losing so badly...We’re winning tremendously." },
   { date: "2026-09-27", source: "Barak Ravid (Axios) interview", quote: "I expect more talks with Iran [this week]. They want to make a deal, but it is not the deal that I want to make. It is what we would have maybe agreed to a year ago. They overplayed their hand." },
+  { date: "2026-09-28", source: "Oval Office Remarks", quote: "We're going to win. As far as I'm concerned, it's going to be one way or the other. It's going to be -- it's going to go pretty quickly." },
+  { date: "2026-09-28", source: "TIME interview", quote: "Yeah, I would do that [ annihilate Iran]. It's possible...Everything's gone, and they want to make a deal, but I want to make the real deal." },
+  { date: "2026-09-30", source: "Oval Office remarks", quote: "Maybe you blow them up. Maybe you blow them up. We have to make that decision. We blow them up, make a deal, but the time is coming. It's going to end very soon, one way or the other." },
+  { date: "2026-09-30", source: "Oval Office remarks", quote: "And we have very soon - you'll see things happening very soon...And we're going to have that war won very quickly, one way or the other. They'll either be one way or the other. Does anyone know what that means? I don't know." },
 
 ];
