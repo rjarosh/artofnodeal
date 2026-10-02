@@ -164,8 +164,15 @@ const events = [
   { date: "2026-09-26", source: "White House press gaggle", quote: "Well I’m rejecting their deal...They want to make a deal where they open the strait immediately because they’re losing so badly...We’re winning tremendously." },
   { date: "2026-09-27", source: "Barak Ravid (Axios) interview", quote: "I expect more talks with Iran [this week]. They want to make a deal, but it is not the deal that I want to make. It is what we would have maybe agreed to a year ago. They overplayed their hand." },
   { date: "2026-09-28", source: "Oval Office Remarks", quote: "We're going to win. As far as I'm concerned, it's going to be one way or the other. It's going to be -- it's going to go pretty quickly." },
-  { date: "2026-09-28", source: "TIME interview", quote: "Yeah, I would do that [ annihilate Iran]. It's possible...Everything's gone, and they want to make a deal, but I want to make the real deal." },
+  { date: "2026-09-28", source: "TIME interview", quote: "Yeah, I would do that [annihilate Iran]. It's possible...Everything's gone, and they want to make a deal, but I want to make the real deal." },
   { date: "2026-09-30", source: "Oval Office remarks", quote: "Maybe you blow them up. Maybe you blow them up. We have to make that decision. We blow them up, make a deal, but the time is coming. It's going to end very soon, one way or the other." },
   { date: "2026-09-30", source: "Oval Office remarks", quote: "And we have very soon - you'll see things happening very soon...And we're going to have that war won very quickly, one way or the other. They'll either be one way or the other. Does anyone know what that means? I don't know." },
+  { date: "2026-10-01", source: "The Correspondent interview (Caitlin Doornbos)", quote: "We’ll make a decision on the direction fairly soon." },
+  { date: "2026-10-01", source: "Truth Social", quote: "I stated, numerous times, that it would take 4-6 weeks to get rid of THE IRAN NUCLEAR THREAT, and I did it in one night! The rest of the time is just to make sure it stays that way." },
+  { date: "2026-10-01", source: "Rally in Durant, OK", quote: "And boy, they doing a good job knocking the hell out of Iran. That'll be over very soon, by the way. Your prices are gonna come pouring down." },
+  { date: "2026-10-01", source: "Rally in Durant, OK", quote: "They wanna make a deal, maybe we'll do it or maybe we won't, because if they're not gonna hold it, let's not do it. Let's just finish the job." },
+  { date: "2026-10-01", source: "News9 Oklahoma City Interview (Haley Hetrick)", quote: "They're ready to fold any day now. Uh, frankly, I think maybe before, maybe right after, but oil prices are gonna be tumbling down, gonna be lower than they were even before the war started." },
+  { date: "2026-10-01", source: "Peterbilt Plant remarks", quote: "But just as I promised, I'm ensuring that Iran will be very quickly ended." },
+  { date: "2026-10-01", source: "Press gaggle outside Air Force One", quote: "We're ending--Iran will very soon be ending one way or the other." },
 
 ];
