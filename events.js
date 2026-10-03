@@ -174,5 +174,8 @@ const events = [
   { date: "2026-10-01", source: "News9 Oklahoma City Interview (Haley Hetrick)", quote: "They're ready to fold any day now. Uh, frankly, I think maybe before, maybe right after, but oil prices are gonna be tumbling down, gonna be lower than they were even before the war started." },
   { date: "2026-10-01", source: "Peterbilt Plant remarks", quote: "But just as I promised, I'm ensuring that Iran will be very quickly ended." },
   { date: "2026-10-01", source: "Press gaggle outside Air Force One", quote: "We're ending--Iran will very soon be ending one way or the other." },
+  { date: "2026-10-02", source: "Press gaggle outside Marine One", quote: "We're gonna have a lot of oil very shortly, as soon as Iran ends, which won't be long." },
+  { date: "2026-10-02", source: "Rally in Mobile, AL", quote: "I'd say, 'Who do I speak to in Iran?' There's not nobody around. Knock, knock. Nobody home. But that war's gonna be over soon, one way or the other. One way or the other, it's gonna end very soon, and probably right after the midterms." },
+  { date: "2026-10-02", source: "Rally in Mobile, AL", quote: "Venezuela, Iran, same thing. It's gonna fall soon. Don't worry about it. Don't worry about it." },
 
 ];
