@@ -177,5 +177,7 @@ const events = [
   { date: "2026-10-02", source: "Press gaggle outside Marine One", quote: "We're gonna have a lot of oil very shortly, as soon as Iran ends, which won't be long." },
   { date: "2026-10-02", source: "Rally in Mobile, AL", quote: "I'd say, 'Who do I speak to in Iran?' There's not nobody around. Knock, knock. Nobody home. But that war's gonna be over soon, one way or the other. One way or the other, it's gonna end very soon, and probably right after the midterms." },
   { date: "2026-10-02", source: "Rally in Mobile, AL", quote: "Venezuela, Iran, same thing. It's gonna fall soon. Don't worry about it. Don't worry about it." },
+  { date: "2026-10-05", source: "News Channel Nebraska interview", quote: "They're a lunatic, the worst nation anywhere in the world, the most dangerous nation. They're defeated." },
+  { date: "2026-10-05", source: "Rally in Grand Island, NE", quote: "You know, by the way, uh, we're kicking Iran's ass. You do know that, right?" },
 
 ];
