@@ -179,5 +179,10 @@ const events = [
   { date: "2026-10-02", source: "Rally in Mobile, AL", quote: "Venezuela, Iran, same thing. It's gonna fall soon. Don't worry about it. Don't worry about it." },
   { date: "2026-10-05", source: "News Channel Nebraska interview", quote: "They're a lunatic, the worst nation anywhere in the world, the most dangerous nation. They're defeated." },
   { date: "2026-10-05", source: "Rally in Grand Island, NE", quote: "You know, by the way, uh, we're kicking Iran's ass. You do know that, right?" },
+  { date: "2026-10-06", source: "Marine One gaggle", quote: "We're doing extremely well in the Islamic Republic of Iran, very well...we're doing things that nobody's ever done before." },
+  { date: "2026-10-07", source: "San Antonio, TX rally", quote: "[Ted Cruz is] working on the Iran deal and doing very well. I think the deal isn't really something that I want to do, but they're willing to offer us anything." },
+  { date: "2026-10-07", source: "News 4 San Antonio (Taylor Whartnaby)", quote: "And the country's just doing really well and we're beating Iran very badly. Uh, there's no more nuclear weapon threat. Uh, they are a mess right now." },
+  { date: "2026-10-07", source: "Marine One gaggle", quote: "The oil comes down as soon as we finish off with Iran and that's going to be very quickly. We're going to have that taken care of very quickly." },
+  { date: "2026-10-08", source: "Truth Social", quote: "We are having productive discussions with the Islamic Republic of Iran...we will not be attacking Iran at any time prior to the Midterm Elections." },
 
 ];
