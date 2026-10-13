@@ -185,6 +185,6 @@ const events = [
   { date: "2026-10-07", source: "Marine One gaggle", quote: "The oil comes down as soon as we finish off with Iran and that's going to be very quickly. We're going to have that taken care of very quickly." },
   { date: "2026-10-08", source: "Truth Social", quote: "We are having productive discussions with the Islamic Republic of Iran...we will not be attacking Iran at any time prior to the Midterm Elections." },
   { date: "2026-10-09", source: "Syracuse, NY rally", quote: "I'm about to settle or win two more Iran and Russia and Ukraine we're going to get them out." },
-  { date: "2026-10-012", source: "Marine One gaggle", quote: "And as soon as the war ends, which will be very soon, with Iran, the oil will drop like a rock and it's going to end very soon." },
+  { date: "2026-10-12", source: "Marine One gaggle", quote: "And as soon as the war ends, which will be very soon, with Iran, the oil will drop like a rock and it's going to end very soon." },
 
 ];
