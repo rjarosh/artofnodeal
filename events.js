@@ -186,5 +186,12 @@ const events = [
   { date: "2026-10-08", source: "Truth Social", quote: "We are having productive discussions with the Islamic Republic of Iran...we will not be attacking Iran at any time prior to the Midterm Elections." },
   { date: "2026-10-09", source: "Syracuse, NY rally", quote: "I'm about to settle or win two more Iran and Russia and Ukraine we're going to get them out." },
   { date: "2026-10-12", source: "Marine One gaggle", quote: "And as soon as the war ends, which will be very soon, with Iran, the oil will drop like a rock and it's going to end very soon." },
+  { date: "2026-10-12", source: "WKYC 3News Cleveland interview (Tyler Madden)", quote: "And we've defeated them. They will never have a nuclear weapon, and it's gonna be over with very shortly. And as soon as it's over with, oil is gonna drop like a rock." },
+  { date: "2026-10-12", source: "Youngstown, OH rally", quote: "And it's going to end very soon. And as soon as it ends, your gasoline comes down." },
+  { date: "2026-10-13", source: "Marine One gaggle", quote: "We'll make a decision on Iran very soon." },
+  { date: "2026-10-13", source: "Gray Television interview (Jon Decker)", quote: "Oil will be coming down as soon as I finish with Iran, which is going to be very soon...Iran is in is going to fail very shortly." },
+  { date: "2026-10-13", source: "Wasilla, AK rally", quote: "Wait til you see what we do to Iran, because we've sort of had it. You know, we've had it." },
+  { date: "2026-10-14", source: "Kalispell, MO ralley", quote: "Iran is going to be over very quickly...We're going to knock this Iran thing off fast. It's going to be over very quickly. Look, they don't have--think of it, they don't have a navy, they don't have an air force." },
+  { date: "2026-10-14", source: "Air Force One gaggle", quote: "And Iran will end very shortly. It's gonna be over very shortly, and your energy prices will fall very rapidly, very fast." },
 
 ];
