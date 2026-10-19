@@ -200,5 +200,6 @@ const events = [
   { date: "2026-10-16", source: "Marine One gaggle", quote: "So, uh, when the war ends, which will be very soon, very, very soon, sooner than people think." },  
   { date: "2026-10-16", source: "Mar-a-Lago RNC event", quote: "Iran is going to be amazing. What, we're going to win it very soon. One way or the other, we're going to win it very soon." },
   { date: "2026-10-18", source: "Truth Social", quote: "they have been systematically destroyed, both Militarily and Financially, and unless they change their ways, rapidly, we will soon finish the job." },
+  { date: "2026-10-18", source: "Axios interview (Barak Ravid)", quote: "We will soon finish the job." },
 
 ];
