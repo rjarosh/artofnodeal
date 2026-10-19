@@ -193,5 +193,12 @@ const events = [
   { date: "2026-10-13", source: "Wasilla, AK rally", quote: "Wait til you see what we do to Iran, because we've sort of had it. You know, we've had it." },
   { date: "2026-10-14", source: "Kalispell, MO ralley", quote: "Iran is going to be over very quickly...We're going to knock this Iran thing off fast. It's going to be over very quickly. Look, they don't have--think of it, they don't have a navy, they don't have an air force." },
   { date: "2026-10-14", source: "Air Force One gaggle", quote: "And Iran will end very shortly. It's gonna be over very shortly, and your energy prices will fall very rapidly, very fast." },
+  { date: "2026-10-15", source: "Newsmax Interview (Rob Finnerty)", quote: "Now we're looking at Pickaxe Mountain. We may have to go there. We'll take a shot at that one. We'll knock it out fast." },  
+  { date: "2026-10-15", source: "Newsmax Interview (Rob Finnerty)", quote: "Uh, and by the way, the Iran war will be over very soon. It's gonna end very soon. One way or the other, it's gonna end. You know, they are negotiating with us." },  
+  { date: "2026-10-15", source: "Tele-rally for Darlene Graham", quote: "It's gonna end very, very quickly. One way or the other, it's gonna happen very fast." },  
+  { date: "2026-10-16", source: "Dalton, GA rally", quote: "And we're doing just as well in Iran. That will be over very, very soon and they will never have a nuclear weapon." },  
+  { date: "2026-10-16", source: "Marine One gaggle", quote: "So, uh, when the war ends, which will be very soon, very, very soon, sooner than people think." },  
+  { date: "2026-10-16", source: "Mar-a-Lago RNC event", quote: "Iran is going to be amazing. What, we're going to win it very soon. One way or the other, we're going to win it very soon." },
+  { date: "2026-10-18", source: "Truth Social", quote: "they have been systematically destroyed, both Militarily and Financially, and unless they change their ways, rapidly, we will soon finish the job." },
 
 ];
