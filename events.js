@@ -205,5 +205,10 @@ const events = [
   { date: "2026-10-19", source: "Truth Social", quote: "When Republicans win, we will pass even more funding for our Great Farmers, and Fuel prices will come tumbling down as soon as the Iran War is over, which will happen very quickly!" },
   { date: "2026-10-20", source: "Oval Office remarks", quote: "We just have to make a final decision of which way do we want to win? Do we want to win the nice way or the not nice way? But we're doing very well, we don't need any help." },
   { date: "2026-10-21", source: "Pendleton, SC rally", quote: "I settled eight raging wars, or soon to be wars, and we're close to ending two more Russia, Ukraine and Iran. They'll end one way or the other...it will end very soon." },
+  { date: "2026-10-22", source: "Sioux City, IA rally", quote: "And we're going to have Iran finish very soon, one way or the other. It's almost insignificant to me which way, but one way or the other, it's going to be done very soon." },
+  { date: "2026-10-22", source: "Ft. Myers, FL rally", quote: "We may do another little Epic Fury, or they'll agree. If they're smart, they'll just say, let's get down to business." },
+  { date: "2026-10-23", source: "WINK-TV (Claire Galt) interview", quote: "I see it ending soon. I see it ending one way or another, through agreement or otherwise." },
+  { date: "2026-10-24", source: "Palm Beach gaggle", quote: "I may have to finish it off or maybe they'll make a deal, but I'm not sure...there's also a possibility we'll have a nice, big, beautiful agreement that is a very - they wanna make a deal." },
+  { date: "2026-10-24", source: "WANF-TV (Abby Kousouris) interview", quote: "And, uh, the Iran situation's gonna end very soon." },
 
 ];
