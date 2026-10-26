@@ -210,5 +210,7 @@ const events = [
   { date: "2026-10-23", source: "WINK-TV (Claire Galt) interview", quote: "I see it ending soon. I see it ending one way or another, through agreement or otherwise." },
   { date: "2026-10-24", source: "Palm Beach gaggle", quote: "I may have to finish it off or maybe they'll make a deal, but I'm not sure...there's also a possibility we'll have a nice, big, beautiful agreement that is a very - they wanna make a deal." },
   { date: "2026-10-24", source: "WANF-TV (Abby Kousouris) interview", quote: "And, uh, the Iran situation's gonna end very soon." },
+  { date: "2026-10-25", source: "Fox News (Larry Kudlow) interview", quote: "And now my question is: Do I make a deal with them or do I finish them off?" },
+  { date: "2026-10-25", source: "Michigan rally", quote: "You'll see that ending quite soon, one way or the other." },
 
 ];
