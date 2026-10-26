@@ -1,5 +1,148 @@
 export const rawData = [
   {
+    "date":"2026-10-25",
+    "type":"Press Gaggle",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":8.0,
+    "mentions":1.0,
+    "text":"I didn't know that, but she's a very nice woman. And she gave me a Nobel Prize, so how can I say anything else? I hope she's safe. She's a very nice woman, but [Inaudible]",
+    "title":"Press Gaggle: Donald Trump Speaks to Reporters Before Marine One Departure - October 25, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-before-marine-one-departure-october-25-2026\/#2"
+  },
+  {
+    "date":"2026-10-25",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Port Huron, MI",
+    "duration":26.0,
+    "mentions":5.0,
+    "text":"She said, \"I can't believe I got it. This should go to President Trump.\" And she gave me her Nobel Peace Prize. That was so nice. It was very nice. I won't forget that. It was very nice. And, and look, I'm not saying that she was right, but I'm not saying. I settled eight wars. No other president settled a war.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Michigan - October 25, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-port-huron-michigan-october-25-2026\/#103"
+  },
+  {
+    "date":"2026-10-25",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Port Huron, MI",
+    "duration":27.0,
+    "mentions":5.0,
+    "text":"You know, Obama got the Nobel Prize about two weeks after he got into office, and he had no idea why he got it. And he, and you know what? He still has no idea. I settled eight wars and two more coming, and they were wars. I will tell you, Putin called me on one, Azerbaijan. That war was raging for 34 years.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Michigan - October 25, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-port-huron-michigan-october-25-2026\/#104"
+  },
+  {
+    "date":"2026-10-25",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Port Huron, MI",
+    "duration":33.0,
+    "mentions":5.0,
+    "text":"He said, \"I cannot believe I've been trying to settle that thing for 10 years.\" He said, \"I can't believe you got it done.\" Anyway, so when it came due a couple of weeks ago, they announced that they'll be announcing. And a couple of weeks ago, I said to a great first lady, \"First lady, I get the Nobel Prize in two weeks.\" And, uh, it'll be an honor.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Michigan - October 25, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-port-huron-michigan-october-25-2026\/#105"
+  },
+  {
+    "date":"2026-10-25",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Port Huron, MI",
+    "duration":39.0,
+    "mentions":5.0,
+    "text":"You know, I feel much better about saving all those lives. How about India and Pakistan? I stopped them from fighting. They shot down 11 planes. They're both nuclear countries. The prime minister of Pakistan said, \"President Trump has saved at least 30 million lives.\" So I said, \"First lady, first lady, it'll be a great honor to get the Nobel Peace Prize next week when they announce it.\" And then I sort of forgot about it because I am busy.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Michigan - October 25, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-port-huron-michigan-october-25-2026\/#106"
+  },
+  {
+    "date":"2026-10-25",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Port Huron, MI",
+    "duration":21.0,
+    "mentions":5.0,
+    "text":"I've had it with them. I much prefer Denmark, I must say. They'll say, \"Isn't that a terrible thing?\" No, it's just, we gotta be honest with each other, don't we? Denmark, we'll take them. Sweden, Norway, I don't think so because I didn't get the Nobel Prize even though I ended it. So I don't want anybody from Norway.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Michigan - October 25, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-port-huron-michigan-october-25-2026\/#101"
+  },
+  {
+    "date":"2026-10-23",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Fort Myers, FL",
+    "duration":28.0,
+    "mentions":2.0,
+    "text":"Think of that, 25,000 young soldiers, mostly soldiers, killed a month. Got to get it stopped. And the other one, of course, is Iran, but we've settled -- I've settled eight wars. Think of that. Did I get the Nobel Prize? No. Did I get the Nobel Prize? Excuse me, Byron, did you see the Nobel Prize being sent to the office, please?",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Fort Myers, Florida - October 23, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-fort-myers-florida-october-23-2026\/#118"
+  },
+  {
+    "date":"2026-10-23",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Fort Myers, FL",
+    "duration":26.0,
+    "mentions":2.0,
+    "text":"Did it come through Florida? I don't think so. No, I settled -- well, you know, Norway is very liberal and, you know, the person that got the Nobel Prize, the first one, said, you have to be kidding, I got it, Trump deserves it. He deserves it more than any person that has ever gotten the Nobel Prize. And she gave me her Nobel Prize, which I won't forget, Maria.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Fort Myers, Florida - October 23, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-fort-myers-florida-october-23-2026\/#119"
+  },
+  {
+    "date":"2026-10-21",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Pendleton, SC",
+    "duration":25.0,
+    "mentions":5.0,
+    "text":"And she gave it to me, high quality. High quality. So everyone said, don't worry, you'll get it this year. Well, that didn't happen. It's crazy. They've lost such respect. They've lost such respect. Not that I want -- it's just ridiculous. I settled, like, eight wars. How the hell do you not get the Nobel Prize?",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Pendleton, South Carolina - October 21, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-pendleton-south-carolina-october-21-2026\/#149"
+  },
+  {
+    "date":"2026-10-21",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Pendleton, SC",
+    "duration":28.0,
+    "mentions":5.0,
+    "text":"No, but you know, when I talk like about the Nobel or the Pulitzer Prize and, you know, these are very important things, and they do everything. They're not actually -- they're the opposite of politically correct and they lose all -- all respect of everybody. I have no respect for them at all, not because I didn't get it, but because who the hell else -- you know, Time Magazine made me person of the year.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Pendleton, South Carolina - October 21, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-pendleton-south-carolina-october-21-2026\/#152"
+  },
+  {
+    "date":"2026-10-21",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Pendleton, SC",
+    "duration":22.0,
+    "mentions":5.0,
+    "text":"The people that got it shouldn't have gotten it. You know, they got the -- they got a Pulitzer Prize for their accurate and wonderful writing on the subject of Russia, Russia, Russia. They all had it wrong. They had it wrong. But the Nobel Peace Prize, everybody said, well, you'll get it. They said, I'll get it last year.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Pendleton, South Carolina - October 21, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-pendleton-south-carolina-october-21-2026\/#147"
+  },
+  {
+    "date":"2026-10-21",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Pendleton, SC",
+    "duration":19.0,
+    "mentions":5.0,
+    "text":"The person who got it, a very high quality woman, you know who that is, and she said, no, no, I don't deserve the Nobel Prize. There's only one person in the world that deserves it. In fact, she said, he deserves it more than any human being that's gotten it, because I settled all these wars. Nobody settled them.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Pendleton, South Carolina - October 21, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-pendleton-south-carolina-october-21-2026\/#148"
+  },
+  {
+    "date":"2026-10-21",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Pendleton, SC",
+    "duration":34.0,
+    "mentions":5.0,
+    "text":"I got to watch. And I saw the son is fantastic and he wants -- you know, he wanted his father back. And Vladimir Putin said, yes, you can have him. And we just got them about 10 hours ago. He's either landed or flying over water. So -- but I didn't get the Nobel Prize. I didn't get the Pulitzer -- I should have gotten a Pulitzer for writing [ph] too.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Pendleton, South Carolina - October 21, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-pendleton-south-carolina-october-21-2026\/#146"
+  },
+  {
     "date":"2026-10-10",
     "type":"Press Gaggle",
     "media":"Video",
@@ -11,18 +154,18 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-before-marine-one-departure-october-10-2026\/#48"
   },
   {
-    "date":"2026-10-10",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"I settled 8 WARS, am close to ending or settling 2 more, got all of the Israeli hostages back, including the final 28, both living and dead, had hundreds of hostages, from countries all over the World, released and sent back home, won a war in Venezuela, and captured the violent dictator who so viciously ran that country, and stopped the number one state sponsor of terror, the Islamic Republic of Iran, from obtaining a Nuclear Weapon \u2014 AND MUCH MORE! Yet, with all of that I, or the United States of America, did not get the Noble Peace Prize. WOW!",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.rollcall.com\/realdonaldtrump-truthsocial\/117416516229323591.jpg"
+    "date":"2026-10-09",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Syracuse, NY",
+    "duration":37.0,
+    "mentions":7.0,
+    "text":"I've paid nothing. And on top of it all, I have created a soon to be very prosperous Arctic and I also, by the way, got Greenland. I hope you're happy about that. Remember they all said, oh, he's never going to get it. No way. And for the right price, you know what we paid, right? Zero. Despite all of this and all of these unbelievable accomplishments, the Nobel Prize was given out today to a liberal person who works at the United Nations who nobody has ever heard of. [Audience boos] I've never heard of the person.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#120"
   },
   {
-    "date":"2026-10-10",
+    "date":"2026-10-09",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -37,33 +180,22 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Syracuse, NY",
-    "duration":43.0,
-    "mentions":7.0,
-    "text":"I know a lot of people I never heard of this particular person but congratulations anyway. In all of the wars that I have settled, I never spoke to the United Nations. They were of no help to me. The United States of America, represented by me as your president, should have received the Nobel Peace Prize, but didn't. And this is an indelible stain on the country of Norway, and those people that made such a disgraceful and embarrassing decision, the Nobel Peace Prize has been forever discredited by a handful of radical ideologues who are anti-democracy and really enemies of civilization.",
-    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#121"
-  },
-  {
-    "date":"2026-10-09",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Syracuse, NY",
-    "duration":46.0,
-    "mentions":7.0,
-    "text":"How about this? So you see that? Today they gave out the Nobel Peace Prize to a person. I'd never heard of the person. Nobody did. It's a mystery person. How about this, though? I settled eight wars with letters being sent from every president and prime minister, from all of those countries that I helped to stop they sent him to the Norwegian Nobel Committee, Norway and I'm about to settle or win two more Iran and Russia and Ukraine we're going to get them out.",
-    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#105"
-  },
-  {
-    "date":"2026-10-09",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Syracuse, NY",
     "duration":23.0,
     "mentions":7.0,
     "text":"And we will not forget Norway, that you didn't give this prize with the greatest record in history, not eight wars, we should have had eight Nobel Prizes for each war, but that you didn't give the Nobel Prize for peace to the United States of America is just another sign of how Norway and all these others are ripping off our country.",
     "title":"Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#122"
+  },
+  {
+    "date":"2026-10-09",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Syracuse, NY",
+    "duration":43.0,
+    "mentions":7.0,
+    "text":"I know a lot of people I never heard of this particular person but congratulations anyway. In all of the wars that I have settled, I never spoke to the United Nations. They were of no help to me. The United States of America, represented by me as your president, should have received the Nobel Peace Prize, but didn't. And this is an indelible stain on the country of Norway, and those people that made such a disgraceful and embarrassing decision, the Nobel Peace Prize has been forever discredited by a handful of radical ideologues who are anti-democracy and really enemies of civilization.",
+    "title":"Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#121"
   },
   {
     "date":"2026-10-09",
@@ -81,11 +213,11 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Syracuse, NY",
-    "duration":37.0,
+    "duration":30.0,
     "mentions":7.0,
-    "text":"I've paid nothing. And on top of it all, I have created a soon to be very prosperous Arctic and I also, by the way, got Greenland. I hope you're happy about that. Remember they all said, oh, he's never going to get it. No way. And for the right price, you know what we paid, right? Zero. Despite all of this and all of these unbelievable accomplishments, the Nobel Prize was given out today to a liberal person who works at the United Nations who nobody has ever heard of. [Audience boos] I've never heard of the person.",
+    "text":"And I'm going to give it to President Donald Trump. Fine woman. But based on my record of peace, a record like no one ever has had and I'm not saying this in a -- I'm just saying how crooked the whole Nobel Prize deal is. No one else has ever come close to achieving what we in our country -- I'm representing you, what the United States has achieved.",
     "title":"Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#120"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#114"
   },
   {
     "date":"2026-10-09",
@@ -114,11 +246,22 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Syracuse, NY",
-    "duration":30.0,
+    "duration":46.0,
     "mentions":7.0,
-    "text":"And I'm going to give it to President Donald Trump. Fine woman. But based on my record of peace, a record like no one ever has had and I'm not saying this in a -- I'm just saying how crooked the whole Nobel Prize deal is. No one else has ever come close to achieving what we in our country -- I'm representing you, what the United States has achieved.",
+    "text":"How about this? So you see that? Today they gave out the Nobel Peace Prize to a person. I'd never heard of the person. Nobody did. It's a mystery person. How about this, though? I settled eight wars with letters being sent from every president and prime minister, from all of those countries that I helped to stop they sent him to the Norwegian Nobel Committee, Norway and I'm about to settle or win two more Iran and Russia and Ukraine we're going to get them out.",
     "title":"Speech: Donald Trump Holds a Midterm Political Rally in Syracuse, New York - October 9, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#114"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-midterm-political-rally-syracuse-new-york-october-9-2026\/#105"
+  },
+  {
+    "date":"2026-10-07",
+    "type":"Remarks",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":30.0,
+    "mentions":3.0,
+    "text":"And I think it would be a great discredit to them. And I'm not saying that out of scorn; I'm saying that when you settle eight wars and nobody's ever -- I'll bet you, if you look at the Nobel Prize, look, Obama got it and he didn't do anything, he still doesn't know what he got it for. He got it when he got elected right at the beginning, and he had no idea why he got it. Well, in my case, I said I didn't know that they were doing it, but you're right, it is about that time.",
+    "title":"Remarks: Donald Trump Announces Auto Enrollment of Children in Trump Accounts - October 7, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-auto-enrollment-trump-accounts-october-7-2026\/#138"
   },
   {
     "date":"2026-10-07",
@@ -141,17 +284,6 @@ export const rawData = [
     "text":"The Nobel Peace Prize will be Friday. Well, last time they gave it to a young lady who's a fabulous person and she said she didn't deserve it, that I deserved it. And she gave it to me, and I said, wow, what an honor. I settled eight wars; another one is coming; I got all the hostages back. I did things that nobody else has ever done.",
     "title":"Remarks: Donald Trump Announces Auto Enrollment of Children in Trump Accounts - October 7, 2026",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-auto-enrollment-trump-accounts-october-7-2026\/#135"
-  },
-  {
-    "date":"2026-10-07",
-    "type":"Remarks",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":30.0,
-    "mentions":3.0,
-    "text":"And I think it would be a great discredit to them. And I'm not saying that out of scorn; I'm saying that when you settle eight wars and nobody's ever -- I'll bet you, if you look at the Nobel Prize, look, Obama got it and he didn't do anything, he still doesn't know what he got it for. He got it when he got elected right at the beginning, and he had no idea why he got it. Well, in my case, I said I didn't know that they were doing it, but you're right, it is about that time.",
-    "title":"Remarks: Donald Trump Announces Auto Enrollment of Children in Trump Accounts - October 7, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-auto-enrollment-trump-accounts-october-7-2026\/#138"
   },
   {
     "date":"2026-10-05",
@@ -180,11 +312,11 @@ export const rawData = [
     "type":"Press Gaggle",
     "media":"Video",
     "place":"Mildenhall, United Kingdom",
-    "duration":22.0,
+    "duration":16.0,
     "mentions":3.0,
-    "text":"It's very sad with Norway. But I would say I should have won that award more than anybody that ever received the Nobel Peace Prize. Because nobody settled wars. I, I settled eight of them. Because I have a certain type of personality, I was able to settle. Think of it, India and Pakistan. You know, because you covered it, that war was raging.",
+    "text":"I did not tell any, not to go back. I think she's a good person. She gave me the Nobel Prize, right? So how can I dislike her? She gave me the, she won the Nobel Prize. She said, \"The only one that should win it is Trump.\" I didn't know her at all. She said, \"Trump settled eight wars,\" which is true. They were talking about it today.",
     "title":"Press Gaggle: Donald Trump Speaks to Reporters On Board Air Force One - July 8, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-air-force-one-july-8-2026\/#95"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-air-force-one-july-8-2026\/#93"
   },
   {
     "date":"2026-07-08",
@@ -202,11 +334,11 @@ export const rawData = [
     "type":"Press Gaggle",
     "media":"Video",
     "place":"Mildenhall, United Kingdom",
-    "duration":16.0,
+    "duration":22.0,
     "mentions":3.0,
-    "text":"I did not tell any, not to go back. I think she's a good person. She gave me the Nobel Prize, right? So how can I dislike her? She gave me the, she won the Nobel Prize. She said, \"The only one that should win it is Trump.\" I didn't know her at all. She said, \"Trump settled eight wars,\" which is true. They were talking about it today.",
+    "text":"It's very sad with Norway. But I would say I should have won that award more than anybody that ever received the Nobel Peace Prize. Because nobody settled wars. I, I settled eight of them. Because I have a certain type of personality, I was able to settle. Think of it, India and Pakistan. You know, because you covered it, that war was raging.",
     "title":"Press Gaggle: Donald Trump Speaks to Reporters On Board Air Force One - July 8, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-air-force-one-july-8-2026\/#93"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-air-force-one-july-8-2026\/#95"
   },
   {
     "date":"2026-07-03",
@@ -298,25 +430,14 @@ export const rawData = [
   },
   {
     "date":"2026-04-06",
-    "type":"Presser",
+    "type":"Press Conference",
     "media":"Video",
     "place":"Washington, DC",
     "duration":23.0,
     "mentions":1.0,
     "text":"I've ended eight wars. Nobody's ever done it. The person who won the Nobel Prize came to me and said, you deserve the Nobel Prize. She announced that when they announced, they said, goes to Maria she's a great person, really a good person. She said, no, no, no, this is ridiculous. They gave me the Nobel Prize, President Trump ended eight wars.",
-    "title":"Presser: Donald Trump Holds a Presser at the White House - April 6, 2026",
+    "title":"Press Conference: Donald Trump Holds a Press Conference at the White House - April 6, 2026",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-april-6-2026\/#249"
-  },
-  {
-    "date":"2026-03-27",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Miami Beach, FL",
-    "duration":14.0,
-    "mentions":2.0,
-    "text":"And you're coming up with some pretty impressive studies and answers. A really good friend of mine, the president of FIFA, Gianni Infantino and Gianni is great. You know, when I didn't get the Nobel Peace Prize -- you got to understand, I don't care. [Laughter] Norway has lost so credible. I stopped eight wars.",
-    "title":"Speech: Donald Trump Addresses the Saudi Future Investment Conference in Florida - March 27, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-saudi-investment-conference-florida-march-27-2026\/#96"
   },
   {
     "date":"2026-03-27",
@@ -328,6 +449,17 @@ export const rawData = [
     "text":"That's how I stopped him. I used tariffs to stop -- you ever hear of anything like that? There was too much for them to bear but they were going to be in a war. And the prime minister, actually a great guy. The Prime Minister of Pakistan said President Trump saved 30 to 50 million people, two nuclear countries, would have happened and I figured, uh -- I mean, if I don't get the Nobel Prize for peace, nobody will ever get it. I didn't get it. I'm not surprised.",
     "title":"Speech: Donald Trump Addresses the Saudi Future Investment Conference in Florida - March 27, 2026",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-saudi-investment-conference-florida-march-27-2026\/#98"
+  },
+  {
+    "date":"2026-03-27",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Miami Beach, FL",
+    "duration":14.0,
+    "mentions":2.0,
+    "text":"And you're coming up with some pretty impressive studies and answers. A really good friend of mine, the president of FIFA, Gianni Infantino and Gianni is great. You know, when I didn't get the Nobel Peace Prize -- you got to understand, I don't care. [Laughter] Norway has lost so credible. I stopped eight wars.",
+    "title":"Speech: Donald Trump Addresses the Saudi Future Investment Conference in Florida - March 27, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-saudi-investment-conference-florida-march-27-2026\/#96"
   },
   {
     "date":"2026-02-24",
@@ -342,47 +474,25 @@ export const rawData = [
   },
   {
     "date":"2026-02-20",
-    "type":"Presser",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":21.0,
-    "mentions":2.0,
-    "text":"They're all pouring into the United States. But just like that great patriot said yesterday, sir, what you've done, nobody thought was possible. And Steve Moore, a highly respected economist, came into my office yesterday. He said, you've done something nobody's ever done. 22 Nobel Prize winners in economics said we would right now be in a recession.",
-    "title":"Presser: Donald Trump Addresses the Supreme Court Tariff Decision - February 20, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-supreme-court-tariffs-february-20-2026\/#54"
-  },
-  {
-    "date":"2026-02-20",
-    "type":"Presser",
+    "type":"Press Conference",
     "media":"Video",
     "place":"Washington, DC",
     "duration":16.0,
     "mentions":2.0,
     "text":"Think of that. Nobody thought it was possible to do it within four years and we did it in one year. They said you'll never be able -- you go back and you read the geniuses, read their statements, all of the Nobel Prize winners in economics, they said no, you couldn't do it in four years. Well, we didn't do it in four years.",
-    "title":"Presser: Donald Trump Addresses the Supreme Court Tariff Decision - February 20, 2026",
+    "title":"Press Conference: Donald Trump Addresses the Supreme Court Tariff Decision - February 20, 2026",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-supreme-court-tariffs-february-20-2026\/#11"
   },
   {
-    "date":"2026-02-19",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":20.0,
-    "mentions":2.0,
-    "text":"Oh, I thought when I saw this note, I'm excited to announce that Norway -- I thought they were going to say that they're giving me the Nobel Prize. Oh, this is less exciting. Oh, it says I'm excited to announce that Norway -- and I'm saying, oh, great, I'm getting the Nobel Prize finally. Finally, they got it right.",
-    "title":"Speech: Donald Trump Addresses a Board of Peace Meeting in Washington - February 19, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/doanld-trump-speech-board-of-peace-february-19-2026\/#100"
-  },
-  {
-    "date":"2026-02-19",
-    "type":"Speech",
+    "date":"2026-02-20",
+    "type":"Press Conference",
     "media":"Video",
     "place":"Washington, DC",
     "duration":21.0,
     "mentions":2.0,
-    "text":"But I don't care. I don't care about Nobel Prizes, I care about saving lives just so you understand. We play and we all, you know, do what we have to do. I only have one thing, I don't want to see people killed from parts of the world that are very far away from the United States. And if I have an ability to turn off -- to turn off wars, I want to use that ability because it's people, millions of people.",
-    "title":"Speech: Donald Trump Addresses a Board of Peace Meeting in Washington - February 19, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/doanld-trump-speech-board-of-peace-february-19-2026\/#101"
+    "text":"They're all pouring into the United States. But just like that great patriot said yesterday, sir, what you've done, nobody thought was possible. And Steve Moore, a highly respected economist, came into my office yesterday. He said, you've done something nobody's ever done. 22 Nobel Prize winners in economics said we would right now be in a recession.",
+    "title":"Press Conference: Donald Trump Addresses the Supreme Court Tariff Decision - February 20, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-supreme-court-tariffs-february-20-2026\/#54"
   },
   {
     "date":"2026-02-19",
@@ -407,6 +517,28 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-economic-development-rome-georgia-february-19-2026\/#76"
   },
   {
+    "date":"2026-02-19",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":20.0,
+    "mentions":2.0,
+    "text":"Oh, I thought when I saw this note, I'm excited to announce that Norway -- I thought they were going to say that they're giving me the Nobel Prize. Oh, this is less exciting. Oh, it says I'm excited to announce that Norway -- and I'm saying, oh, great, I'm getting the Nobel Prize finally. Finally, they got it right.",
+    "title":"Speech: Donald Trump Addresses a Board of Peace Meeting in Washington - February 19, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/doanld-trump-speech-board-of-peace-february-19-2026\/#100"
+  },
+  {
+    "date":"2026-02-19",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":21.0,
+    "mentions":2.0,
+    "text":"But I don't care. I don't care about Nobel Prizes, I care about saving lives just so you understand. We play and we all, you know, do what we have to do. I only have one thing, I don't want to see people killed from parts of the world that are very far away from the United States. And if I have an ability to turn off -- to turn off wars, I want to use that ability because it's people, millions of people.",
+    "title":"Speech: Donald Trump Addresses a Board of Peace Meeting in Washington - February 19, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/doanld-trump-speech-board-of-peace-february-19-2026\/#101"
+  },
+  {
     "date":"2026-02-17",
     "type":"Social Media",
     "media":"Social Media",
@@ -419,80 +551,69 @@ export const rawData = [
   },
   {
     "date":"2026-01-20",
-    "type":"Presser",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":24.0,
-    "mentions":6.0,
-    "text":"-- and I believe very strongly that Norway controls the Nobel Prize. But you have to understand, I settled eight wars. I've had -- every one of those wars every participant wrote -- I didn't ask him to do it. They sent in strong recommendations. They make recommendations for that. But I settled eight wars.",
-    "title":"Presser: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#234"
-  },
-  {
-    "date":"2026-01-20",
-    "type":"Presser",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":26.0,
-    "mentions":6.0,
-    "text":"No president's probably ever settled one war. I don't know. Think of it. I did eight. The reason I do it is because it's easy for me to do. And I didn't do it for a Nobel Prize. I did it because I'm saving a lot of lives. I'm trying to settle the final one. I'm trying to do Russia, Ukraine. And when Russia is ready, Ukraine is not, when Ukraine is ready, Russia's not.",
-    "title":"Presser: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#235"
-  },
-  {
-    "date":"2026-01-20",
-    "type":"Presser",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":12.0,
-    "mentions":6.0,
-    "text":"But they're losing 25,000 people a month on average and I'm trying to get that one done. But no, I feel -- but I feel that Norway has tremendous control over who gets to the Nobel Prize, despite what they say.",
-    "title":"Presser: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#236"
-  },
-  {
-    "date":"2026-01-20",
-    "type":"Presser",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":21.0,
-    "mentions":6.0,
-    "text":"I mean, I guess I'm not blaming them, I didn't call them to help, but I got, you know, the presidents and prime minister together. We knocked heads, we got along and they liked me, I liked them. Every single one of them nominated me for a Nobel Prize. Every one of the wars -- among many other people -- nominated me for a Nobel Prize.",
-    "title":"Presser: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#151"
-  },
-  {
-    "date":"2026-01-20",
-    "type":"Presser",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":23.0,
-    "mentions":6.0,
-    "text":"She said I don't deserve the Nobel Prize; he does. When she got it. They named, they said wow, that's amazing. I thought President Trump would get it. President Trump deserves it. He ended up eight wars, how nice, right? A good woman. Got all 20 living hostages returned to their families and the remains -- they all came out.",
-    "title":"Presser: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#147"
-  },
-  {
-    "date":"2026-01-20",
-    "type":"Presser",
+    "type":"Press Conference",
     "media":"Video",
     "place":"Washington, DC",
     "duration":25.0,
     "mentions":6.0,
     "text":"I should have gotten the Nobel Prize for each war. But I don't say that. I saved millions and millions of people. And don't let anyone tell you that Norway doesn't control the shots, OK? It's in Norway, Norway controls the shots. We have nothing to do with it. It's a joke. They've lost such prestige. Got all -- that's why I have such respect for Maria doing what she did.",
-    "title":"Presser: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
+    "title":"Press Conference: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#146"
   },
   {
-    "date":"2026-01-19",
-    "type":"Remarks",
-    "media":"Text",
-    "place":"Palm Beach, FL",
-    "duration":0.0,
-    "mentions":1.0,
-    "text":"[2025-01-18 16:15:00] Dear Jonas: Considering your Country decided not to give me the Nobel Peace Prize for having stopped 8 Wars PLUS, I no longer feel an obligation to think purely of Peace, although it will always be predominant, but can now think about what is good and proper for the United States of America. Denmark cannot protect that land from Russia or China, and why do they have a \u2018right of ownership\u2019 anyway?",
-    "title":"Remarks: Donald Trump and Jonas Gahr St\u00f8re of Norway Exchange Text Messages - January 19, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-text-exchange-norway-greenland-january-18-2026\/#5"
+    "date":"2026-01-20",
+    "type":"Press Conference",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":23.0,
+    "mentions":6.0,
+    "text":"She said I don't deserve the Nobel Prize; he does. When she got it. They named, they said wow, that's amazing. I thought President Trump would get it. President Trump deserves it. He ended up eight wars, how nice, right? A good woman. Got all 20 living hostages returned to their families and the remains -- they all came out.",
+    "title":"Press Conference: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#147"
+  },
+  {
+    "date":"2026-01-20",
+    "type":"Press Conference",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":21.0,
+    "mentions":6.0,
+    "text":"I mean, I guess I'm not blaming them, I didn't call them to help, but I got, you know, the presidents and prime minister together. We knocked heads, we got along and they liked me, I liked them. Every single one of them nominated me for a Nobel Prize. Every one of the wars -- among many other people -- nominated me for a Nobel Prize.",
+    "title":"Press Conference: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#151"
+  },
+  {
+    "date":"2026-01-20",
+    "type":"Press Conference",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":24.0,
+    "mentions":6.0,
+    "text":"-- and I believe very strongly that Norway controls the Nobel Prize. But you have to understand, I settled eight wars. I've had -- every one of those wars every participant wrote -- I didn't ask him to do it. They sent in strong recommendations. They make recommendations for that. But I settled eight wars.",
+    "title":"Press Conference: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#234"
+  },
+  {
+    "date":"2026-01-20",
+    "type":"Press Conference",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":26.0,
+    "mentions":6.0,
+    "text":"No president's probably ever settled one war. I don't know. Think of it. I did eight. The reason I do it is because it's easy for me to do. And I didn't do it for a Nobel Prize. I did it because I'm saving a lot of lives. I'm trying to settle the final one. I'm trying to do Russia, Ukraine. And when Russia is ready, Ukraine is not, when Ukraine is ready, Russia's not.",
+    "title":"Press Conference: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#235"
+  },
+  {
+    "date":"2026-01-20",
+    "type":"Press Conference",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":12.0,
+    "mentions":6.0,
+    "text":"But they're losing 25,000 people a month on average and I'm trying to get that one done. But no, I feel -- but I feel that Norway has tremendous control over who gets to the Nobel Prize, despite what they say.",
+    "title":"Press Conference: Donald Trump Leads the Press Briefing at the White House - January 20, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-briefing-room-january-20-2026\/#236"
   },
   {
     "date":"2026-01-19",
@@ -506,15 +627,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-before-air-force-one-departure-january-19-2026\/#9"
   },
   {
-    "date":"2026-01-16",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
+    "date":"2026-01-19",
+    "type":"Remarks",
+    "media":"Text",
+    "place":"Palm Beach, FL",
     "duration":0.0,
-    "mentions":0.0,
-    "text":"It was my Great Honor to meet Mar\u00eda Corina Machado, of Venezuela, today. She is a wonderful woman who has been through so much. Mar\u00eda presented me with her Nobel Peace Prize for the work I have done. Such a wonderful gesture of mutual respect. Thank you Mar\u00eda!",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115902023696178994.jpg"
+    "mentions":1.0,
+    "text":"[2025-01-18 16:15:00] Dear Jonas: Considering your Country decided not to give me the Nobel Peace Prize for having stopped 8 Wars PLUS, I no longer feel an obligation to think purely of Peace, although it will always be predominant, but can now think about what is good and proper for the United States of America. Denmark cannot protect that land from Russia or China, and why do they have a \u2018right of ownership\u2019 anyway?",
+    "title":"Remarks: Donald Trump and Jonas Gahr St\u00f8re of Norway Exchange Text Messages - January 19, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-text-exchange-norway-greenland-january-18-2026\/#5"
   },
   {
     "date":"2026-01-16",
@@ -528,15 +649,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-before-marine-one-departure-january-16-2026\/#33"
   },
   {
-    "date":"2026-01-09",
-    "type":"Remarks",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":21.0,
-    "mentions":3.0,
-    "text":"And I get to meet a lot of people, but I will be meeting with various Representatives of Venezuela probably pretty soon. We haven't set that up. But the relationship that we have with the people that are currently running Venezuela is very good. We also have a young lady that received the Nobel Peace Prize.",
-    "title":"Remarks: Donald Trump Meets with Oil and Gas Executives at the White House - January 9, 2026",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-oil-gas-executives-january-9-2026\/#213"
+    "date":"2026-01-15",
+    "type":"Social Media",
+    "media":"Social Media",
+    "place":"Social Media",
+    "duration":0.0,
+    "mentions":0.0,
+    "text":"It was my Great Honor to meet Mar\u00eda Corina Machado, of Venezuela, today. She is a wonderful woman who has been through so much. Mar\u00eda presented me with her Nobel Peace Prize for the work I have done. Such a wonderful gesture of mutual respect. Thank you Mar\u00eda!",
+    "title":"Social Media",
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115902023696178994.jpg"
   },
   {
     "date":"2026-01-09",
@@ -561,6 +682,17 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-oil-gas-executives-january-9-2026\/#221"
   },
   {
+    "date":"2026-01-09",
+    "type":"Remarks",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":21.0,
+    "mentions":3.0,
+    "text":"And I get to meet a lot of people, but I will be meeting with various Representatives of Venezuela probably pretty soon. We haven't set that up. But the relationship that we have with the people that are currently running Venezuela is very good. We also have a young lady that received the Nobel Peace Prize.",
+    "title":"Remarks: Donald Trump Meets with Oil and Gas Executives at the White House - January 9, 2026",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-oil-gas-executives-january-9-2026\/#213"
+  },
+  {
     "date":"2026-01-08",
     "type":"Interview",
     "media":"Video",
@@ -570,17 +702,6 @@ export const rawData = [
     "text":"They were really at it, and I got it stopped. It was a big one. Uh, you look at the Congo, Rwanda, and the Congo, they've been fighting for 30 years, and I got it stopped. I get, I get so many wars, so it's such a beautiful thing. It makes me feel so good. Not because of the Nobel Prize, but because I, I saved millions and millions of lives, and that's what really makes me feel good.",
     "title":"Interview: Sean Hannity Interviews Donald Trump at the White House - January 8, 2026",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-sean-hannity-fox-news-janury-8-2026\/#104"
-  },
-  {
-    "date":"2026-01-07",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"Remember, for all of those big NATO fans, they were at 2% GDP, and most weren\u2019t paying their bills, UNTIL I CAME ALONG. The USA was, foolishly, paying for them! I, respectfully, got them to 5% GDP, AND THEY PAY, immediately. Everyone said that couldn\u2019t be done, but it could, because, beyond all else, they are all my friends. Without my involvement, Russia would have ALL OF UKRAINE right now. Remember, also, I single-handedly ENDED 8 WARS, and Norway, a NATO Member, foolishly chose not to give me the Noble Peace Prize. But that doesn\u2019t matter! What does matter is that I saved Millions of Lives. RUSSIA AND CHINA HAVE ZERO FEAR OF NATO WITHOUT THE UNITED STATES, AND I DOUBT NATO WOULD BE THERE FOR US IF WE REALLY NEEDED THEM. EVERYONE IS LUCKY THAT I REBUILT OUR MILITARY IN MY FIRST TERM, AND CONTINUE TO DO SO. We will always be there for NATO, even if they won\u2019t be there for us. The only Nation that China and Russia fear and respect is the DJT REBUILT U.S.A. MAKE AMERICA GREAT AGAIN!!! President DJT",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115854352740910460.jpg"
   },
   {
     "date":"2026-01-07",
@@ -609,28 +730,6 @@ export const rawData = [
     "type":"Remarks",
     "media":"Video",
     "place":"Washington, DC",
-    "duration":19.0,
-    "mentions":4.0,
-    "text":"But Iraq nominated us for the Nobel Prize, and it was a great honor. You know, we didn't expect that from Iraq. Iraq has been a much different place since the taking out of Iran, the nuclear capability. Yeah, let's get to another question here. Here we go, this guy's a beauty.",
-    "title":"Remarks: Donald Trump Holds a Cabinet Meeting at the White House - December 2, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-cabinet-meeting-december-2-2025\/#440"
-  },
-  {
-    "date":"2025-12-02",
-    "type":"Remarks",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":22.0,
-    "mentions":4.0,
-    "text":"I will tell you; Iraq has been a much friendlier place. They talk to us. The prime minister actually nominated me, along with about 78 other countries, for the Nobel Prize. I'm the only one that was nominated by almost 100 countries that didn't get it. But that's OK, but I saved a lot of lives. I saved a lot of lives.",
-    "title":"Remarks: Donald Trump Holds a Cabinet Meeting at the White House - December 2, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-cabinet-meeting-december-2-2025\/#439"
-  },
-  {
-    "date":"2025-12-02",
-    "type":"Remarks",
-    "media":"Video",
-    "place":"Washington, DC",
     "duration":28.0,
     "mentions":4.0,
     "text":"We ended eight wars. Think of that, eight wars, but we're going to do one more, I think, I hope. I hope. Every time I end a war they say, if President Trump ends that war, he's going to get the Nobel Prize, if I end that war. Well, he won't get it for that war, but if he ever gets it for the next war. Now they're saying, if he ever ends the war with Russia and Ukraine, he's going to get the Nobel Prize. ",
@@ -649,6 +748,28 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-cabinet-meeting-december-2-2025\/#68"
   },
   {
+    "date":"2025-12-02",
+    "type":"Remarks",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":22.0,
+    "mentions":4.0,
+    "text":"I will tell you; Iraq has been a much friendlier place. They talk to us. The prime minister actually nominated me, along with about 78 other countries, for the Nobel Prize. I'm the only one that was nominated by almost 100 countries that didn't get it. But that's OK, but I saved a lot of lives. I saved a lot of lives.",
+    "title":"Remarks: Donald Trump Holds a Cabinet Meeting at the White House - December 2, 2025",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-cabinet-meeting-december-2-2025\/#439"
+  },
+  {
+    "date":"2025-12-02",
+    "type":"Remarks",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":19.0,
+    "mentions":4.0,
+    "text":"But Iraq nominated us for the Nobel Prize, and it was a great honor. You know, we didn't expect that from Iraq. Iraq has been a much different place since the taking out of Iran, the nuclear capability. Yeah, let's get to another question here. Here we go, this guy's a beauty.",
+    "title":"Remarks: Donald Trump Holds a Cabinet Meeting at the White House - December 2, 2025",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-cabinet-meeting-december-2-2025\/#440"
+  },
+  {
     "date":"2025-11-19",
     "type":"Social Media",
     "media":"Social Media",
@@ -658,6 +779,17 @@ export const rawData = [
     "text":"'President of peace': Trump tapped for Nobel Prize amid talks to end Russia-Ukraine war:  https:\/\/www. foxnews.com\/politics\/president -peace-trump-tapped-nobel-prize-amid-talks-end-russia-ukraine-war",
     "title":"Social Media",
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115577034428518924.jpg"
+  },
+  {
+    "date":"2025-11-09",
+    "type":"Social Media",
+    "media":"Social Media",
+    "place":"Social Media",
+    "duration":0.0,
+    "mentions":0.0,
+    "text":"RT @NewtGingrich The New York Post report on the Nobel Peace Prize Winner dedicating her prize to President Trump may be a bigger honor than if the Committee had given the prize directly to the President. As the Post reported \u201c Venezuelan opposition leader Mar\u00eda Corina Machado on Friday said her historic Nobel Peace Prize isn\u2019t just a victory for her embattled nation \u2014 it\u2019s also a tribute to President Donald Trump, whose policies have \u201crestored democracy and freedom in the Americas.\u201d \u201cI dedicated this award to the Venezuelan people and President Trump because I believe that\u2019s absolutely fair. We, the Venezuelan people, are absolutely grateful to President Trump for the way he has supported democracy and freedom in the Americas.\u201d Remember she is praising him for working on Venezuela while his public focus has been on Gaza and Ukraine. President Trump\u2019s reach and ability to multitask is historic.",
+    "title":"Social Media",
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115522186645083678.jpg"
   },
   {
     "date":"2025-11-09",
@@ -680,17 +812,6 @@ export const rawData = [
     "text":"https:\/\/ m.independent.ie\/sport\/soccer\/ fifa-president-gianni-infantino-calls-for-donald-trump-to-be-awarded-nobel-peace-prize-after-gaza-ceasefire\/a1762644450.html",
     "title":"Social Media",
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115521775550752201.jpg"
-  },
-  {
-    "date":"2025-11-09",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"RT @NewtGingrich The New York Post report on the Nobel Peace Prize Winner dedicating her prize to President Trump may be a bigger honor than if the Committee had given the prize directly to the President. As the Post reported \u201c Venezuelan opposition leader Mar\u00eda Corina Machado on Friday said her historic Nobel Peace Prize isn\u2019t just a victory for her embattled nation \u2014 it\u2019s also a tribute to President Donald Trump, whose policies have \u201crestored democracy and freedom in the Americas.\u201d \u201cI dedicated this award to the Venezuelan people and President Trump because I believe that\u2019s absolutely fair. We, the Venezuelan people, are absolutely grateful to President Trump for the way he has supported democracy and freedom in the Americas.\u201d Remember she is praising him for working on Venezuela while his public focus has been on Gaza and Ukraine. President Trump\u2019s reach and ability to multitask is historic.",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115522186645083678.jpg"
   },
   {
     "date":"2025-11-09",
@@ -730,22 +851,22 @@ export const rawData = [
     "type":"Remarks",
     "media":"Video",
     "place":"Washington, DC",
-    "duration":20.0,
+    "duration":27.0,
     "mentions":2.0,
-    "text":"I didn't get a Nobel Prize. Somebody got it who's a very nice woman, very nice. I don't know who she is, but she was very generous. So, I don't care about all that stuff; I just care about saving lives. But this will be number nine. But every time I solved one, they said, sir, if you solve one more, you're going to be known as the peacekeeper.",
+    "text":"Well, you know, we resolved eight others. It's funny how people say that -- if you get this one, every time I do one, they forget about that one. I solved eight wars. Go to Rwanda and the Congo, talk about India and Pakistan. Look at Thailand. Look at all of the wars that we solved, and every time I solve one, they say if you solve the next one, you're going to get the Nobel Prize.",
     "title":"Remarks: Donald Trump Holds a Bilat Lunch with Volodymyr Zelenskyy of Ukraine - October 17, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-bilat-lunch-volodymyr-zelenskyy-ukraine-october-17-2025\/#143"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-bilat-lunch-volodymyr-zelenskyy-ukraine-october-17-2025\/#142"
   },
   {
     "date":"2025-10-17",
     "type":"Remarks",
     "media":"Video",
     "place":"Washington, DC",
-    "duration":27.0,
+    "duration":20.0,
     "mentions":2.0,
-    "text":"Well, you know, we resolved eight others. It's funny how people say that -- if you get this one, every time I do one, they forget about that one. I solved eight wars. Go to Rwanda and the Congo, talk about India and Pakistan. Look at Thailand. Look at all of the wars that we solved, and every time I solve one, they say if you solve the next one, you're going to get the Nobel Prize.",
+    "text":"I didn't get a Nobel Prize. Somebody got it who's a very nice woman, very nice. I don't know who she is, but she was very generous. So, I don't care about all that stuff; I just care about saving lives. But this will be number nine. But every time I solved one, they said, sir, if you solve one more, you're going to be known as the peacekeeper.",
     "title":"Remarks: Donald Trump Holds a Bilat Lunch with Volodymyr Zelenskyy of Ukraine - October 17, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-bilat-lunch-volodymyr-zelenskyy-ukraine-october-17-2025\/#142"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-bilat-lunch-volodymyr-zelenskyy-ukraine-october-17-2025\/#143"
   },
   {
     "date":"2025-10-15",
@@ -792,18 +913,7 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-announcement-prescription-drugs-october-10-2025\/#147"
   },
   {
-    "date":"2025-10-10",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"Thank you!!! https:\/\/www. newsmax.com\/politics\/rjc-nobel -peace-prize-trump\/2025\/10\/09\/id\/1229677\/",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115347290009466197.jpg"
-  },
-  {
-    "date":"2025-10-10",
+    "date":"2025-10-09",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -814,7 +924,7 @@ export const rawData = [
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115347456920917051.jpg"
   },
   {
-    "date":"2025-10-10",
+    "date":"2025-10-09",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -825,7 +935,18 @@ export const rawData = [
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115347728552002976.jpg"
   },
   {
-    "date":"2025-10-10",
+    "date":"2025-10-09",
+    "type":"Social Media",
+    "media":"Social Media",
+    "place":"Social Media",
+    "duration":0.0,
+    "mentions":0.0,
+    "text":"Thank you!!! https:\/\/www. newsmax.com\/politics\/rjc-nobel -peace-prize-trump\/2025\/10\/09\/id\/1229677\/",
+    "title":"Social Media",
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/115347290009466197.jpg"
+  },
+  {
+    "date":"2025-10-09",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -873,17 +994,6 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Mount Vernon, VA",
-    "duration":24.0,
-    "mentions":2.0,
-    "text":"I should get a Nobel Prize for each one.\" No they said, \"But if you stop -- \" Think of that. \"But if you stop Russia and Ukraine, sir, you should be able to get the Nobel -- \" I said, \"I stopped seven wars. That's one war. And that's a big one.\" But all of these, actually, that was the one I thought would be easiest one, because I have a good relationship with President Putin.",
-    "title":"Speech: Donald Trump Addresses the American Cornerstone Institute Dinner - September 20, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-american-cornerstone-institute-dinner-september-20-2025\/#94"
-  },
-  {
-    "date":"2025-09-20",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Mount Vernon, VA",
     "duration":21.0,
     "mentions":2.0,
     "text":"We stopped all of them. And 60% of them were stopped because of trade. Like with India, I said, \"Look, we're not gonna do any trade if you're gonna fight.\" And they have nuclear weapons. They stopped. And then I was told that if you can stop Russia and Ukraine, you should get the Nobel Prize. I said, \"Well, w- -- what about the seven others?",
@@ -891,15 +1001,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-american-cornerstone-institute-dinner-september-20-2025\/#93"
   },
   {
-    "date":"2025-08-15",
-    "type":"Interview",
+    "date":"2025-09-20",
+    "type":"Speech",
     "media":"Video",
-    "place":"Joint Base Elmendorf-Richardson, AK",
-    "duration":17.0,
-    "mentions":1.0,
-    "text":"Well, it's interesting because somebody said, if I get this settled, I'll get the, you know, the Nobel Peace Prize. I said, well, I'm not involved in it but what about the other six wars or whatever it is? I mean, those were big. Those were wars. As an example, you go to Africa, the Congo against Rwanda.",
-    "title":"Interview: Sean Hannity of Fox News Interviews Donald Trump in Alaska - August 15, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-sean-hannity-fox-news-august-15-2025\/#166"
+    "place":"Mount Vernon, VA",
+    "duration":24.0,
+    "mentions":2.0,
+    "text":"I should get a Nobel Prize for each one.\" No they said, \"But if you stop -- \" Think of that. \"But if you stop Russia and Ukraine, sir, you should be able to get the Nobel -- \" I said, \"I stopped seven wars. That's one war. And that's a big one.\" But all of these, actually, that was the one I thought would be easiest one, because I have a good relationship with President Putin.",
+    "title":"Speech: Donald Trump Addresses the American Cornerstone Institute Dinner - September 20, 2025",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-american-cornerstone-institute-dinner-september-20-2025\/#94"
   },
   {
     "date":"2025-08-15",
@@ -911,6 +1021,17 @@ export const rawData = [
     "text":"If President Trump were the architect of that, I'd nominate him for a Nobel Peace Prize. Well, uh, that was very nice. I may have to start liking her again. I, I will say this, this is an important meeting. The second meeting potentially is more important. It could be a more of a more finality. Uh, it's not for me to negotiate for Ukraine, but I think I have a pretty good idea what they'd like to see, and what's good and what's not good.",
     "title":"Interview: Bret Baier of Fox News Interviews Donald Trump En Route to Alaska - August 15, 2025",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-bret-baier-fox-news-august-15-2025\/#29"
+  },
+  {
+    "date":"2025-08-15",
+    "type":"Interview",
+    "media":"Video",
+    "place":"Joint Base Elmendorf-Richardson, AK",
+    "duration":17.0,
+    "mentions":1.0,
+    "text":"Well, it's interesting because somebody said, if I get this settled, I'll get the, you know, the Nobel Peace Prize. I said, well, I'm not involved in it but what about the other six wars or whatever it is? I mean, those were big. Those were wars. As an example, you go to Africa, the Congo against Rwanda.",
+    "title":"Interview: Sean Hannity of Fox News Interviews Donald Trump in Alaska - August 15, 2025",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-sean-hannity-fox-news-august-15-2025\/#166"
   },
   {
     "date":"2025-07-29",
@@ -946,7 +1067,7 @@ export const rawData = [
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/114893444758138173.jpg"
   },
   {
-    "date":"2025-07-11",
+    "date":"2025-07-10",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -961,17 +1082,6 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Des Moines, IA",
-    "duration":20.0,
-    "mentions":2.0,
-    "text":"A professor at some school that you've never heard of has received the Nobel Prize for his writing about Donald Trump and what Donald Trump did. I'll say, \"What about me?\" I don't get it, but that's one of those things. But think of it, we stopped, we stopped India and Pakistan, we stopped Kosovo and Serbia.",
-    "title":"Speech: Donald Trump Delivers a Salute to America Speech in Des Moines, Iowa - July 3, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-salute-to-america-des-moines-iowa-july-3-2025\/#67"
-  },
-  {
-    "date":"2025-07-03",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Des Moines, IA",
     "duration":17.0,
     "mentions":2.0,
     "text":"John Thune did a great job to everybody. This was, this whole two weeks has been incredible, hasn't it? You know, when you think of all of the victories. We stopped five nations from going to war, and somebody else will get the Nobel Peace Prize for their writing about Donald Trump. [Audience laughs]",
@@ -979,7 +1089,18 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-salute-to-america-des-moines-iowa-july-3-2025\/#66"
   },
   {
-    "date":"2025-06-27",
+    "date":"2025-07-03",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Des Moines, IA",
+    "duration":20.0,
+    "mentions":2.0,
+    "text":"A professor at some school that you've never heard of has received the Nobel Prize for his writing about Donald Trump and what Donald Trump did. I'll say, \"What about me?\" I don't get it, but that's one of those things. But think of it, we stopped, we stopped India and Pakistan, we stopped Kosovo and Serbia.",
+    "title":"Speech: Donald Trump Delivers a Salute to America Speech in Des Moines, Iowa - July 3, 2025",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-salute-to-america-des-moines-iowa-july-3-2025\/#67"
+  },
+  {
+    "date":"2025-06-26",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -1009,7 +1130,7 @@ export const rawData = [
     "mentions":0.0,
     "text":"https:\/\/www. foxnews.com\/politics\/trump-nom inated-nobel-peace-prize-over-iran-israel-ceasefire-deal",
     "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/114738890936166361.jpg"
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/114738886846704389.jpg"
   },
   {
     "date":"2025-06-24",
@@ -1020,18 +1141,7 @@ export const rawData = [
     "mentions":0.0,
     "text":"https:\/\/www. foxnews.com\/politics\/trump-nom inated-nobel-peace-prize-over-iran-israel-ceasefire-deal",
     "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/114738886846704389.jpg"
-  },
-  {
-    "date":"2025-06-20",
-    "type":"Press Gaggle",
-    "media":"Video",
-    "place":"Morristown, NJ",
-    "duration":3.0,
-    "mentions":2.0,
-    "text":"They won't give me a Nobel Peace Prize, 'cause they only give it to liberals.",
-    "title":"Press Gaggle: Donald Trump Speaks to Reporters After Air Force One Arrival - June 20, 2025",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-after-air-force-one-arrival-june-20-2025\/#38"
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/114738890936166361.jpg"
   },
   {
     "date":"2025-06-20",
@@ -1054,6 +1164,17 @@ export const rawData = [
     "text":"I am very happy to report that I have arranged, along with Secretary of State Marco Rubio, a wonderful Treaty between the Democratic Republic of the Congo, and the Republic of Rwanda, in their War, which was known for violent bloodshed and death, more so even than most other Wars, and has gone on for decades. Representatives from Rwanda and the Congo will be in Washington on Monday to sign Documents. This is a Great Day for Africa and, quite frankly, a Great Day for the World! I won\u2019t get a Nobel Peace Prize for this, I won\u2019t get a Nobel Peace Prize for stopping the War between India and Pakistan, I won\u2019t get a Nobel Peace Prize for stopping the War between Serbia and Kosovo, I won\u2019t get a Nobel Peace Prize for keeping Peace between Egypt and Ethiopia (A massive Ethiopian built dam, stupidly financed by the United States of America, substantially reduces the water flowing into The Nile River), and I won\u2019t get a Nobel Peace Prize for doing the Abraham Accords in the Middle East which, if all goes well, will be loaded to the brim with additional Countries signing on, and will unify the Middle East for the first time in \u201cThe Ages!\u201d No, I won\u2019t get a Nobel Peace Prize no matter what I do, including Russia\/Ukraine, and Israel\/Iran, whatever those outcomes may be, but the people know, and that\u2019s all that matters to me!",
     "title":"Social Media",
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/114717932061341718.jpg"
+  },
+  {
+    "date":"2025-06-20",
+    "type":"Press Gaggle",
+    "media":"Video",
+    "place":"Morristown, NJ",
+    "duration":3.0,
+    "mentions":2.0,
+    "text":"They won't give me a Nobel Peace Prize, 'cause they only give it to liberals.",
+    "title":"Press Gaggle: Donald Trump Speaks to Reporters After Air Force One Arrival - June 20, 2025",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-gaggle-after-air-force-one-arrival-june-20-2025\/#38"
   },
   {
     "date":"2025-06-18",
@@ -1139,9 +1260,9 @@ export const rawData = [
     "place":"Detroit, MI",
     "duration":18.0,
     "mentions":2.0,
-    "text":"But they didn't have the talent, they didn't have the administration to do it. And they even agreed it was a good thing. It was a good thing. It was actually a great thing. If I were named Obama, I would have had the Nobel Prize given to me in 10 seconds. He would -- he got the Nobel Prize he didn't even know what the hell he got it for.",
+    "text":"Remember, he got elected. Well, so did I. He got elected, and they announced he was getting the Nobel Prize. Remember, he said, \"Oh, what did I do?\" He didn't know what the hell he did. He got the Nobel Prize for doing nothing. He -- for getting elected. But I got elected, too. And, you know, if I -- think of that.",
     "title":"Speech: Donald Trump Addresses the Detroit Economic Club - October 10, 2024",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-detroit-economic-club-october-10-2024\/#323"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-detroit-economic-club-october-10-2024\/#324"
   },
   {
     "date":"2024-10-10",
@@ -1150,9 +1271,9 @@ export const rawData = [
     "place":"Detroit, MI",
     "duration":18.0,
     "mentions":2.0,
-    "text":"Remember, he got elected. Well, so did I. He got elected, and they announced he was getting the Nobel Prize. Remember, he said, \"Oh, what did I do?\" He didn't know what the hell he did. He got the Nobel Prize for doing nothing. He -- for getting elected. But I got elected, too. And, you know, if I -- think of that.",
+    "text":"But they didn't have the talent, they didn't have the administration to do it. And they even agreed it was a good thing. It was a good thing. It was actually a great thing. If I were named Obama, I would have had the Nobel Prize given to me in 10 seconds. He would -- he got the Nobel Prize he didn't even know what the hell he got it for.",
     "title":"Speech: Donald Trump Addresses the Detroit Economic Club - October 10, 2024",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-detroit-economic-club-october-10-2024\/#324"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-detroit-economic-club-october-10-2024\/#323"
   },
   {
     "date":"2024-10-09",
@@ -1192,22 +1313,22 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Mint Hill, NC",
-    "duration":22.0,
+    "duration":24.0,
     "mentions":3.0,
-    "text":"I never even got a mention, and I wouldn't because I happen to be a different kind of a person. And the fake news treats me much differently than they treat other people. Obama got a Nobel Peace Prize, and he didn't even do -- he said, \"Why did I get it?\" He had no idea. It was immediate as soon as he walked into office, practically.",
+    "text":"But I don't care about that with the Nobel Prize. I had so many people, \"You should get the Nobel Prize.\" I said, \"Don't worry about it.\" They don't get the Nobel Prize to certain people. But these are the people that get things done. These are the people that understand strength and they understand peace because we will restore peace through strength.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Mint Hill, North Carolina - September 25, 2024",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mint-hill-north-carolina-september-25-2024\/#151"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mint-hill-north-carolina-september-25-2024\/#153"
   },
   {
     "date":"2024-09-25",
     "type":"Speech",
     "media":"Video",
     "place":"Mint Hill, NC",
-    "duration":24.0,
+    "duration":22.0,
     "mentions":3.0,
-    "text":"But I don't care about that with the Nobel Prize. I had so many people, \"You should get the Nobel Prize.\" I said, \"Don't worry about it.\" They don't get the Nobel Prize to certain people. But these are the people that get things done. These are the people that understand strength and they understand peace because we will restore peace through strength.",
+    "text":"I never even got a mention, and I wouldn't because I happen to be a different kind of a person. And the fake news treats me much differently than they treat other people. Obama got a Nobel Peace Prize, and he didn't even do -- he said, \"Why did I get it?\" He had no idea. It was immediate as soon as he walked into office, practically.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Mint Hill, North Carolina - September 25, 2024",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mint-hill-north-carolina-september-25-2024\/#153"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mint-hill-north-carolina-september-25-2024\/#151"
   },
   {
     "date":"2024-08-21",
@@ -1304,9 +1425,9 @@ export const rawData = [
     "place":"Social Media",
     "duration":0.0,
     "mentions":0.0,
-    "text":"https:\/\/ justthenews.com\/politics-polic y\/environment\/more-1600-scientists-including-nobel-laureates-declare-climate-crisis",
+    "text":"\u201cThree Years Later, Trump Deserves A Nobel Peace Prize For The Abraham Accords\u201d https:\/\/ thefederalist.com\/2023\/09\/05\/t hree-years-later-trump-deserves-a-nobel-peace-prize-for-the-abraham-accords\/",
     "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/111013245529384236.jpg"
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/111014094468118799.jpg"
   },
   {
     "date":"2023-09-05",
@@ -1315,9 +1436,9 @@ export const rawData = [
     "place":"Social Media",
     "duration":0.0,
     "mentions":0.0,
-    "text":"\u201cThree Years Later, Trump Deserves A Nobel Peace Prize For The Abraham Accords\u201d https:\/\/ thefederalist.com\/2023\/09\/05\/t hree-years-later-trump-deserves-a-nobel-peace-prize-for-the-abraham-accords\/",
+    "text":"https:\/\/ justthenews.com\/politics-polic y\/environment\/more-1600-scientists-including-nobel-laureates-declare-climate-crisis",
     "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/111014094468118799.jpg"
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-truthsocial\/111013245529384236.jpg"
   },
   {
     "date":"2022-12-09",
@@ -1359,9 +1480,9 @@ export const rawData = [
     "place":"Traverse City, MI",
     "duration":17.0,
     "mentions":2.0,
-    "text":"I just heard today, I thought it was three, I got four, four Nobel Peace Prizes. Can you believe it? One for the Middle East. Ru -- one for Kosovo-Serbia. I mean whe -- they want to make a trade deal. They're each fighting each other for many decades. They're fighting, killing each other. You've read it.",
+    "text":"We don't know where it is. You don't know where it is. Some people have never heard of the places. But they're places and they're people, they're human beings. And I said, \"Tell them we're gonna do it, but you have to make peace.\" And we got them together, we made peace. And they actually nominated me for Nobel Peace Prize.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Traverse City, Michigan - November 2, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-traverse-city-michigan-november-2-2020\/#93"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-traverse-city-michigan-november-2-2020\/#96"
   },
   {
     "date":"2020-11-02",
@@ -1370,9 +1491,9 @@ export const rawData = [
     "place":"Traverse City, MI",
     "duration":17.0,
     "mentions":2.0,
-    "text":"We don't know where it is. You don't know where it is. Some people have never heard of the places. But they're places and they're people, they're human beings. And I said, \"Tell them we're gonna do it, but you have to make peace.\" And we got them together, we made peace. And they actually nominated me for Nobel Peace Prize.",
+    "text":"I just heard today, I thought it was three, I got four, four Nobel Peace Prizes. Can you believe it? One for the Middle East. Ru -- one for Kosovo-Serbia. I mean whe -- they want to make a trade deal. They're each fighting each other for many decades. They're fighting, killing each other. You've read it.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Traverse City, Michigan - November 2, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-traverse-city-michigan-november-2-2020\/#96"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-traverse-city-michigan-november-2-2020\/#93"
   },
   {
     "date":"2020-10-28",
@@ -1401,17 +1522,6 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Manchester, NH",
-    "duration":28.0,
-    "mentions":3.0,
-    "text":"You know, Armenia? We're working on that. You know, we're working. We did it with Kosovo and Serbia. Do you believe, I got three nominations for the Nobel Peace Prize? Can you believe it? Can you believe it? The Middle East, we're doing peace. I did it the opposite way of what these fools did for years. We -- we just signed the third Sudan yesterday, we signed.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Manchester, New Hampshire - October 25, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-manchester-new-hampshire-october-25-2020\/#113"
-  },
-  {
-    "date":"2020-10-25",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Manchester, NH",
     "duration":29.0,
     "mentions":3.0,
     "text":"When I say Nobel Prize, nomination. I don't know, you know, I don't know, I don't know -- but with Serbia. So now we have Armenia. Look at the Armenia. They are (cheering) incredible people. They're fighting like hell, right? They're fighting like hell. (cheering) And you know what? We're gonna get something done because -- [Audience member calls out \"I love you\"] -- Thank you, and I love you, too.",
@@ -1428,6 +1538,17 @@ export const rawData = [
     "text":"And it'll all come -- it's all coming together beautifully. We're gonna have peace in the Middle East. What we've done is pretty amazing, but with Serbia-Kosovo, so they're -- so we signed a deal, so they gave me a Nobel Prize for that. They gave me a Nobel Prize for something else. They should give me a Nobel Prize for what I did in Syria.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Manchester, New Hampshire - October 25, 2020",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-manchester-new-hampshire-october-25-2020\/#120"
+  },
+  {
+    "date":"2020-10-25",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Manchester, NH",
+    "duration":28.0,
+    "mentions":3.0,
+    "text":"You know, Armenia? We're working on that. You know, we're working. We did it with Kosovo and Serbia. Do you believe, I got three nominations for the Nobel Peace Prize? Can you believe it? Can you believe it? The Middle East, we're doing peace. I did it the opposite way of what these fools did for years. We -- we just signed the third Sudan yesterday, we signed.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Manchester, New Hampshire - October 25, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-manchester-new-hampshire-october-25-2020\/#113"
   },
   {
     "date":"2020-10-20",
@@ -1478,22 +1599,22 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Johnstown, PA",
-    "duration":32.0,
+    "duration":28.0,
     "mentions":2.0,
-    "text":"I got nominated for three Nobel Peace Prizes. I did more in 47 months than Joe Biden did in 47 years and that's true. Now Biden is pushing the most far-left agenda ever put forward by a Presidential nominee. He's going to ruin your energy. He's going to ruin your state. The Biden plan would destroy Social Security and destroy protections for pre-existing conditions because there's no money.",
+    "text":"I also recognize Israeli sovereignty over the Golan Heights, 52 years they've been trying to get that. And instead of endless war, we're forging peace in the Middle East. Did you see the deals we made? I actually got nominated for a Nobel Peace Prize. The press didn't cover it and that's OK. The press didn't cover it, Mike.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Johnstown, Pennsylvania - October 13, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-johnstown-pennsylvania-october-13-2020\/#143"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-johnstown-pennsylvania-october-13-2020\/#142"
   },
   {
     "date":"2020-10-13",
     "type":"Speech",
     "media":"Video",
     "place":"Johnstown, PA",
-    "duration":28.0,
+    "duration":32.0,
     "mentions":2.0,
-    "text":"I also recognize Israeli sovereignty over the Golan Heights, 52 years they've been trying to get that. And instead of endless war, we're forging peace in the Middle East. Did you see the deals we made? I actually got nominated for a Nobel Peace Prize. The press didn't cover it and that's OK. The press didn't cover it, Mike.",
+    "text":"I got nominated for three Nobel Peace Prizes. I did more in 47 months than Joe Biden did in 47 years and that's true. Now Biden is pushing the most far-left agenda ever put forward by a Presidential nominee. He's going to ruin your energy. He's going to ruin your state. The Biden plan would destroy Social Security and destroy protections for pre-existing conditions because there's no money.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Johnstown, Pennsylvania - October 13, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-johnstown-pennsylvania-october-13-2020\/#142"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-johnstown-pennsylvania-october-13-2020\/#143"
   },
   {
     "date":"2020-10-12",
@@ -1524,9 +1645,9 @@ export const rawData = [
     "place":"Washington, DC",
     "duration":19.0,
     "mentions":1.0,
-    "text":"I got it done in about two minutes. And instead of, uh, endless wars, we're forging peace, as you noticed, uh... Not braggingly, but I was nominated for three Nobel Prizes in the last, uh, month and a half. See what happens with that. But we have, uh, a lot of countries coming in to peace in the Middle East.",
-    "title":"Remarks: Donald Trump Holds a Virtual Florida Tele-Rally - October 11, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-tele-rally-florida-october-11-2020\/#35"
+    "text":"We have, uh, as you know, a historic deal. In fact, uh, we were nominated for the Nobel Prize for the deal. A lot of other countries are coming into it right now. It's a big -- it's a great thing. It's a great thing. We did it a different way than the previous, uh, 50 years worth of people that had no clue what they were doing.",
+    "title":"Remarks: Donald Trump Holds a Virtual Arizona Tele-Rally - October 11, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-tele-rally-arizona-october-11-2020\/#51"
   },
   {
     "date":"2020-10-11",
@@ -1535,20 +1656,9 @@ export const rawData = [
     "place":"Washington, DC",
     "duration":19.0,
     "mentions":1.0,
-    "text":"We have, uh, as you know, a historic deal. In fact, uh, we were nominated for the Nobel Prize for the deal. A lot of other countries are coming into it right now. It's a big -- it's a great thing. It's a great thing. We did it a different way than the previous, uh, 50 years worth of people that had no clue what they were doing.",
-    "title":"Remarks: Donald Trump Holds a Virtual Arizona Tele-Rally - October 11, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-tele-rally-arizona-october-11-2020\/#51"
-  },
-  {
-    "date":"2020-10-09",
-    "type":"Interview",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":8.0,
-    "mentions":2.0,
-    "text":"Well, first of all, it's such a great question. Most people can't understand it. As an example, I was nominated for two Nobel Peace Prizes. One for --",
-    "title":"Interview: Rush Limbaugh Interviews Donald Trump on The Rush Limbaugh Show - October 9, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-rush-limbaugh-october-9-2020\/#52"
+    "text":"I got it done in about two minutes. And instead of, uh, endless wars, we're forging peace, as you noticed, uh... Not braggingly, but I was nominated for three Nobel Prizes in the last, uh, month and a half. See what happens with that. But we have, uh, a lot of countries coming in to peace in the Middle East.",
+    "title":"Remarks: Donald Trump Holds a Virtual Florida Tele-Rally - October 11, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-tele-rally-florida-october-11-2020\/#35"
   },
   {
     "date":"2020-10-09",
@@ -1562,15 +1672,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-rush-limbaugh-podcast-october-9-2020\/#49"
   },
   {
-    "date":"2020-10-08",
+    "date":"2020-10-09",
     "type":"Interview",
     "media":"Video",
     "place":"Washington, DC",
-    "duration":17.0,
+    "duration":8.0,
     "mentions":2.0,
-    "text":"No, but I know -- but the press doesn't even write about it. Not that I need that, but the press doesn't -- think of it, you get nominated for a Nobel Prize, you don't even get the -- a story. They don't even write about it. They don't even talk about it. It's disgusting, frankly. Obama got one. Nobody even -- like his first couple of weeks in office, nobody even knew what he did.",
-    "title":"Interview: Maria Bartiromo Interviews Donald Trump on Fox Business - October 8, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-fox-business-maria-bartiromo-october-8-2020\/#348"
+    "text":"Well, first of all, it's such a great question. Most people can't understand it. As an example, I was nominated for two Nobel Peace Prizes. One for --",
+    "title":"Interview: Rush Limbaugh Interviews Donald Trump on The Rush Limbaugh Show - October 9, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-rush-limbaugh-october-9-2020\/#52"
   },
   {
     "date":"2020-10-08",
@@ -1582,6 +1692,17 @@ export const rawData = [
     "text":"Yes. we're going to have more countries come in. And they're -- they're all lined up already. It's -- like I've done it totally different. They put me up for a Nobel Prize -- two Nobel Prizes, that in Kosovo, Serbia, too.",
     "title":"Interview: Maria Bartiromo Interviews Donald Trump on Fox Business - October 8, 2020",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-fox-business-maria-bartiromo-october-8-2020\/#346"
+  },
+  {
+    "date":"2020-10-08",
+    "type":"Interview",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":17.0,
+    "mentions":2.0,
+    "text":"No, but I know -- but the press doesn't even write about it. Not that I need that, but the press doesn't -- think of it, you get nominated for a Nobel Prize, you don't even get the -- a story. They don't even write about it. They don't even talk about it. It's disgusting, frankly. Obama got one. Nobody even -- like his first couple of weeks in office, nobody even knew what he did.",
+    "title":"Interview: Maria Bartiromo Interviews Donald Trump on Fox Business - October 8, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-fox-business-maria-bartiromo-october-8-2020\/#348"
   },
   {
     "date":"2020-10-01",
@@ -1639,7 +1760,7 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-duluth-minnesota-september-30-2020\/#90"
   },
   {
-    "date":"2020-09-29",
+    "date":"2020-09-28",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -1648,6 +1769,28 @@ export const rawData = [
     "text":"The \"Trump Doctrine\" earns President Trump a third Nobel Peace Prize Nomination! @LouDobbs",
     "title":"Social Media",
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1310740567803006977.jpg"
+  },
+  {
+    "date":"2020-09-26",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Middletown, PA",
+    "duration":17.0,
+    "mentions":5.0,
+    "text":"They had another story that this time -- that cleaning up the ranch -- another one, another one, another one, got to the commercial, never ended, got back a little tiny piece and I said they didn't cover two Nobel Prizes. I got two in one week, did you ever hear that one? For different things, totally unrelated.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Middletown, Pennsylvania - September 26, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-middletown-pennsylvania-september-26-2020\/#133"
+  },
+  {
+    "date":"2020-09-26",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Middletown, PA",
+    "duration":24.0,
+    "mentions":5.0,
+    "text":"My only complaint is, I should have gotten about seven or eight because if you knew some of the other -- some of the other things I've done are much better. I should have gotten seven, but the fake news never even put it on. And somebody had a show, where they said the amount of time devoted to Donald Trump's Nobel Peace Prize, two of them, zero on the network, zero.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Middletown, Pennsylvania - September 26, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-middletown-pennsylvania-september-26-2020\/#134"
   },
   {
     "date":"2020-09-26",
@@ -1683,28 +1826,6 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-middletown-pennsylvania-september-26-2020\/#128"
   },
   {
-    "date":"2020-09-26",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Middletown, PA",
-    "duration":17.0,
-    "mentions":5.0,
-    "text":"They had another story that this time -- that cleaning up the ranch -- another one, another one, another one, got to the commercial, never ended, got back a little tiny piece and I said they didn't cover two Nobel Prizes. I got two in one week, did you ever hear that one? For different things, totally unrelated.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Middletown, Pennsylvania - September 26, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-middletown-pennsylvania-september-26-2020\/#133"
-  },
-  {
-    "date":"2020-09-26",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Middletown, PA",
-    "duration":24.0,
-    "mentions":5.0,
-    "text":"My only complaint is, I should have gotten about seven or eight because if you knew some of the other -- some of the other things I've done are much better. I should have gotten seven, but the fake news never even put it on. And somebody had a show, where they said the amount of time devoted to Donald Trump's Nobel Peace Prize, two of them, zero on the network, zero.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Middletown, Pennsylvania - September 26, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-middletown-pennsylvania-september-26-2020\/#134"
-  },
-  {
     "date":"2020-09-25",
     "type":"Speech",
     "media":"Video",
@@ -1728,17 +1849,6 @@ export const rawData = [
   },
   {
     "date":"2020-09-24",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Jacksonville, FL",
-    "duration":20.0,
-    "mentions":5.0,
-    "text":"NBC. Probably worse than CNN. NBC. But we were going to watch it. We're going to watch the Evening News. So we'll watch second place NBC. You know, it is. In second place. They spend all this money on PR and then I hit them hard. But they are bad. I said, \"First lady, wait till you see it. Nobel Peace Prize.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Jacksonville, Florida - September 24, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-jacksonville-florida-september-24-2020\/#122"
-  },
-  {
-    "date":"2020-09-24",
     "type":"Press Gaggle",
     "media":"Video",
     "place":"Washington, DC",
@@ -1758,6 +1868,17 @@ export const rawData = [
     "text":"You saw what is happening there. In fact, I was nominated for two Nobel Peace prizes last week. You know the story. You know the story. And I told our great first lady. I said, \"First lady, I was nominated for that Nobel Peace Prize. I'm going to come home early and I'm going to watch it on NBC News,\" which is one of the biggest scam jobs I've ever seen.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Jacksonville, Florida - September 24, 2020",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-jacksonville-florida-september-24-2020\/#121"
+  },
+  {
+    "date":"2020-09-24",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Jacksonville, FL",
+    "duration":20.0,
+    "mentions":5.0,
+    "text":"NBC. Probably worse than CNN. NBC. But we were going to watch it. We're going to watch the Evening News. So we'll watch second place NBC. You know, it is. In second place. They spend all this money on PR and then I hit them hard. But they are bad. I said, \"First lady, wait till you see it. Nobel Peace Prize.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Jacksonville, Florida - September 24, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-jacksonville-florida-september-24-2020\/#122"
   },
   {
     "date":"2020-09-24",
@@ -1797,22 +1918,33 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Swanton, OH",
-    "duration":25.0,
+    "duration":22.0,
     "mentions":5.0,
-    "text":"I mean they all want to do it -- to have peace in the Middle East without blood all over the sand, no blood. We're going to peace in the Middle East. So I was nominated for the Nobel Peace Prize and I told the story last night. Should I tell it or not? Should I? Yes? She wants me to tell it. So I go home to our great first lady, I said, first lady, you're going to be so proud of me tonight.",
+    "text":"It was like right at the very beginning. He didn't do anything, he did nothing and he got nominated. It was the biggest story I've ever seen, but that's OK. In the meantime, we're President and they're not, right? We, we, no, it is true. You would think if you're nominated for the Nobel Prize you'd get like, maybe like a half a cent.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Swanton, Ohio - September 21, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-swanton-ohio-september-21-2020\/#149"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-swanton-ohio-september-21-2020\/#153"
   },
   {
     "date":"2020-09-21",
     "type":"Speech",
     "media":"Video",
     "place":"Swanton, OH",
-    "duration":22.0,
+    "duration":18.0,
     "mentions":5.0,
-    "text":"It was like right at the very beginning. He didn't do anything, he did nothing and he got nominated. It was the biggest story I've ever seen, but that's OK. In the meantime, we're President and they're not, right? We, we, no, it is true. You would think if you're nominated for the Nobel Prize you'd get like, maybe like a half a cent.",
+    "text":"I also recognize Israeli sovereignty over the Golan Heights, and instead of endless wars, we are forging peace all over the Middle East and you saw that. And I'm the only man that got nominated for a Nobel Peace Prize and I didn't get any press. They wouldn't cover it, right? [Audience Boos] For two of them.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Swanton, Ohio - September 21, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-swanton-ohio-september-21-2020\/#153"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-swanton-ohio-september-21-2020\/#147"
+  },
+  {
+    "date":"2020-09-21",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Swanton, OH",
+    "duration":25.0,
+    "mentions":5.0,
+    "text":"I mean they all want to do it -- to have peace in the Middle East without blood all over the sand, no blood. We're going to peace in the Middle East. So I was nominated for the Nobel Peace Prize and I told the story last night. Should I tell it or not? Should I? Yes? She wants me to tell it. So I go home to our great first lady, I said, first lady, you're going to be so proud of me tonight.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Swanton, Ohio - September 21, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-swanton-ohio-september-21-2020\/#149"
   },
   {
     "date":"2020-09-21",
@@ -1837,28 +1969,6 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-swanton-ohio-september-21-2020\/#152"
   },
   {
-    "date":"2020-09-21",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Swanton, OH",
-    "duration":18.0,
-    "mentions":5.0,
-    "text":"I also recognize Israeli sovereignty over the Golan Heights, and instead of endless wars, we are forging peace all over the Middle East and you saw that. And I'm the only man that got nominated for a Nobel Peace Prize and I didn't get any press. They wouldn't cover it, right? [Audience Boos] For two of them.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Swanton, Ohio - September 21, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-swanton-ohio-september-21-2020\/#147"
-  },
-  {
-    "date":"2020-09-20",
-    "type":"Interview",
-    "media":"Video",
-    "place":"Washington, DC",
-    "duration":14.0,
-    "mentions":1.0,
-    "text":"I've done very positive things. Like when I get nominated for the, uh, Nobel Peace Prize, it trends in a negative way. No. [Laughs] It's, \"Why would they nominate him? He only created peace in the Middle East.\" You know, I'm in the process of doing that.",
-    "title":"Interview: Dan Bongino of The Dan Bongino Show Interviews Donald Trump - September 20, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-dan-bongino-show-september-20-2020\/#48"
-  },
-  {
     "date":"2020-09-20",
     "type":"Remarks",
     "media":"Video",
@@ -1870,59 +1980,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-tele-rally-virginia-september-20-2020\/#60"
   },
   {
-    "date":"2020-09-19",
-    "type":"Speech",
+    "date":"2020-09-20",
+    "type":"Interview",
     "media":"Video",
-    "place":"Fayetteville, NC",
-    "duration":48.0,
-    "mentions":7.0,
-    "text":"I go home, I say, \"First Lady, a great thing happened today I was honored Nobel Peace Prize. Nominated. This is a big thing, first lady.\" and then I went home two days later, I said, \"First Lady, you're not going to believe it. I was honored again Nobel Prize, that's Kosovo.\" Israel, Kosovo. I said, \"First Lady, this is great news, let's turn on the television.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#97"
-  },
-  {
-    "date":"2020-09-19",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Fayetteville, NC",
-    "duration":25.0,
-    "mentions":7.0,
-    "text":"This has going to be big. This is going to be big tonight.\" We just got on this, this big Nobel Peace -- Can you imagine, you grow up in Brooklyn Queens and now you're getting the no -- First Lady, let's turn on the television. Let's turn on to that fake NBC News. And I see we have a storm. OK, First, Lady, you don't worry about it, the storm.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#98"
-  },
-  {
-    "date":"2020-09-19",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Fayetteville, NC",
-    "duration":27.0,
-    "mentions":7.0,
-    "text":"We have it taken care of FEMA's down there. Florida, Alabama, Georgia; we've got FEMA down there, it's being taken care of, we always take care of it. We take good care of them. Texas, Louisiana. We took good care of them two weeks ago. All right, First Lady, don't worry about it. It's a -- next story, I'm sure it's a Nobel Prize for Peace.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#99"
-  },
-  {
-    "date":"2020-09-19",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Fayetteville, NC",
+    "place":"Washington, DC",
     "duration":14.0,
-    "mentions":7.0,
-    "text":"You love your president and your president gets honored because -- I'm not being honored, you're being honored with the Nobel Peace Prize for Israel, what we did with Israel. [Audience calls out \"We love you\"] I went home and I said to the first lady, \"Darling --\" she's very popular. She made a great speech, right?",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#95"
-  },
-  {
-    "date":"2020-09-19",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Fayetteville, NC",
-    "duration":24.0,
-    "mentions":7.0,
-    "text":"I know exactly a true story and then it's written to totally bend the truth, to make a good thing into a bad thing. Like, can you believe it in one week, they nominated me not for one but for two Nobel Prizes? No, but think of it. No, but think. And they didn't cover the story. Now, Obama got his, the first week, in a very liberal group and nobody knew what the hell he got it for and he didn't know. \"Why did you get it?\", \"I don't know.\" Remember, I don't know, I have no -- But you know you have a president.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#94"
+    "mentions":1.0,
+    "text":"I've done very positive things. Like when I get nominated for the, uh, Nobel Peace Prize, it trends in a negative way. No. [Laughs] It's, \"Why would they nominate him? He only created peace in the Middle East.\" You know, I'm in the process of doing that.",
+    "title":"Interview: Dan Bongino of The Dan Bongino Show Interviews Donald Trump - September 20, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-dan-bongino-show-september-20-2020\/#48"
   },
   {
     "date":"2020-09-19",
@@ -1940,6 +2006,61 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Fayetteville, NC",
+    "duration":25.0,
+    "mentions":7.0,
+    "text":"This has going to be big. This is going to be big tonight.\" We just got on this, this big Nobel Peace -- Can you imagine, you grow up in Brooklyn Queens and now you're getting the no -- First Lady, let's turn on the television. Let's turn on to that fake NBC News. And I see we have a storm. OK, First, Lady, you don't worry about it, the storm.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#98"
+  },
+  {
+    "date":"2020-09-19",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Fayetteville, NC",
+    "duration":24.0,
+    "mentions":7.0,
+    "text":"I know exactly a true story and then it's written to totally bend the truth, to make a good thing into a bad thing. Like, can you believe it in one week, they nominated me not for one but for two Nobel Prizes? No, but think of it. No, but think. And they didn't cover the story. Now, Obama got his, the first week, in a very liberal group and nobody knew what the hell he got it for and he didn't know. \"Why did you get it?\", \"I don't know.\" Remember, I don't know, I have no -- But you know you have a president.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#94"
+  },
+  {
+    "date":"2020-09-19",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Fayetteville, NC",
+    "duration":14.0,
+    "mentions":7.0,
+    "text":"You love your president and your president gets honored because -- I'm not being honored, you're being honored with the Nobel Peace Prize for Israel, what we did with Israel. [Audience calls out \"We love you\"] I went home and I said to the first lady, \"Darling --\" she's very popular. She made a great speech, right?",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#95"
+  },
+  {
+    "date":"2020-09-19",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Fayetteville, NC",
+    "duration":48.0,
+    "mentions":7.0,
+    "text":"I go home, I say, \"First Lady, a great thing happened today I was honored Nobel Peace Prize. Nominated. This is a big thing, first lady.\" and then I went home two days later, I said, \"First Lady, you're not going to believe it. I was honored again Nobel Prize, that's Kosovo.\" Israel, Kosovo. I said, \"First Lady, this is great news, let's turn on the television.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#97"
+  },
+  {
+    "date":"2020-09-19",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Fayetteville, NC",
+    "duration":27.0,
+    "mentions":7.0,
+    "text":"We have it taken care of FEMA's down there. Florida, Alabama, Georgia; we've got FEMA down there, it's being taken care of, we always take care of it. We take good care of them. Texas, Louisiana. We took good care of them two weeks ago. All right, First Lady, don't worry about it. It's a -- next story, I'm sure it's a Nobel Prize for Peace.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Fayetteville, North Carolina - September 19, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-fayetteville-north-carolina-september-19-2020\/#99"
+  },
+  {
+    "date":"2020-09-19",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Fayetteville, NC",
     "duration":18.0,
     "mentions":7.0,
     "text":"That was 18 minutes and the Peace Prize, Nobel version, zero time for President Trump. Thank you very much, fake news media we appreciate it. And when Obama got it, here are the headlines: President Obama gets the Nobel Prize. We need an honest media, the free airwaves, they lie over the free airwaves, they use them and they lie.",
@@ -1951,22 +2072,11 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Mosinee, WI",
-    "duration":26.0,
+    "duration":33.0,
     "mentions":4.0,
-    "text":"Now, when Obama got it, it was -- Headlines, headlines: Our President just got the Nobel Peace Prize. He was just nominated. Headlines: like his first little while he got it. And to this day, and frankly, he did a lousy job, he was a lousy President. He really was. And his Vice President, I'll tell you what, his Vice President was very good for --You know who?",
+    "text":"It's happening fast. They're all wanted. They want to all join. We did it, you know, the reverse, we did it the re -- Thank you very much. Thank you very much. [Audience shouts \"Nobel Peace Prize\"] Yes, sir, thank you very much. I knew I liked you, you know, so the Nobel Peace Prize. So the funny thing, a lot of people don't know it because the fake news isn't right about it.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Mosinee, Wisconsin - September 17, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mosinee-wisconsin-september-17-2020\/#71"
-  },
-  {
-    "date":"2020-09-17",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Mosinee, WI",
-    "duration":29.0,
-    "mentions":4.0,
-    "text":"It's sort of a natural thing to do. But we did a good thing. But you know what? They did a check. So I got nominated twice for the Nobel Peace Prize. That's a big deal. I don't know. I should have gotten nominated seven times because we did a lot of other things, but these are for two different deals. And not one mention it was made on the evening news, think of it.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Mosinee, Wisconsin - September 17, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mosinee-wisconsin-september-17-2020\/#70"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mosinee-wisconsin-september-17-2020\/#67"
   },
   {
     "date":"2020-09-17",
@@ -1984,22 +2094,22 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Mosinee, WI",
-    "duration":33.0,
+    "duration":29.0,
     "mentions":4.0,
-    "text":"It's happening fast. They're all wanted. They want to all join. We did it, you know, the reverse, we did it the re -- Thank you very much. Thank you very much. [Audience shouts \"Nobel Peace Prize\"] Yes, sir, thank you very much. I knew I liked you, you know, so the Nobel Peace Prize. So the funny thing, a lot of people don't know it because the fake news isn't right about it.",
+    "text":"It's sort of a natural thing to do. But we did a good thing. But you know what? They did a check. So I got nominated twice for the Nobel Peace Prize. That's a big deal. I don't know. I should have gotten nominated seven times because we did a lot of other things, but these are for two different deals. And not one mention it was made on the evening news, think of it.",
     "title":"Speech: Donald Trump Holds a Campaign Rally in Mosinee, Wisconsin - September 17, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mosinee-wisconsin-september-17-2020\/#67"
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mosinee-wisconsin-september-17-2020\/#70"
   },
   {
-    "date":"2020-09-15",
-    "type":"Interview",
+    "date":"2020-09-17",
+    "type":"Speech",
     "media":"Video",
-    "place":"Washington, DC",
-    "duration":16.0,
-    "mentions":2.0,
-    "text":"And it's really -- much of it is absolutely the enemy of the people and they see it. And nobody's said it like I say it but I say it loud and clear. It's the enemy of the people, whether it's \"The New York Times,\" \"Washington Post,\" the networks. Think of it. You get nominated for the Nobel Prize --",
-    "title":"Interview: Donald Trump Calls In to Fox and Friends for an Interview - September 15, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-fox-and-friends-september-15-2020\/#90"
+    "place":"Mosinee, WI",
+    "duration":26.0,
+    "mentions":4.0,
+    "text":"Now, when Obama got it, it was -- Headlines, headlines: Our President just got the Nobel Peace Prize. He was just nominated. Headlines: like his first little while he got it. And to this day, and frankly, he did a lousy job, he was a lousy President. He really was. And his Vice President, I'll tell you what, his Vice President was very good for --You know who?",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Mosinee, Wisconsin - September 17, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-mosinee-wisconsin-september-17-2020\/#71"
   },
   {
     "date":"2020-09-15",
@@ -2011,6 +2121,17 @@ export const rawData = [
     "text":"Israel, the UAE, and Bahrain. Everyone said it was impossible. No matter what you do with some of the fake news, doesn't make any difference. This one is great. This one's sort of interesting. And I don't say this in a braggadocios way, but I get nominated for the Nobel Peace Prize twice last week on two different deals.",
     "title":"Interview: Donald Trump Calls In to Fox and Friends for an Interview - September 15, 2020",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-fox-and-friends-september-15-2020\/#64"
+  },
+  {
+    "date":"2020-09-15",
+    "type":"Interview",
+    "media":"Video",
+    "place":"Washington, DC",
+    "duration":16.0,
+    "mentions":2.0,
+    "text":"And it's really -- much of it is absolutely the enemy of the people and they see it. And nobody's said it like I say it but I say it loud and clear. It's the enemy of the people, whether it's \"The New York Times,\" \"Washington Post,\" the networks. Think of it. You get nominated for the Nobel Prize --",
+    "title":"Interview: Donald Trump Calls In to Fox and Friends for an Interview - September 15, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-interview-fox-and-friends-september-15-2020\/#90"
   },
   {
     "date":"2020-09-14",
@@ -2028,17 +2149,6 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Henderson, NV",
-    "duration":22.0,
-    "mentions":2.0,
-    "text":"They said we're going to nominate Barack Hussein Obama for the Nobel Peace Award, right? And what happened? And what happened? And then Biden said what about me? They said who the hell is he, this guy? What the hell has he done? But it's true, Obama got it for no reason whatsoever. Rick, you know that? No reason whatsoever.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Henderson, Nevada - September 13, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-henderson-nevada-september-13-2020\/#123"
-  },
-  {
-    "date":"2020-09-13",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Henderson, NV",
     "duration":39.0,
     "mentions":2.0,
     "text":"Over 75 years, they did two. We did two in a month and many other countries are coming in. The United Arab Emirates and Bahrain have both agreed to normalize relations with Israel. Nobody thought this was possible. In fact, you didn't hear it because they don't report this. You know, they just don't want to report it, but we -- they gave -- they nominated your President twice last week on two different subject for a Nobel Prize, but -- but the fake news media didn't cover it.",
@@ -2046,26 +2156,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-henderson-nevada-september-13-2020\/#121"
   },
   {
-    "date":"2020-09-12",
+    "date":"2020-09-13",
     "type":"Speech",
     "media":"Video",
-    "place":"Minden, NV",
+    "place":"Henderson, NV",
     "duration":22.0,
-    "mentions":5.0,
-    "text":"And then yesterday, we were nominated a second time for another Nobel Prize. Now that's a big thing. To me, you know, it's a big thing, even though, obviously, it's a very political thing, but it's a very big thing. The Nobel Peace Prize, right? I got -- and it was just reported. I'm just reporting this.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Minden, Nevada - September 12, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-minden-nevada-september-12-2020\/#50"
-  },
-  {
-    "date":"2020-09-12",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Minden, NV",
-    "duration":19.0,
-    "mentions":5.0,
-    "text":"In fact, he didn't even know why he got it. He didn't even know. He had no idea why he got it and he was right about that because nobody else does either. They still don't know, but we've done a lot of things. So we were nominated a few days ago for a Nobel Prize, which is a big thing, Nobel Peace Prize.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Minden, Nevada - September 12, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-minden-nevada-september-12-2020\/#49"
+    "mentions":2.0,
+    "text":"They said we're going to nominate Barack Hussein Obama for the Nobel Peace Award, right? And what happened? And what happened? And then Biden said what about me? They said who the hell is he, this guy? What the hell has he done? But it's true, Obama got it for no reason whatsoever. Rick, you know that? No reason whatsoever.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Henderson, Nevada - September 13, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-henderson-nevada-september-13-2020\/#123"
   },
   {
     "date":"2020-09-12",
@@ -2083,17 +2182,6 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Minden, NV",
-    "duration":31.0,
-    "mentions":5.0,
-    "text":"I got zero time on the nightly news, on the network news, zero, zero. We got zero time, think of it. The President of your country is honored by being nominated for the Nobel Peace Prize and your nightly news, ABC, which is terrible; CBS, which is terrible; and probably the worst of all owned by Concast.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Minden, Nevada - September 12, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-minden-nevada-september-12-2020\/#51"
-  },
-  {
-    "date":"2020-09-12",
-    "type":"Speech",
-    "media":"Video",
-    "place":"Minden, NV",
     "duration":47.0,
     "mentions":5.0,
     "text":"They spend a fortune, you know, on PR and then every time I get up, I call them Concast and to sort of wipe out their fortune, but they are bad people. But NBC is the worst of them all, not one mentioned. These people are corrupt, not one mentioned, not one mentioned. So your President gets a Nobel and you know, at least a nomination and they don't mention it.",
@@ -2101,15 +2189,37 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-minden-nevada-september-12-2020\/#52"
   },
   {
-    "date":"2020-09-10",
+    "date":"2020-09-12",
     "type":"Speech",
     "media":"Video",
-    "place":"Freeland, MI",
-    "duration":37.0,
-    "mentions":2.0,
-    "text":"It's peace and it's recognition of Israel and all of the things nobody thought it could be done. And you know it's an amazing thing. I don't say this out of ego, but I was nominated for the Nobel Peace Prize. Now I have to tell you. That's sort of a big thing. And the networks and most of the news didn't cover it.",
-    "title":"Speech: Donald Trump Holds a Campaign Rally in Freeland, Michigan - September 10, 2020",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-freeland-michigan-september-10-2020\/#114"
+    "place":"Minden, NV",
+    "duration":19.0,
+    "mentions":5.0,
+    "text":"In fact, he didn't even know why he got it. He didn't even know. He had no idea why he got it and he was right about that because nobody else does either. They still don't know, but we've done a lot of things. So we were nominated a few days ago for a Nobel Prize, which is a big thing, Nobel Peace Prize.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Minden, Nevada - September 12, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-minden-nevada-september-12-2020\/#49"
+  },
+  {
+    "date":"2020-09-12",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Minden, NV",
+    "duration":22.0,
+    "mentions":5.0,
+    "text":"And then yesterday, we were nominated a second time for another Nobel Prize. Now that's a big thing. To me, you know, it's a big thing, even though, obviously, it's a very political thing, but it's a very big thing. The Nobel Peace Prize, right? I got -- and it was just reported. I'm just reporting this.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Minden, Nevada - September 12, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-minden-nevada-september-12-2020\/#50"
+  },
+  {
+    "date":"2020-09-12",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Minden, NV",
+    "duration":31.0,
+    "mentions":5.0,
+    "text":"I got zero time on the nightly news, on the network news, zero, zero. We got zero time, think of it. The President of your country is honored by being nominated for the Nobel Peace Prize and your nightly news, ABC, which is terrible; CBS, which is terrible; and probably the worst of all owned by Concast.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Minden, Nevada - September 12, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-minden-nevada-september-12-2020\/#51"
   },
   {
     "date":"2020-09-10",
@@ -2123,15 +2233,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-freeland-michigan-september-10-2020\/#115"
   },
   {
-    "date":"2020-09-09",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"RT @trish_regan: A Nobel Peace Prize for Trump: Norwegian MP Nominates POTUS \"The people who have received the Peace Prize in recent years\u2026",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683747997454337.jpg"
+    "date":"2020-09-10",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Freeland, MI",
+    "duration":37.0,
+    "mentions":2.0,
+    "text":"It's peace and it's recognition of Israel and all of the things nobody thought it could be done. And you know it's an amazing thing. I don't say this out of ego, but I was nominated for the Nobel Peace Prize. Now I have to tell you. That's sort of a big thing. And the networks and most of the news didn't cover it.",
+    "title":"Speech: Donald Trump Holds a Campaign Rally in Freeland, Michigan - September 10, 2020",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-campaign-rally-freeland-michigan-september-10-2020\/#114"
   },
   {
     "date":"2020-09-09",
@@ -2151,28 +2261,6 @@ export const rawData = [
     "place":"Social Media",
     "duration":0.0,
     "mentions":0.0,
-    "text":"RT @chiIIum: President Donald Trump has been nominated for the 2021 Nobel Peace Prize. He was nominated by Christian Tybring-Gjedde, a mem\u2026",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303679949455462400.jpg"
-  },
-  {
-    "date":"2020-09-09",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"RT @_StephanieMyers: #BREAKING President Trump is nominated for the Nobel Peace Prize for helping broker the peace agreement between Israe\u2026",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303680194511884289.jpg"
-  },
-  {
-    "date":"2020-09-09",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
     "text":"RT @LouDobbs: Congratulations Mr President! Trump nominated for Nobel Peace Prize by Norwegian official, citing Israel-UAE peace deal #MAG\u2026",
     "title":"Social Media",
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303682911640662016.jpg"
@@ -2184,9 +2272,9 @@ export const rawData = [
     "place":"Social Media",
     "duration":0.0,
     "mentions":0.0,
-    "text":"RT @WashTimes: Donald Trump nominated for Nobel Peace Prize after Israel-UAE deal https:\/\/t.co\/Re7Z65gM1K",
+    "text":"RT @trish_regan: A Nobel Peace Prize for Trump: Norwegian MP Nominates POTUS \"The people who have received the Peace Prize in recent years\u2026",
     "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683016578027520.jpg"
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683747997454337.jpg"
   },
   {
     "date":"2020-09-09",
@@ -2195,9 +2283,9 @@ export const rawData = [
     "place":"Social Media",
     "duration":0.0,
     "mentions":0.0,
-    "text":"RT @thebradfordfile: President Donald J. Trump has been nominated for the Nobel Peace Prize. What took so long?",
+    "text":"RT @laurenboebert: Congratulations @POTUS on the Nobel Peace Prize nomination! Hopefully the committee follows through on it. Well deserv\u2026",
     "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683177156939776.jpg"
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683683094757377.jpg"
   },
   {
     "date":"2020-09-09",
@@ -2217,9 +2305,42 @@ export const rawData = [
     "place":"Social Media",
     "duration":0.0,
     "mentions":0.0,
-    "text":"RT @laurenboebert: Congratulations @POTUS on the Nobel Peace Prize nomination! Hopefully the committee follows through on it. Well deserv\u2026",
+    "text":"RT @thebradfordfile: President Donald J. Trump has been nominated for the Nobel Peace Prize. What took so long?",
     "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683683094757377.jpg"
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683177156939776.jpg"
+  },
+  {
+    "date":"2020-09-09",
+    "type":"Social Media",
+    "media":"Social Media",
+    "place":"Social Media",
+    "duration":0.0,
+    "mentions":0.0,
+    "text":"RT @WashTimes: Donald Trump nominated for Nobel Peace Prize after Israel-UAE deal https:\/\/t.co\/Re7Z65gM1K",
+    "title":"Social Media",
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303683016578027520.jpg"
+  },
+  {
+    "date":"2020-09-09",
+    "type":"Social Media",
+    "media":"Social Media",
+    "place":"Social Media",
+    "duration":0.0,
+    "mentions":0.0,
+    "text":"RT @_StephanieMyers: #BREAKING President Trump is nominated for the Nobel Peace Prize for helping broker the peace agreement between Israe\u2026",
+    "title":"Social Media",
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303680194511884289.jpg"
+  },
+  {
+    "date":"2020-09-09",
+    "type":"Social Media",
+    "media":"Social Media",
+    "place":"Social Media",
+    "duration":0.0,
+    "mentions":0.0,
+    "text":"RT @chiIIum: President Donald Trump has been nominated for the 2021 Nobel Peace Prize. He was nominated by Christian Tybring-Gjedde, a mem\u2026",
+    "title":"Social Media",
+    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1303679949455462400.jpg"
   },
   {
     "date":"2020-09-09",
@@ -2261,42 +2382,9 @@ export const rawData = [
     "place":"Social Media",
     "duration":0.0,
     "mentions":0.0,
-    "text":"....Lawsuits should be brought against all, including the Fake News Organizations, to rectify this terrible injustice. For all of the great lawyers out there, do we have any takers? When will the Noble Committee Act? Better be fast!",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1254479609472659456.jpg"
-  },
-  {
-    "date":"2020-04-26",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"....to the REAL REPORTERS & JOURNALISTS who got it right. I can give the Committee a very comprehensive list. When will the Noble Committee DEMAND the Prizes back, especially since they were gotten under fraud? The reporters and Lamestream Media knew the truth all along....",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1254479608617095172.jpg"
-  },
-  {
-    "date":"2020-04-26",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
     "text":"Does anybody get the meaning of what a so-called Noble (not Nobel) Prize is, especially as it pertains to Reporters and Journalists? Noble is defined as, \u201chaving or showing fine personal qualities or high moral principles and ideals.\u201d Does sarcasm ever work?",
     "title":"Social Media",
     "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1254544354603143168.jpg"
-  },
-  {
-    "date":"2020-04-26",
-    "type":"Social Media",
-    "media":"Social Media",
-    "place":"Social Media",
-    "duration":0.0,
-    "mentions":0.0,
-    "text":"When will all of the \"reporters\" who have received Noble Prizes for their work on Russia, Russia, Russia, only to have been proven totally wrong (and, in fact, it was the other side who committed the crimes), be turning back their cherished \"Nobles\" so that they can be given....",
-    "title":"Social Media",
-    "url":"https:\/\/media-cdn.factba.se\/realdonaldtrump-twitter\/1254479607627231232.jpg"
   },
   {
     "date":"2020-01-09",
@@ -2358,17 +2446,6 @@ export const rawData = [
     "type":"Remarks",
     "media":"Video",
     "place":"Washington, DC",
-    "duration":21.0,
-    "mentions":3.0,
-    "text":"He said, \"I have nominated you...\" or \"Respectfully, on behalf of Japan, I am asking them to give you the Nobel Peace Prize.\" I said, \"Thank you.\" Many other people feel that way too. I'll probably never get it, but that's okay. They gave it to Obama. He didn't even know what he got it for. He was there for about 15 seconds and he got the Nobel Prize.",
-    "title":"Remarks: Donald Trump Announces Border National Emergency at The White House - February 15, 2019",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-border-wall-emergency-february-15-2019\/#199"
-  },
-  {
-    "date":"2019-02-15",
-    "type":"Remarks",
-    "media":"Video",
-    "place":"Washington, DC",
     "duration":24.0,
     "mentions":3.0,
     "text":"Nobel Prize. He sent it to them. You know why? Because he had rocket ships and he had missiles flying over Japan. And they had alarms going off; you know that. Now, all of a sudden, they feel good; they feel safe. I did that. And it was a very tough dialogue at the beginning. Fire and fury. Total annihilation.",
@@ -2376,15 +2453,15 @@ export const rawData = [
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-border-wall-emergency-february-15-2019\/#203"
   },
   {
-    "date":"2018-10-27",
-    "type":"Speech",
+    "date":"2019-02-15",
+    "type":"Remarks",
     "media":"Video",
-    "place":"Indianapolis, IN",
-    "duration":29.0,
-    "mentions":2.0,
-    "text":"Even after Norman failed his college entrance exams, he failed them. He was devastated. But he kept on pushing forward. Eventually, he earned a PhD, developed a revolutionary variety of high-yield wheat, and he won the Nobel Peace -- well, do you know this? Can you believe it? He won the Nobel Peace Prize.",
-    "title":"Speech: Donald Trump Addresses Future Farmers of America in Indianapolis - October 27, 2018",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-future-farmers-america-indianapolis-october-27-2018\/#201"
+    "place":"Washington, DC",
+    "duration":21.0,
+    "mentions":3.0,
+    "text":"He said, \"I have nominated you...\" or \"Respectfully, on behalf of Japan, I am asking them to give you the Nobel Peace Prize.\" I said, \"Thank you.\" Many other people feel that way too. I'll probably never get it, but that's okay. They gave it to Obama. He didn't even know what he got it for. He was there for about 15 seconds and he got the Nobel Prize.",
+    "title":"Remarks: Donald Trump Announces Border National Emergency at The White House - February 15, 2019",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-remarks-border-wall-emergency-february-15-2019\/#199"
   },
   {
     "date":"2018-10-27",
@@ -2396,6 +2473,17 @@ export const rawData = [
     "text":"But Norman got the Nobel Peace Prize. How about that? And he got the Congressional Gold Medal, and the Presidential Medal of Freedom -- our highest award after, in my opinion, the Congressional Medal of Honor. And I've given some of them out; these are brave, brave, incredible people. Incredible people.",
     "title":"Speech: Donald Trump Addresses Future Farmers of America in Indianapolis - October 27, 2018",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-future-farmers-america-indianapolis-october-27-2018\/#203"
+  },
+  {
+    "date":"2018-10-27",
+    "type":"Speech",
+    "media":"Video",
+    "place":"Indianapolis, IN",
+    "duration":29.0,
+    "mentions":2.0,
+    "text":"Even after Norman failed his college entrance exams, he failed them. He was devastated. But he kept on pushing forward. Eventually, he earned a PhD, developed a revolutionary variety of high-yield wheat, and he won the Nobel Peace -- well, do you know this? Can you believe it? He won the Nobel Peace Prize.",
+    "title":"Speech: Donald Trump Addresses Future Farmers of America in Indianapolis - October 27, 2018",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-future-farmers-america-indianapolis-october-27-2018\/#201"
   },
   {
     "date":"2018-05-17",
@@ -2454,28 +2542,28 @@ export const rawData = [
   },
   {
     "date":"2017-06-09",
-    "type":"Presser",
+    "type":"Press Conference",
     "media":"Video",
     "place":"Washington, DC",
     "duration":49.0,
     "mentions":1.0,
     "text":"Romanians have made many contributions to the United States, and to the world. Very notable among them was Nobel Prize laureate Elie Wiesel, who was born in Romania and, sadly, passed away almost one year ago. And I understand that earlier this week, the American Jewish Committee presented President Iohannis with its very prestigious Light Unto the Nations Award, for his work to further Holocaust remembrance and education in Romania. I join the AJC in saluting your leadership in that vital cause.",
-    "title":"Presser: Donald Trump Holds a Joint Presser with Klaus Iohannis of Romania - June 9, 2017",
+    "title":"Press Conference: Donald Trump Holds a Joint Press Conference with Klaus Iohannis of Romania - June 9, 2017",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-romania-iohannis-june-9-2017\/#13"
   },
   {
     "date":"2017-05-18",
-    "type":"Presser",
+    "type":"Press Conference",
     "media":"Video",
     "place":"Washington, DC",
     "duration":30.0,
     "mentions":1.0,
     "text":"President Santos, it was an honor to meet with you and your entire group of representatives, very talented people indeed, who have been working with us and my representatives. And I look forward to many more productive meetings, such as the one we just had. I'd like to thank you very much for being at the White House, being our guest. And I'd like to congratulate you on winning the Nobel Peace Prize. That's a very great achievement. Thank you very much.",
-    "title":"Presser: Donald Trump and Juan Manuel Santos of Colombia - May 18, 2017",
+    "title":"Press Conference: Donald Trump and Juan Manuel Santos of Colombia - May 18, 2017",
     "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-press-conference-santos-colombia-may-18-2017\/#11"
   },
   {
-    "date":"2013-11-06",
+    "date":"2013-11-05",
     "type":"Social Media",
     "media":"Social Media",
     "place":"Social Media",
@@ -2501,22 +2589,22 @@ export const rawData = [
     "type":"Speech",
     "media":"Video",
     "place":"Boca Raton, FL",
-    "duration":23.0,
+    "duration":39.0,
     "mentions":1.0,
-    "text":"Why is it that his grandmother said he was born in Kenya, and then 51 seconds later, with all those handlers in the room, it was like, what I mean. Why how did this all happen? How did this happen? So I ask another question. He got the Nobel Peace Prize. I can't think of it. He got the Nobel Peace Prize.",
-    "title":"Speech: Donald Trump Delivers a Speech at a Tea Party Rally in Boca Raton, FL - April 16, 2011",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-boca-raton-fl-april-16-2011\/#105"
+    "text":"He got the Nobel Peace Prize. OK? Think of it. He got the Nobel Peace Prize. So I mean, just think about it. Just like -- you know, Al Gore was a big step above what. Our country has so many bad issues, three wars, an economy that's absolutely terrible, rampant inflation that our leaders refuse to acknowledge, an infrastructure that's crumbling, and many, many more problems in places like China, India, Saudi Arabia, and many others they are building, as I said, airports, bridges.",
+    "title":"Speech: Donald Trump Attends a Tea Party Rally in Boca Raton, FL - April 16, 2011",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-tea-party-boca-raton-florida-april-16-2011\/#92"
   },
   {
     "date":"2011-04-16",
     "type":"Speech",
     "media":"Video",
     "place":"Boca Raton, FL",
-    "duration":39.0,
+    "duration":23.0,
     "mentions":1.0,
-    "text":"He got the Nobel Peace Prize. OK? Think of it. He got the Nobel Peace Prize. So I mean, just think about it. Just like -- you know, Al Gore was a big step above what. Our country has so many bad issues, three wars, an economy that's absolutely terrible, rampant inflation that our leaders refuse to acknowledge, an infrastructure that's crumbling, and many, many more problems in places like China, India, Saudi Arabia, and many others they are building, as I said, airports, bridges.",
-    "title":"Speech: Donald Trump Attends a Tea Party Rally in Boca Raton, FL - April 16, 2011",
-    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-tea-party-boca-raton-florida-april-16-2011\/#92"
+    "text":"Why is it that his grandmother said he was born in Kenya, and then 51 seconds later, with all those handlers in the room, it was like, what I mean. Why how did this all happen? How did this happen? So I ask another question. He got the Nobel Peace Prize. I can't think of it. He got the Nobel Peace Prize.",
+    "title":"Speech: Donald Trump Delivers a Speech at a Tea Party Rally in Boca Raton, FL - April 16, 2011",
+    "url":"https:\/\/rollcall.com\/factbase\/trump\/transcript\/donald-trump-speech-boca-raton-fl-april-16-2011\/#105"
   },
   {
     "date":"2011-04-01",
