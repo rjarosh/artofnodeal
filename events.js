@@ -212,5 +212,6 @@ const events = [
   { date: "2026-10-24", source: "WANF-TV (Abby Kousouris) interview", quote: "And, uh, the Iran situation's gonna end very soon." },
   { date: "2026-10-25", source: "Fox News (Larry Kudlow) interview", quote: "And now my question is: Do I make a deal with them or do I finish them off?" },
   { date: "2026-10-25", source: "Michigan rally", quote: "You'll see that ending quite soon, one way or the other." },
+  { date: "2026-10-26", source: "WLBT-TV (Courtney Ann Jackson) Jackson, MS interview", quote: "And we're gonna close it up, and we're gonna get it done completely." },
 
 ];
