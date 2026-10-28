@@ -213,5 +213,7 @@ const events = [
   { date: "2026-10-25", source: "Fox News (Larry Kudlow) interview", quote: "And now my question is: Do I make a deal with them or do I finish them off?" },
   { date: "2026-10-25", source: "Michigan rally", quote: "You'll see that ending quite soon, one way or the other." },
   { date: "2026-10-26", source: "WLBT-TV (Courtney Ann Jackson) Jackson, MS interview", quote: "And we're gonna close it up, and we're gonna get it done completely." },
+  { date: "2026-10-27", source: "Corpus Christi, TX rally", quote: "We're now in the throes of having an even greater victory against Iran and stopping them from ever having a nuclear weapon." },
+  { date: "2026-10-27", source: "Lubbock, TX rally", quote: "Somebody asked me before, when will the war in Iran end? I said, 'Whenever I want it to end.' It'll be very quick, but we have to have it end properly, with total and complete...they will never have a nuclear weapon." },
 
 ];
