@@ -215,5 +215,7 @@ const events = [
   { date: "2026-10-26", source: "WLBT-TV (Courtney Ann Jackson) Jackson, MS interview", quote: "And we're gonna close it up, and we're gonna get it done completely." },
   { date: "2026-10-27", source: "Corpus Christi, TX rally", quote: "We're now in the throes of having an even greater victory against Iran and stopping them from ever having a nuclear weapon." },
   { date: "2026-10-27", source: "Lubbock, TX rally", quote: "Somebody asked me before, when will the war in Iran end? I said, 'Whenever I want it to end.' It'll be very quick, but we have to have it end properly, with total and complete...they will never have a nuclear weapon." },
+  { date: "2026-10-28", source: "Chillicothe, OH rally", quote: "The war with Iran, where they've gotten beaten very badly, we'll finish that up - now that the White House is completed." },
+  { date: "2026-10-28", source: "Air Force One gaggle", quote: "It's a question: 'When do I want to end it?' Simply a question: 'When do I want to end it?' And, uh, they want, uh, they want to make a deal, but they want it to make a deal, but they like tapping it along." },
 
 ];
