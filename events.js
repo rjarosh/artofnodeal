@@ -217,5 +217,7 @@ const events = [
   { date: "2026-10-27", source: "Lubbock, TX rally", quote: "Somebody asked me before, when will the war in Iran end? I said, 'Whenever I want it to end.' It'll be very quick, but we have to have it end properly, with total and complete...they will never have a nuclear weapon." },
   { date: "2026-10-28", source: "Chillicothe, OH rally", quote: "The war with Iran, where they've gotten beaten very badly, we'll finish that up - now that the White House is completed." },
   { date: "2026-10-28", source: "Air Force One gaggle", quote: "It's a question: 'When do I want to end it?' Simply a question: 'When do I want to end it?' And, uh, they want, uh, they want to make a deal, but they want it to make a deal, but they like tapping it along." },
+  { date: "2026-10-29", source: "WHNS-TV (Justin Dougherty) interview ", quote: "And once we finish off with Iran, which won't be long, it's -- you're going to see things that are absolutely even beyond - I mean, look, we have the highest stock market we've ever had." },
+  { date: "2026-10-30", source: "KCMO 95.7 FM Kansas City interview", quote: "As soon as the war is over, which is going to be very soon. We're knocking the hell out of them. As soon as the war ends fuel prices are going to drop like a rock." },
 
 ];
