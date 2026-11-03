@@ -219,5 +219,11 @@ const events = [
   { date: "2026-10-28", source: "Air Force One gaggle", quote: "It's a question: 'When do I want to end it?' Simply a question: 'When do I want to end it?' And, uh, they want, uh, they want to make a deal, but they want it to make a deal, but they like tapping it along." },
   { date: "2026-10-29", source: "WHNS-TV (Justin Dougherty) interview ", quote: "And once we finish off with Iran, which won't be long, it's -- you're going to see things that are absolutely even beyond - I mean, look, we have the highest stock market we've ever had." },
   { date: "2026-10-30", source: "KCMO 95.7 FM Kansas City interview", quote: "As soon as the war is over, which is going to be very soon. We're knocking the hell out of them. As soon as the war ends fuel prices are going to drop like a rock." },
+  { date: "2026-11-01", source: "Dubuque, IO rally", quote: "And the only reason I would have not finished with Iran is I want to be nice." },
+  { date: "2026-11-01", source: "Right Side Broadcasting Network (Alec Lace) interview", quote: "Iran, we've had such a victory, and we'll, we'll put it away very soon, one way or the other." },
+  { date: "2026-11-02", source: "Axios interview (Barak Ravid)", quote: "One way or the other, we will do something, but there is no rush." },
+  { date: "2026-11-02", source: "Remarks at Lincoln Memorial", quote: "We had a war with Iran, we won. We had a war with and, you know, I don't know if you even call it a war because we haven't been doing any fighting for months." },
+  { date: "2026-11-02", source: "Fox News (Sean Hannity) interview", quote: "Now, we might have to go after pickax, but that's not a big deal...we can do that in one hour, OK, as soon as we want, at any time we want." },
+  { date: "2026-11-02", source: "Fox News (Sean Hannity) interview", quote: "We're dealing from total strength. We can end it at any time. If I can make a deal, I'd rather do it, save a lot of lives, but we can - but think about a war, this isn't war." },
 
 ];
