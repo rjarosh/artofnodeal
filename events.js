@@ -225,6 +225,8 @@ const events = [
   { date: "2026-11-02", source: "Remarks at Lincoln Memorial", quote: "We had a war with Iran, we won. We had a war with and, you know, I don't know if you even call it a war because we haven't been doing any fighting for months." },
   { date: "2026-11-02", source: "Fox News (Sean Hannity) interview", quote: "Now, we might have to go after pickax, but that's not a big deal...we can do that in one hour, OK, as soon as we want, at any time we want." },
   { date: "2026-11-02", source: "Fox News (Sean Hannity) interview", quote: "We're dealing from total strength. We can end it at any time. If I can make a deal, I'd rather do it, save a lot of lives, but we can - but think about a war, this isn't war." },
+  { date: "2026-11-02", source: "Truth Social", quote: "People feel that there will not be a War with Iran. Iran wants a settlement, as soon as possible. It could happen!" },  
   { date: "2026-11-03", source: "Fox and Friends interview", quote: "I’m not looking to kill lots of people, if we have to, we have to, but I’m not looking to do that... we have everything good, but this is not really war, we have not shot anything." },
+  { date: "2026-11-04", source: "Ballroom remarks", quote: "[The war is going to end] Whenever I want it to, but it's got to be done right." },
 
 ];
