@@ -228,5 +228,12 @@ const events = [
   { date: "2026-11-02", source: "Truth Social", quote: "People feel that there will not be a War with Iran. Iran wants a settlement, as soon as possible. It could happen!" },  
   { date: "2026-11-03", source: "Fox and Friends interview", quote: "I’m not looking to kill lots of people, if we have to, we have to, but I’m not looking to do that... we have everything good, but this is not really war, we have not shot anything." },
   { date: "2026-11-04", source: "Ballroom remarks", quote: "[The war is going to end] Whenever I want it to, but it's got to be done right." },
+  { date: "2026-11-05", source: "Oval Office remarks", quote: "And now we'll make a decision do we want to go further and just certify it...I would rather not destroy the rest of the country, if possible, but maybe I'll have to. You'll know soon enough." },
+  { date: "2026-11-06", source: "CPAC event at Mar-a-Lago", quote: "We're working on Iran. Iran wants to make a deal. We'll find out. But, uh, we beat them up pretty good...but you can't really call it a war...that's a minor military operation." },
+  { date: "2026-11-06", source: "Marine One gaggle", quote: "We've beaten Iran. We are doing very well with Iran. We're talking to Iran. We have been...and we are talking to them." },
+  { date: "2026-11-08", source: "60 Minutes (Ross Douthat) interview", quote: "They wanna make a deal...they wanted to make a deal just before the election...But we were close to makin' a deal. If we didn't have this election...we woulda had a deal." },
+  { date: "2026-11-08", source: "60 Minutes (Ross Douthat) interview", quote: "We won Venezuela, we won Iran." },
+  { date: "2026-11-08", source: "CNN (Jim Scuittuo) interview", quote: "[A military escalation] depends on whether or not they sign a very strong agreement...Highly unlikely it will be necessary. I would if necessary, but we hit them really hard." },
+  { date: "2026-11-08", source: "Air Force One gaggle", quote: "And we won in Iran. We won that in Iran. It's just a question of closing it out now or later. We may wait." },
 
 ];
