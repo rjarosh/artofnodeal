@@ -235,5 +235,4 @@ const events = [
   { date: "2026-11-08", source: "60 Minutes (Ross Douthat) interview", quote: "We won Venezuela, we won Iran." },
   { date: "2026-11-08", source: "CNN (Jim Scuittuo) interview", quote: "[A military escalation] depends on whether or not they sign a very strong agreement...Highly unlikely it will be necessary. I would if necessary, but we hit them really hard." },
   { date: "2026-11-08", source: "Air Force One gaggle", quote: "And we won in Iran. We won that in Iran. It's just a question of closing it out now or later. We may wait." },
-
 ];
