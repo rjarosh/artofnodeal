@@ -239,5 +239,4 @@ const events = [
   { date: "2026-11-09", source: "Press conference", quote: "Look, Iran, I hope we're going to be able to make a deal with them, but nothing's going to happen. And if we have to, we'll take very serious - we are so loaded" },
   { date: "2026-11-09", source: "CSPAN interview", quote: "So we won Venezuela and we won Iran...We wiped out everything, and they wanna make a deal. They don't say that, you know, publicly." },
   { date: "2026-11-09", source: "Truth Social", quote: "We are seeing positive momentum toward an end to this Conflict, and will ensure that America’s interests are at all times protected. At the conclusion...[we] will be far safer and more secure." },
-
 ];
