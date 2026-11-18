@@ -242,5 +242,7 @@ const events = [
   { date: "2026-11-11", source: "Arlington Veterans Day speech", quote: "But when this conflict is over, and it will be soon, the entire world will be a much safer and better place, a more peaceful place, and a place without the kind of danger." },
   { date: "2026-11-12", source: "Truth Social", quote: "I have asked [VP] Vance to focus his complete and total attention on the Massive Corruption and Crime taking place in Democrat run Cities...We don’t need a deal with Iran. Those days have long since passed." },
   { date: "2026-11-12", source: "Stephen A. Smith interview", quote: "And it'll end soon." },
+  { date: "2026-11-16", source: "Marine One press gaggle", quote: "We'll talk about Iran. We have Iran in very good shape, but we'll talk about Iran a little bit." },
+  { date: "2026-11-17", source: "Press gaggle in Manila", quote: "I think it's very close to getting it done. We're going to have a good meeting on that." },
 
 ];
