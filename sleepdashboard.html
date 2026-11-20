@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Deep Sleep State</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+:root{--bg:#f2f0ec;--ink:#222;--mute:#666;--grid:#d9d6cf}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 "Futura","Avenir Next","Helvetica Neue",Arial,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:20px 16px 28px}
+h1{margin:0;text-align:center;font-size:clamp(28px,6vw,48px);letter-spacing:.12em;font-weight:800}
+h1 s{text-decoration-color:#d63a3a;text-decoration-thickness:.09em;color:#888}
+.sub{text-align:center;margin:4px 0 18px;font-size:clamp(14px,2.2vw,19px)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+h2{margin:0 0 6px;font-size:20px;font-weight:400;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+h2 small{font-size:12px;font-weight:400;color:var(--mute)}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.bar,.arc,.legend li{cursor:pointer;transition:opacity .15s}
+.legend{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:2px 12px;font-size:13px}
+.legend li{display:flex;align-items:center;gap:6px;padding:2px 0}
+.legend i{width:12px;height:12px;border-radius:2px;flex:none}
+.legend b{margin-left:auto;font-weight:400}
+.tl-head{margin-top:24px}
+.btns button{font:inherit;font-size:13px;border:1px solid #bbb;background:#fff;border-radius:4px;padding:1px 8px;cursor:pointer}
+.axis text{fill:var(--mute);font-size:12px}.axis path,.axis line{stroke:var(--grid)}
+.axis-y .domain{display:none}
+.stem{stroke-width:2}
+.mk{cursor:pointer;transition:opacity .15s}
+#tip{position:fixed;pointer-events:none;background:#fff;border:1px solid #ccc;border-radius:6px;box-shadow:0 3px 10px #0002;padding:8px 10px;font-size:13px;max-width:260px;opacity:0;transition:opacity .1s;z-index:9}
+#tip b{display:block;font-size:14px}
+.foot{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:10px;font-size:12px;color:var(--mute)}
+.foot a{color:#46709f}
+#clear{visibility:hidden}
+</style></head><body><main>
+<h1>THE <s>DEEP</s> SLEEP STATE</h1>
+<p class="sub"><b>WHEN</b> and <b>WHERE</b> Trump has seemingly fallen asleep in public since his reelection</p>
+<div class="grid">
+  <section><h2>Location 
+    <!-- <small>click a bar to filter</small> -->
+  </h2><div id="bars"></div></section>
+  <section><h2>Type of Events 
+    <!-- <small>click a slice to filter</small> -->
+  </h2><div id="donut"></div><ul class="legend" id="legend"></ul></section>
+</div>
+<h2 class="tl-head"><span id="tl-title"></span>
+  <span class="btns"><button id="clear">Clear filters</button> <button id="zin">+</button> <button id="zout">−</button> <button id="zreset">Reset</button></span></h2>
+<div id="timeline"></div>
+<div class="foot"><span>Drag to pan · Ctrl/⌘ + scroll or +/− to zoom · click a marker to open the source</span>
+<!-- <span>data from <a href="https://artofnodeal.com/sleepstate">artofnodeal.com/sleepstate</a></span></div> -->
+</main><div id="tip"></div>
+<script>
+const EMBEDDED = [{"Index": 0, "Link": "https://www.instagram.com/reel/DJA6TpXs3V6/", "Date": "2025-04-01", "Location": "Vatican City", "Event": "Papal Visit / Event", "Event Category": "Memorials & Commemorations", "Location Category": "International / Foreign Trips"}, {"Index": 1, "Link": "https://www.youtube.com/watch?v=eu_GTmlJ3nA", "Date": "2025-05-13", "Location": "Saudi Arabia", "Event": "Bilateral Summit / Agreements Event", "Event Category": "Diplomatic, Faith & Governance", "Location Category": "International / Foreign Trips"}, {"Index": 2, "Link": "https://www.youtube.com/shorts/WCB5zmRBLo8", "Date": "2025-07-17", "Location": "Pittsburgh, PA", "Event": "Pennsylvania Energy & Innovation Summit", "Event Category": "Policy, Summits & Announcements", "Location Category": "Domestic Travel (U.S. Cities & Resorts)"}, {"Index": 3, "Link": "https://x.com/GovPressOffice/status/1976033049654726994", "Date": "2025-10-08", "Location": "White House", "Event": "Anti Roundtable / Panel", "Event Category": "Policy, Summits & Announcements", "Location Category": "White House Campus"}, {"Index": 4, "Link": "https://x.com/GovPressOffice/status/1986611487843229908", "Date": "2025-11-06", "Location": "White House", "Event": "Press Event / Release for weight loss drugs", "Event Category": "Policy, Summits & Announcements", "Location Category": "White House Campus"}, {"Index": 5, "Link": "https://www.instagram.com/reel/DRyT4HqDWit/", "Date": "2025-12-02", "Location": "White House", "Event": "Cabinet Meeting", "Event Category": "Diplomatic, Faith & Governance", "Location Category": "White House Campus"}, {"Index": 6, "Link": "https://x.com/Acyn/status/1996649990891229373", "Date": "2025-12-04", "Location": "U.S. Institute of Peace", "Event": "Press Conference / Remarks", "Event Category": "Press Briefings & Addresses", "Location Category": "Washington D.C. Metro Area"}, {"Index": 7, "Link": "https://x.com/atrupar/status/2001730941161508966", "Date": "2025-12-18", "Location": "White House", "Event": "Oval Event Reclassifying Marijuana", "Event Category": "Policy, Summits & Announcements", "Location Category": "White House Campus"}, {"Index": 8, "Link": "https://x.com/SpencerHakimian/status/2007501097146229064", "Date": "2026-01-03", "Location": "Mar-a-Lago", "Event": "Joint Chiefs of Staff Briefing", "Event Category": "Press Briefings & Addresses", "Location Category": "Domestic Travel (U.S. Cities & Resorts)"}, {"Index": 9, "Link": "https://www.instagram.com/reel/DThKG7rDTBQ/", "Date": "2026-01-14", "Location": "White House", "Event": "Oval Event", "Event Category": "Diplomatic, Faith & Governance", "Location Category": "White House Campus"}, {"Index": 10, "Link": "https://twitter.com/i/status/2022021309811609925", "Date": "2026-02-12", "Location": "White House", "Event": "EPA Press Event", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 11, "Link": "https://x.com/TheNationalNews/status/2024717050397303083", "Date": "2026-02-20", "Location": "United States Institute of Peace Headquarters, D.C.", "Event": "Board of Peace Meeting", "Event Category": "Diplomatic, Faith & Governance", "Location Category": "Washington D.C. Metro Area"}, {"Index": 12, "Link": "https://www.youtube.com/watch?v=bFEIURktNpQ", "Date": "2026-03-23", "Location": "Memphis, TN", "Event": "Memphis Safe Task Force Roundtable", "Event Category": "Policy, Summits & Announcements", "Location Category": "Domestic Travel (U.S. Cities & Resorts)"}, {"Index": 13, "Link": "https://www.instagram.com/reel/DXip2tYCI3k/", "Date": "2026-04-23", "Location": "White House", "Event": "Oval Briefing on Regeneron", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 14, "Link": "https://x.com/atrupar/status/2047400412366397611", "Date": "2026-04-23", "Location": "White House", "Event": "Oval Briefing", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 15, "Link": "https://x.com/atrupar/status/2051400709510180989", "Date": "2026-05-04", "Location": "White House", "Event": "National Small Business Week Small Business Summit", "Event Category": "Policy, Summits & Announcements", "Location Category": "White House Campus"}, {"Index": 16, "Link": "https://x.com/ProjectLincoln/status/2053902628577329273", "Date": "2026-05-11", "Location": "White House", "Event": "Oval Briefing", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 17, "Link": "https://x.com/HQNewsNow/status/2058964340191994350", "Date": "2026-05-25", "Location": "Arlington National Cemetery", "Event": "Memorial Day Service", "Event Category": "Memorials & Commemorations", "Location Category": "Washington D.C. Metro Area"}, {"Index": 18, "Link": "https://www.instagram.com/reel/DZLnYVPDiAs/", "Date": "2026-06-04", "Location": "White House", "Event": "Briefing", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 19, "Link": "https://x.com/ClutchPoints/status/2064180209033900357", "Date": "2026-06-08", "Location": "Madison Square Garden", "Event": "Finals Game 3", "Event Category": "Social, Sports & Cultural Events", "Location Category": "Domestic Travel (U.S. Cities & Resorts)"}, {"Index": 20, "Link": "https://x.com/HQNewsNow/status/2065164431948952019", "Date": "2026-06-11", "Location": "White House", "Event": "Official Briefing / Event", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 21, "Link": "https://x.com/CalltoActivism/status/2066353814098038822", "Date": "2026-06-14", "Location": "White House Lawn", "Event": "UFC Freedom 250 Event", "Event Category": "Social, Sports & Cultural Events", "Location Category": "White House Campus"}, {"Index": 22, "Link": "https://x.com/atrupar/status/2070594212953755750", "Date": "2026-06-26", "Location": "White House", "Event": "Religious Liberty Event", "Event Category": "Diplomatic, Faith & Governance", "Location Category": "White House Campus"}, {"Index": 23, "Link": "https://x.com/NYMag/status/2074186969123549642", "Date": "2026-07-04", "Location": "National Mall", "Event": "Independence Day Fireworks", "Event Category": "Social, Sports & Cultural Events", "Location Category": "Washington D.C. Metro Area"}, {"Index": 24, "Link": "https://x.com/Mollyploofkins/status/2080817450266866161", "Date": "2026-07-24", "Location": "Waldorf Astoria", "Event": "White House Correspondents' Association Dinner", "Event Category": "Social, Sports & Cultural Events", "Location Category": "Washington D.C. Metro Area"}, {"Index": 25, "Link": "https://www.instagram.com/reel/DbYCX4QOhB-/", "Date": "2026-07-28", "Location": "Washington National Cathedral", "Event": "Lindsay Graham Funeral Ceremony", "Event Category": "Memorials & Commemorations", "Location Category": "Washington D.C. Metro Area"}, {"Index": 26, "Link": "https://x.com/RpsAgainstTrump/status/2085836887596437671", "Date": "2026-08-07", "Location": "State Department", "Event": "American Mining Event / Speech", "Event Category": "Policy, Summits & Announcements", "Location Category": "Washington D.C. Metro Area"}, {"Index": 27, "Link": "https://www.instagram.com/reel/Db5Ip53gzqW/", "Date": "2026-08-10", "Location": "White House", "Event": "Vaccine Announcement / Event", "Event Category": "Policy, Summits & Announcements", "Location Category": "White House Campus"}, {"Index": 28, "Link": "https://x.com/Acyn/status/2094508039114252521", "Date": "2026-08-31", "Location": "White House", "Event": "Media Briefing / Event", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 29, "Link": "https://x.com/tedlieu/status/2095242695191003226", "Date": "2026-09-02", "Location": "White House", "Event": "Official Address / Event", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 30, "Link": "https://bsky.app/profile/mjfree.bsky.social/post/3mvbuenaqzq2s", "Date": "2026-09-11", "Location": "Pentagon", "Event": "9/11 Memorial / Event", "Event Category": "Memorials & Commemorations", "Location Category": "Washington D.C. Metro Area"}, {"Index": 31, "Link": "https://x.com/atrupar/status/2101036384752435270", "Date": "2026-09-18", "Location": "White House", "Event": "Press Conference / Event", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}, {"Index": 32, "Link": "https://x.com/GovPressOffice/status/2104784552837460402", "Date": "2026-09-28", "Location": "White House", "Event": "Official Press Briefing / Event", "Event Category": "Press Briefings & Addresses", "Location Category": "White House Campus"}];
+
+const LOC = [ // order as in the original chart
+ {key:"Domestic Travel (U.S. Cities & Resorts)",label:"Domestic Trips",color:"#3d6a9a"},
+ {key:"International / Foreign Trips",label:"International / Foreign Trips",color:"#f0932b"},
+ {key:"Washington D.C. Metro Area",label:"Other Washington D.C.",color:"#e8434d"},
+ {key:"White House Campus",label:"White House",color:"#4aa9b0"}];
+const EVT = [
+ {key:"Press Briefings & Addresses",color:"#fcb5a3"},
+ {key:"Policy, Summits & Announcements",color:"#ee444f"},
+ {key:"Diplomatic, Faith & Governance",color:"#46709f"},
+ {key:"Memorials & Commemorations",color:"#90b1d9"},
+ {key:"Social, Sports & Cultural Events",color:"#9c7560"}];
+const locBy = Object.fromEntries(LOC.map(d=>[d.key,d])), evtBy = Object.fromEntries(EVT.map(d=>[d.key,d]));
+const parse = d3.timeParse("%Y-%m-%d"), fmt = d3.timeFormat("%b %-d, %Y");
+
+let data = [], state = {loc:null, evt:null}, tx = d3.zoomIdentity;
+const inLoc = d => !state.loc || d.loc === state.loc, inEvt = d => !state.evt || d.evt === state.evt;
+const toggle = k => v => { state[k] = state[k] === v ? null : v; renderAll(); };
+
+// ---- data: events.csv if reachable (http/GitHub Pages), else the embedded copy
+d3.csv("sleep_events.csv").catch(() => EMBEDDED).then(rows => {
+  data = rows.map(r => ({idx:+r["Index"], link:r["Link"], date:parse(r["Date"]), place:r["Location"], event:r["Event"],
+    evt:r["Event Category"], loc:r["Location Category"], photo:r["Photo"] || null}))
+    .sort((a,b) => a.date - b.date);
+  renderAll();
+  new ResizeObserver(() => drawTimeline()).observe(document.getElementById("timeline"));
+});
+
+function renderAll(){ drawBars(); drawDonut(); drawTimeline();
+  const n = data.filter(d => inLoc(d) && inEvt(d)).length;
+  document.getElementById("tl-title").textContent = n === data.length ? `Timeline of ${n} Naps` : `Timeline of ${n} of ${data.length} Naps`;
+  document.getElementById("clear").style.visibility = (state.loc || state.evt) ? "visible" : "hidden"; }
+document.getElementById("clear").onclick = () => { state = {loc:null, evt:null}; renderAll(); };
+
+// ---- tooltip
+const tip = d3.select("#tip");
+function showTip(e, html){ tip.html(html).style("opacity",1); moveTip(e); }
+function moveTip(e){ const w = 270, x = Math.min(e.clientX + 14, innerWidth - w), y = e.clientY + 14;
+  tip.style("left", x + "px").style("top", y + "px"); }
+const hideTip = () => tip.style("opacity", 0);
+
+// ---- bar chart (counts respect the event filter)
+function drawBars(){
+  const W = 500, H = 340, m = {t:20,r:10,b:50,l:40};
+  const counts = d3.rollup(data.filter(inEvt), v => v.length, d => d.loc);
+  const x = d3.scaleBand(LOC.map(d => d.label), [m.l, W - m.r]).padding(.2);
+  const y = d3.scaleLinear([0, Math.max(5, d3.max(LOC, d => counts.get(d.key) || 0))], [H - m.b, m.t]).nice();
+  const svg = d3.select("#bars").selectAll("svg").data([0]).join("svg").attr("viewBox", `0 0 ${W} ${H}`);
+  svg.selectAll(".axis-y").data([0]).join("g").attr("class","axis axis-y").attr("transform",`translate(${m.l},0)`)
+     .call(d3.axisLeft(y).ticks(5).tickSize(-(W - m.l - m.r))).call(g => g.selectAll("line").attr("stroke","#e3e0da"));
+  svg.selectAll(".axis-x").data([0]).join("g").attr("class","axis axis-x").attr("transform",`translate(0,${H - m.b})`)
+     .call(d3.axisBottom(x).tickSize(0)).call(g => g.selectAll("text").call(wrap, x.bandwidth() + 10));
+  const g = svg.selectAll(".bar").data(LOC, d => d.key).join("g").attr("class","bar")
+     .style("opacity", d => state.loc && state.loc !== d.key ? .3 : 1).on("click", (e,d) => toggle("loc")(d.key));
+  g.selectAll("rect").data(d => [d]).join("rect").attr("fill", d => d.color)
+     .attr("x", d => x(d.label)).attr("width", x.bandwidth())
+     .attr("y", d => y(counts.get(d.key) || 0)).attr("height", d => y(0) - y(counts.get(d.key) || 0));
+  g.selectAll("text").data(d => [d]).join("text").attr("x", d => x(d.label) + x.bandwidth()/2).attr("text-anchor","middle")
+     .attr("y", d => y(counts.get(d.key) || 0) - 5).attr("font-weight",400).text(d => counts.get(d.key) || 0);
+}
+function wrap(sel, w){ sel.each(function(){ const t = d3.select(this), words = t.text().split(/\s+/); t.text(null);
+  let line = [], row = 0, ts = t.append("tspan").attr("x",0).attr("dy","1em");
+  for (const word of words){ line.push(word); ts.text(line.join(" "));
+    if (ts.node().getComputedTextLength() > w && line.length > 1){ line.pop(); ts.text(line.join(" ")); line = [word];
+      ts = t.append("tspan").attr("x",0).attr("dy","1.1em").text(word); } } }); }
+
+// ---- donut (counts respect the location filter); slices pop out on hover/selection and tween between states
+const DR = 136, DIN = 72, POP = 14, S = 320;
+const dArc = d3.arc().innerRadius(DIN).outerRadius(d => DR + (d.grow || 0));
+function growTo(node, grow, dur = 200){
+  if (!node || !node._cur) return;
+  d3.select(node).interrupt().transition().duration(dur).ease(d3.easeCubicOut).attrTween("d", function(){
+    const i = d3.interpolate(this._cur, {...this._cur, grow});
+    return t => dArc(this._cur = i(t)); });
+}
+function drawDonut(){
+  const counts = d3.rollup(data.filter(inLoc), v => v.length, d => d.evt), total = d3.sum(counts.values());
+  const arcs = d3.pie().sort(null).value(d => counts.get(d.key) || 0)(EVT);
+  arcs.forEach(d => d.grow = state.evt === d.data.key ? POP : 0);
+  const svg = d3.select("#donut").selectAll("svg").data([0]).join("svg").attr("viewBox", `0 0 ${S} ${S}`).style("max-width","380px").style("margin","0 auto");
+  const g = svg.selectAll("g.c").data([0]).join("g").attr("class","c").attr("transform",`translate(${S/2},${S/2})`);
+  const paths = g.selectAll(".arc").data(arcs, d => d.data.key).join("path").attr("class","arc").attr("fill", d => d.data.color)
+    .attr("stroke","#f2f0ec").attr("stroke-width",2)
+    .on("click", (e,d) => toggle("evt")(d.data.key))
+    .on("mouseenter", function(e,d){ growTo(this, POP); })
+    .on("mousemove", (e,d) => showTip(e, `<b>${d.data.key}</b>${counts.get(d.data.key) || 0} naps`))
+    .on("mouseleave", function(e,d){ growTo(this, state.evt === d.data.key ? POP : 0); hideTip(); });
+  // sweep in on first draw, then morph angles / pop-out between states
+  paths.interrupt().transition().duration(600).ease(d3.easeCubicOut)
+    .style("opacity", d => state.evt && state.evt !== d.data.key ? .3 : 1)
+    .attrTween("d", function(d){
+      const from = this._cur || {startAngle:d.startAngle, endAngle:d.startAngle, grow:0};
+      const i = d3.interpolate(from, {startAngle:d.startAngle, endAngle:d.endAngle, grow:d.grow});
+      return t => dArc(this._cur = i(t)); });
+  g.selectAll(".pct").data(arcs.filter(d => d.value / total >= .06), d => d.data.key).join("text").attr("class","pct")
+    .attr("text-anchor","middle").attr("dy",".35em").attr("font-weight",400).attr("pointer-events","none")
+    .attr("transform", d => `translate(${d3.arc().innerRadius(DIN).outerRadius(DR).centroid(d)})`)
+    .text(d => Math.round(d.value / total * 100) + "%")
+    .style("opacity", 0).transition().delay(350).duration(300).style("opacity", 1);
+  g.selectAll(".tot").data([total]).join("text").attr("class","tot").attr("text-anchor","middle").attr("dy",".1em")
+    .attr("font-size",34).attr("font-weight",400)
+    .each(function(n){ const el = d3.select(this), i = d3.interpolateRound(this._n || 0, n); this._n = n;
+      el.transition().duration(600).tween("text", () => t => el.text(i(t))); });
+  g.selectAll(".totl").data([0]).join("text").attr("class","totl").attr("text-anchor","middle").attr("dy","2.4em")
+    .attr("font-size",12).attr("fill","#666").text("naps");
+  const nodeFor = k => paths.filter(d => d.data.key === k).node();
+  d3.select("#legend").selectAll("li").data(EVT, d => d.key).join("li")
+    .style("opacity", d => state.evt && state.evt !== d.key ? .35 : 1).on("click", (e,d) => toggle("evt")(d.key))
+    .on("mouseenter", (e,d) => growTo(nodeFor(d.key), POP))
+    .on("mouseleave", (e,d) => growTo(nodeFor(d.key), state.evt === d.key ? POP : 0))
+    .html(d => `<i style="background:${d.color}"></i>${d.key}<b>${counts.get(d.key) || 0}</b>`);
+}
+
+// ---- timeline (pan / zoom on x)
+const PHOTO_DIR = "sleep_icons", PHOTO_EXTS = ["jpg", "png", "webp"]; // sleep_icons/<Index>.<ext>; a Photo column in the CSV overrides this
+const tlSvg = d3.select("#timeline").append("svg").style("touch-action","pan-y");
+tlSvg.append("defs").append("clipPath").attr("id","mkclip").append("circle").attr("r", 16);
+function loadPhoto(d, img, label){ // try each candidate; if none loads, the colored numbered circle stays
+  const urls = d.photo ? [d.photo] : PHOTO_EXTS.map(e => `${PHOTO_DIR}/${d.idx}.${e}`);
+  (function next(i){ if (i >= urls.length) return; const p = new Image();
+    p.onload = () => { img.attr("href", urls[i]).style("display", null); label.style("display", "none"); };
+    p.onerror = () => next(i + 1); p.src = urls[i]; })(0); }
+let zoom;
+function drawTimeline(){
+  if (!data.length) return;
+  const box = document.getElementById("timeline"), W = Math.max(320, box.clientWidth), H = 170, m = {l:24, r:24}, axisY = 128, my = 62, R = 17;
+  tlSvg.attr("viewBox", `0 0 ${W} ${H}`);
+  const base = d3.scaleTime([d3.timeDay.offset(data[0].date, -25), d3.timeDay.offset(data.at(-1).date, 25)], [m.l, W - m.r]);
+  const x = tx.rescaleX(base);
+  if (!zoom || zoom._w !== W){ zoom = d3.zoom().scaleExtent([1, 25]).extent([[m.l,0],[W - m.r,H]]).translateExtent([[m.l,0],[W - m.r,H]])
+      .filter(e => e.type === "wheel" ? (e.ctrlKey || e.metaKey) : !e.button)
+      .on("zoom", e => { tx = e.transform; drawTimeline(); hideTip(); });
+    zoom._w = W; tlSvg.call(zoom); }
+  tlSvg.selectAll("#clip").data([0]).join("clipPath").attr("id","clip").selectAll("rect").data([0]).join("rect")
+    .attr("x", m.l - R).attr("y", 0).attr("width", W - m.l - m.r + 2*R).attr("height", H);
+  tlSvg.selectAll(".axis").data([0]).join("g").attr("class","axis").attr("transform",`translate(0,${axisY})`)
+    .call(d3.axisBottom(x).ticks(W < 600 ? 4 : 8).tickSize(-(axisY - 10)))
+    .call(g => g.selectAll("line").attr("stroke","#e3e0da")).call(g => g.select(".domain").attr("stroke","#bbb"));
+  const layer = tlSvg.selectAll(".layer").data([0]).join("g").attr("class","layer").attr("clip-path","url(#clip)");
+  const items = layer.selectAll(".mk").data(data, d => d.idx).join(enter => {
+    const g = enter.append("g").attr("class","mk");
+    g.append("line").attr("class","stem");
+    g.append("circle").attr("r", R).attr("stroke","#fff").attr("stroke-width",2);
+    g.append("text").attr("text-anchor","middle").attr("dy",".35em").attr("font-size",11).attr("font-weight",700)
+      .attr("fill","#fff").attr("pointer-events","none");
+    g.append("image").attr("x",-R).attr("y",-R).attr("width",2*R).attr("height",2*R)
+      .attr("preserveAspectRatio","xMidYMid slice").attr("clip-path","url(#mkclip)").style("display","none").attr("pointer-events","none");
+    g.each(function(d){ const n = d3.select(this); loadPhoto(d, n.select("image"), n.select("text")); });
+    g.on("mousemove", (e,d) => showTip(e, `<b>${fmt(d.date)}</b>${d.event}<br>${d.place}<br><span style="color:#666">${d.evt} · ${locBy[d.loc]?.label || d.loc}</span><br><span style="color:#46709f">Click to open source</span>`))
+     .on("mouseleave", hideTip).on("click", (e,d) => window.open(d.link, "_blank", "noopener"));
+    return g; });
+  items.attr("transform", d => `translate(${x(d.date)},${my})`)
+    .style("opacity", d => inLoc(d) && inEvt(d) ? 1 : .12).style("pointer-events", d => inLoc(d) && inEvt(d) ? "all" : "none");
+  // stems/rings are colored by location; once a location is selected they switch to the event-type colors
+  const mode = state.loc ? "evt" : "loc", changed = drawTimeline._mode !== mode; drawTimeline._mode = mode;
+  const tr = sel => changed ? sel.transition().duration(400) : sel;
+  const accent = d => (mode === "evt" ? evtBy[d.evt] : locBy[d.loc])?.color || "#999";
+  items.select("line").attr("y1", R).attr("y2", axisY - my).call(tr).attr("stroke", accent);
+  items.select("circle").attr("fill", d => evtBy[d.evt]?.color || "#999")
+    .call(tr).attr("stroke", d => mode === "evt" ? "#fff" : accent(d));
+  items.select("text").text(d => d.idx);
+  items.sort((a,b) => a.date - b.date);
+}
+const z = f => () => tlSvg.transition().duration(250).call(zoom.scaleBy, f);
+document.getElementById("zin").onclick = z(1.8); document.getElementById("zout").onclick = z(1/1.8);
+document.getElementById("zreset").onclick = () => tlSvg.transition().duration(250).call(zoom.transform, d3.zoomIdentity);
+</script></body></html>
